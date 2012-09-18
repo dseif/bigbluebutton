@@ -1,1 +1,11 @@
 Popcorn Maker working with Big Blue Button
+
+To get working on your own machine do the following:
+
+* Setup a BBB server as you normally would, setting the ip and what not
+* `git submodule update --init --recursive`
+* switch out 'YOUR_IP_HERE' with your ip in `./s.sh` and run it (this is to update the various urls in the repo, sorry about this step)
+* install all node dependecies for butter, take a look at the butter readme for this
+* `node make css`
+* `node make server`
+Enjoy!
