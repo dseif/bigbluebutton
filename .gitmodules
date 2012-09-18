@@ -1,0 +1,3 @@
+[submodule "playback/presentation/butter"]
+	path = playback/presentation/butter
+	url = git://github.com/dseif/butter.git
