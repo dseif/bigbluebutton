@@ -1,0 +1,52 @@
+34Adobe Flex White Paper
+question, assistive technology will render the text of the question when each button is selected. This ensures
+that the action of the form control is clear and that a unique text representation is provided for each form field.
+Form element groupings must be implemented programmatically; merely using visual indications, such as lines
+orrectangles,ontheformisnotsufficient.InFlex,thisisdoneusingaMXFormHeading,FormItem,orPanel
+container. Developers should choose the container that is best suited to the type of components in the group.
+The FormHeading component displays a title above the grouped controls, which is then automatically
+associated with the children elements via the container's accessible name. The FormHeading component
+should be used to group components other than radio buttons and check boxes.
+TheFormItemcomponentshouldbeusedtogroupradiobuttonandcheckboxes,becauseitprovidesavisual
+group label to the left of radio buttons and check boxes, which have their own labels positioned to the right.
+OneFormItemcomponentshouldenclosetheentiresetofradiobuttonsorcheckboxes.Whenradiobuttons
+are used, developers must also define the groupName property and a corresponding RadioButtonGroup
+control to ensure that the radio buttons work together as a group. The following example illustrates the use of
+FormHeadingandFormItemcomponentstogroupformelements:
+// FormHeading Example, the text "Registration" will be prepended to the
+accessible name of all fields within the form
+<mx:Form>
+<mx:FormHeading label="Registration" />
+<mx:FormItem id="f1" color="#ff0000" required="true" label="Enter Name :">
+<mx:TextInput id="txt1" />
+</mx:FormItem>
+<mx:FormItem label="Enter Password :">
+<mx:TextInput displayAsPassword="true"/>
+</mx:FormItem>
+<mx:FormItem label="Select Gender:">
+<s:ComboBox id="c1" width="150">
+<s:dataProvider>
+<mx:ArrayList>
+<fx:String>Male</fx:String>
+<fx:String>Female</fx:String>
+</mx:ArrayList>
+</s:dataProvider>
+</s:ComboBox>
+</mx:FormItem>
+</mx:Form>
+<s:Button label="Submit" />
+// FormItem example showing proper radio button grouping using
+FormItem and RadioButtonGroup with the groupName attribute
+<mx:FormItem label="Do you want to receive emails?:">
+<s:RadioButtonGroup id="RadioGroup1" />
+<s:RadioButton label="Yes" groupName="RadioGroup1" />
+<s:RadioButton label="No" groupName="RadioGroup1" />
+</mx:FormItem>
+Insomecases,itmaybeimpracticaltoprovideavisualgroupingformultipleformelements.Whenthisisthe
+case, developers should include the name of the group in each element's accessibleName property. Such
+groupingsignificantlyincreasestheusabilityofformsforscreenreaderusers.Itmaybepreferabletostatethe
+answer first followed by the question in the radio button's accessible name. This enables the user to quickly
+answer without having to fully listen to the query for each element. This is particularly helpful when there are
+many radio buttons in the group and the group name (question) is constant. Users can listen to the full
+accessible name for the first radio button, and proceed through the remaining buttons quickly to select the
+appropriate answer.

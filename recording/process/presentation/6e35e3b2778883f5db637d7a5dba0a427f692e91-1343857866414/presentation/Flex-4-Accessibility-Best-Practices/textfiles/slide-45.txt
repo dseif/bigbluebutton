@@ -1,0 +1,47 @@
+45Adobe Flex White Paper
+perform a task, such as moving the mouse over the material. The following techniques can be used to provide
+such alternatives:
+· Addingtheword"Error"tothebeginningofanerrormessage,insteadofrelyingontheredcolorofthe
+message text to indicate an error
+· Labelingbuttons"Submit"and"Cancel",insteadofusinggreenorredimages(oranyparticularcolor)to
+convey their purpose
+· Addinglargerfontsorboldfacetocoloredtextthathighlightsimportantcontent
+· Addingasterisksortheword"required"tocoloredtextthatindicatesrequiredformfields
+· Addingvariableborders,shading,orothersymbolstocolor-codeddiagrams,piecharts,andgraphs
+To support users of screen readers, developers should also make sure that any information conveyed via color
+is provided programmatically using accessibility properties or other relevant Flex component properties. For
+example, color is commonly used to indicate state, such as when inactive elements are grayed out. When a
+component is not enabled, the enabled property should be set to false rather than simply disabling the
+event handlers and changing the color manually. When the enabled property is set to false for a component,
+this information will be conveyed to users of screen readers and the focus manager will remove the component
+from the tab order.
+//ActionScript setting a component's enabled property false
+btnSearch.label = "Search";
+btnSearch.enabled = false;
+//MXML for setting a component's enabled property to false
+<s:Button id="btnSearch" label="Search" enabled="false" />
+When developers use the FormItem class and set the required property to true, an asterisk will be added to
+theformfield'slabelanditwillappearinred.Inaddition,theword"required"willbeaddedtotheaccessible
+name of the form field automatically. This programmatic approach provides multiple ways of indicating that
+the field is required, which results in an application that is more accessible than one that uses any one
+technique by itself.
+//MXML code for setting a textual equivalent for color
+<mx:FormItem label="SSN" required="true">
+<s:TextInput id="txtSSN" />
+</mx:FormItem>
+Provide sufficient contrast
+Users with low vision or color blindness may have difficulty reading Flex elements that provide insufficient
+contrast between foreground and background colors. Some of these users may not be using assistive
+technology and many will not be using a screen reader. Applications should be designed with color and
+contrast requirements in mind from the earliest stages. During that time, designers and developers should
+consider the color contrast of all elements, including:
+· Text
+· Formfieldsandlabels
+· Images,graphs,andcharts
+· Othercomponentsandcontrols(suchasmediaplaybuttons)
+Decorative elements, essential logos or trademarks, or inactive elements are not required to meet sufficient
+color contrast requirements.
+Provide options for color, contrast, and text size
+Currently, Flex components do not support the color and contrast settings selected by users in the operating
+system platform. Additionally, font and zoom size selection within the browser do not automatically translate
+to larger components in a Flex application running in Flash Player. Depending on the regulatory requirements

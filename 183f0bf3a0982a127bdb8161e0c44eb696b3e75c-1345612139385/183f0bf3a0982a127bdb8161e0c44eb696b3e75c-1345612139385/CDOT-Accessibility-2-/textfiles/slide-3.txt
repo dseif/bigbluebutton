@@ -1,0 +1,7 @@
+Uses ARIA (Accessible Rich Internet
+Applications)
+Implemented:
+ Thumbnail Labels
+ Presentation Text
+ Chat Messages
+Recording Playback

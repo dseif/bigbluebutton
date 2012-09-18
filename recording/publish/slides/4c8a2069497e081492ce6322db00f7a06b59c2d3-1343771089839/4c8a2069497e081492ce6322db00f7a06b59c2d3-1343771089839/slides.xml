@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<popcorn>
+  <timeline>
+    <altimage in="0" out="1" src="logo.png" target="slide" width="200"/>
+    <altimage in="4" out="56" src="/slides/4c8a2069497e081492ce6322db00f7a06b59c2d3-1343771089839/presentation/default/slide-1.png" alt="/slides/4c8a2069497e081492ce6322db00f7a06b59c2d3-1343771089839/presentation/default/textfiles/slide-1.txt" target="slide" width="200"/>
+  </timeline>
+  <chattimeline in="17" direction="down" name="chad" message="&#10;      I really hope this all displays correctly&#10;    " target="chat"/>
+  <chattimeline in="21" direction="down" name="chad" message="&#10;      I think it should&#10;    " target="chat"/>
+  <chattimeline in="29" direction="down" name="chad" message="&#10;      If it does it will be really nice&#10;    " target="chat"/>
+  <chattimeline in="32" direction="down" name="chad" message="&#10;      yup yup&#10;    " target="chat"/>
+  <chattimeline in="41" direction="down" name="chad" message="&#10;      I hope it works&#10;    " target="chat"/>
+  <chattimeline in="47" direction="down" name="chad" message="&#10;      will it work?&#10;    " target="chat"/>
+  <chattimeline in="49" direction="down" name="chad" message="&#10;      maybe&#10;    " target="chat"/>
+  <chattimeline in="51" direction="down" name="chad" message="&#10;      no?&#10;    " target="chat"/>
+  <chattimeline in="54" direction="down" name="chad" message="&#10;      yes?&#10;    " target="chat"/>
+</popcorn>

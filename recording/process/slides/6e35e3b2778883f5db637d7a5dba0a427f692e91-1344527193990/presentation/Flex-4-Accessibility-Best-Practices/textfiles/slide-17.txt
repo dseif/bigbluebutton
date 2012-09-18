@@ -1,0 +1,45 @@
+17Adobe Flex White Paper
+<mx:FormItem>
+<s:Button id="mySubmitBtn" label="Login"
+click="submitLogin();"/>
+</mx:FormItem>
+</mx:Form>
+</s:Panel>
+AddingeventlistenerstomonitorforEnterandSpacekeypresseventswillnotworkcorrectlyforallscreen
+readersandshouldbeavoidedwhenpossible.ScreenreaderssuchasJAWSforWindows,Window-Eyes,and
+NVDAtrapkeyssuchasEnterandSpaceandwillnotsendthemthroughtotheFlexapplicationincommonly
+used screen-reading modes.
+When not to provide keyboard access
+Ingeneral,alloperablecontrolsinaFlexapplicationmustbekeyboardaccessibleunlessoneormoreofthese
+is true:
+· Thecontrolisdisabled
+· Thefunctionalityisduplicatedbyasecond,keyboard-accessiblecomponent
+· Thefunctionalitycannotbeimplementedwithoutamouse,drawingpad,orotherpointingdevice.(Thismay
+include,forexample,freehandorpressuresensitivedrawing.Itdoesnot,however,includedrag-and-drop
+operations, which can often be accomplished through keyboard access and are discussed below.)
+KeyboardaccesscanberemovedfromanitemthatistypicallyinthetaborderbysettingthetabEnabled
+property to false. This is done automatically when the enabled or visible property of the component is set
+to false. The tabEnabled property should be used when the component should not receive keyboard focus
+but must remain enabled and visible.
+// ActionScript
+btnDelete.tabEnabled = false;
+// MXML
+<s:Button id="btnDelete" tabEnabled="false" />
+While tabEnabled is the preferred way to disable keyboard focus, developers may also use focusEnabled for
+the same effect.
+//ActionScript
+btnDelete.focusEnabled = false;
+// MXML
+<s:Button id="btnDelete" focusEnabled="false" />
+When components are grouped together and the whole set of components should not be tab-enabled, the
+tabChildren property can be set to false. This property is useful when a title window or simulated modal
+dialog appears and components in the background need to be removed from the tab order.
+//ActionScript
+vgSignInForm.tabChildren = false;
+// MXML
+<s:Button id="vgSignInForm" tabChildren="false" />
+Keyboard accessibility considerations
+When ensuring the keyboard accessibility of an application, the following cases merit special attention:
+Drag-and-drop functionality
+Many users who have difficulty using a mouse will be unable to use applications that depend upon drag-and-
+drop functionality. Hence, developers must provide a keyboard-accessible way to perform drag-and-drop

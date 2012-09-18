@@ -1,0 +1,18 @@
+<recording>
+  <id>3b191714bf215d550a9603f16bff78a43f8dbcad-1344441017358</id>
+  <state>available</state>
+  <published>true</published>
+  <start_time>1344441018526</start_time>
+  <end_time>1344441116561</end_time>
+  <playback>
+    <format>presentation</format>
+    <link>http://192.168.209.145/playback/presentation/playback.html?meetingId=3b191714bf215d550a9603f16bff78a43f8dbcad-1344441017358</link>
+  </playback>
+  <meta>
+    <meetingName>English 106</meetingName>
+    <description>hopefully presentation</description>
+    <email>chad</email>
+    <title>English 106</title>
+    <meetingId>English 106</meetingId>
+  </meta>
+</recording>

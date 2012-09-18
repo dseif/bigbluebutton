@@ -1,0 +1,1972 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<recording meeting_id="6e35e3b2778883f5db637d7a5dba0a427f692e91-1344527193990">
+  <metadata title="English 101" meetingId="English 101" description="checking if presentation works" email="Chad" meetingName="English 101"/>
+  <event timestamp="1344527197274" module="PARTICIPANT" eventname="ParticipantJoinEvent">
+    <userId>6</userId>
+    <role>MODERATOR</role>
+    <status>{raiseHand=false, hasStream=false, presenter=false}</status>
+    <name>Chad</name>
+  </event>
+  <event timestamp="1344527197649" module="PARTICIPANT" eventname="ParticipantStatusChangeEvent">
+    <value>true</value>
+    <status>presenter</status>
+    <userId>6</userId>
+  </event>
+  <event timestamp="1344527197650" module="PARTICIPANT" eventname="AssignPresenterEvent">
+    <assignedBy>1</assignedBy>
+    <userid>6</userid>
+    <name>Chad</name>
+  </event>
+  <event timestamp="1344527198718" module="PRESENTATION" eventname="ResizeAndMoveSlideEvent">
+    <widthRatio>100.0</widthRatio>
+    <heightRatio>100.0</heightRatio>
+    <yOffset>0.0</yOffset>
+    <xOffset>0.0</xOffset>
+  </event>
+  <event timestamp="1344527201280" module="PRESENTATION" eventname="SharePresentationEvent">
+    <presentationName>default</presentationName>
+    <share>true</share>
+  </event>
+  <event timestamp="1344527204310" module="PRESENTATION" eventname="GotoSlideEvent">
+    <slide>0</slide>
+  </event>
+  <event timestamp="1344527210170" module="PRESENTATION" eventname="ResizeAndMoveSlideEvent">
+    <xOffset>0.0</xOffset>
+    <heightRatio>100.0</heightRatio>
+    <widthRatio>100.0</widthRatio>
+    <yOffset>0.0</yOffset>
+  </event>
+  <event timestamp="1344527212418" module="PRESENTATION" eventname="ResizeAndMoveSlideEvent">
+    <xOffset>0.0</xOffset>
+    <yOffset>0.0</yOffset>
+    <heightRatio>100.0</heightRatio>
+    <widthRatio>100.0</widthRatio>
+  </event>
+  <event timestamp="1344527214841" module="PRESENTATION" eventname="ResizeAndMoveSlideEvent">
+    <widthRatio>100.0</widthRatio>
+    <yOffset>0.0</yOffset>
+    <heightRatio>100.0</heightRatio>
+    <xOffset>0.0</xOffset>
+  </event>
+  <event timestamp="1344527216989" module="PRESENTATION" eventname="CursorMoveEvent">
+    <yOffset>0.6949080017115961</yOffset>
+    <xOffset>0.7753530166880617</xOffset>
+  </event>
+  <event timestamp="1344527217020" module="PRESENTATION" eventname="CursorMoveEvent">
+    <xOffset>0.772785622593068</xOffset>
+    <yOffset>0.6949080017115961</yOffset>
+  </event>
+  <event timestamp="1344527217036" module="PRESENTATION" eventname="CursorMoveEvent">
+    <yOffset>0.6949080017115961</yOffset>
+    <xOffset>0.7715019255455713</xOffset>
+  </event>
+  <event timestamp="1344527217077" module="PRESENTATION" eventname="CursorMoveEvent">
+    <xOffset>0.7689345314505777</xOffset>
+    <yOffset>0.6949080017115961</yOffset>
+  </event>
+  <event timestamp="1344527217145" module="VOICE" eventname="ParticipantJoinedEvent">
+    <bridge>79838</bridge>
+    <locked>false</locked>
+    <talking>false</talking>
+    <callernumber>6-Chad</callernumber>
+    <muted>false</muted>
+    <participant>2</participant>
+    <callername>6-Chad</callername>
+  </event>
+  <event timestamp="1344527217146" module="PRESENTATION" eventname="CursorMoveEvent">
+    <yOffset>0.6949080017115961</yOffset>
+    <xOffset>0.766367137355584</xOffset>
+  </event>
+  <event timestamp="1344527217158" module="VOICE" eventname="StartRecordingEvent">
+    <recordingTimestamp>1344527217132597</recordingTimestamp>
+    <bridge>79838</bridge>
+    <filename>/var/freeswitch/meetings/6e35e3b2778883f5db637d7a5dba0a427f692e91-1344527193990-1344527217020.wav</filename>
+  </event>
+  <event timestamp="1344527217165" module="PRESENTATION" eventname="CursorMoveEvent">
+    <yOffset>0.6949080017115961</yOffset>
+    <xOffset>0.7637997432605905</xOffset>
+  </event>
+  <event timestamp="1344527217168" module="PRESENTATION" eventname="CursorMoveEvent">
+    <xOffset>0.7625160462130937</xOffset>
+    <yOffset>0.6949080017115961</yOffset>
+  </event>
+  <event timestamp="1344527217188" module="PRESENTATION" eventname="CursorMoveEvent">
+    <yOffset>0.6949080017115961</yOffset>
+    <xOffset>0.7612323491655969</xOffset>
+  </event>
+  <event timestamp="1344527217243" module="PRESENTATION" eventname="CursorMoveEvent">
+    <yOffset>0.6949080017115961</yOffset>
+    <xOffset>0.7586649550706034</xOffset>
+  </event>
+  <event timestamp="1344527217262" module="PRESENTATION" eventname="CursorMoveEvent">
+    <xOffset>0.7573812580231065</xOffset>
+    <yOffset>0.6949080017115961</yOffset>
+  </event>
+  <event timestamp="1344527217264" module="PRESENTATION" eventname="CursorMoveEvent">
+    <yOffset>0.7000427899015832</yOffset>
+    <xOffset>0.7560975609756098</xOffset>
+  </event>
+  <event timestamp="1344527217274" module="PRESENTATION" eventname="CursorMoveEvent">
+    <xOffset>0.7560975609756098</xOffset>
+    <yOffset>0.7017543859649122</yOffset>
+  </event>
+  <event timestamp="1344527217286" module="PRESENTATION" eventname="CursorMoveEvent">
+    <xOffset>0.7586649550706034</xOffset>
+    <yOffset>0.7051775780915703</yOffset>
+  </event>
+  <event timestamp="1344527217293" module="PRESENTATION" eventname="CursorMoveEvent">
+    <yOffset>0.7086007702182285</yOffset>
+    <xOffset>0.7650834403080873</xOffset>
+  </event>
+  <event timestamp="1344527217324" module="PRESENTATION" eventname="CursorMoveEvent">
+    <yOffset>0.7137355584082157</yOffset>
+    <xOffset>0.7715019255455713</xOffset>
+  </event>
+  <event timestamp="1344527217352" module="PRESENTATION" eventname="CursorMoveEvent">
+    <yOffset>0.7188703465982028</yOffset>
+    <xOffset>0.7753530166880617</xOffset>
+  </event>
+  <event timestamp="1344527217411" module="PRESENTATION" eventname="CursorMoveEvent">
+    <yOffset>0.72400513478819</yOffset>
+    <xOffset>0.7804878048780488</xOffset>
+  </event>
+  <event timestamp="1344527217435" module="PRESENTATION" eventname="CursorMoveEvent">
+    <yOffset>0.7376979032948224</yOffset>
+    <xOffset>0.7881899871630296</xOffset>
+  </event>
+  <event timestamp="1344527217441" module="PRESENTATION" eventname="CursorMoveEvent">
+    <xOffset>0.7997432605905006</xOffset>
+    <yOffset>0.753102267864784</yOffset>
+  </event>
+  <event timestamp="1344527217444" module="PRESENTATION" eventname="CursorMoveEvent">
+    <yOffset>0.7787762088147198</yOffset>
+    <xOffset>0.8189987163029525</xOffset>
+  </event>
+  <event timestamp="1344527217449" module="PRESENTATION" eventname="CursorMoveEvent">
+    <yOffset>0.8027385537013265</yOffset>
+    <xOffset>0.8421052631578947</xOffset>
+  </event>
+  <event timestamp="1344527217466" module="PRESENTATION" eventname="CursorMoveEvent">
+    <yOffset>0.8249893025246042</yOffset>
+    <xOffset>0.8639281129653402</xOffset>
+  </event>
+  <event timestamp="1344527217468" module="PRESENTATION" eventname="CursorMoveEvent">
+    <yOffset>0.8455284552845529</yOffset>
+    <xOffset>0.8883183568677792</xOffset>
+  </event>
+  <event timestamp="1344527217470" module="PRESENTATION" eventname="CursorMoveEvent">
+    <xOffset>0.9127086007702182</xOffset>
+    <yOffset>0.8626444159178434</yOffset>
+  </event>
+  <event timestamp="1344527217493" module="PRESENTATION" eventname="CursorMoveEvent">
+    <xOffset>0.9396662387676509</xOffset>
+    <yOffset>0.881471972614463</yOffset>
+  </event>
+  <event timestamp="1344527217494" module="PRESENTATION" eventname="CursorMoveEvent">
+    <yOffset>0.9020111253744116</yOffset>
+    <xOffset>0.9640564826700898</xOffset>
+  </event>
+  <event timestamp="1344527217497" module="PRESENTATION" eventname="CursorMoveEvent">
+    <yOffset>0.9191270860077022</yOffset>
+    <xOffset>0.9922978177150192</xOffset>
+  </event>
+  <event timestamp="1344527223595" module="CHAT" eventname="PublicChatEvent">
+    <message>
+      <![CDATA[This is the chat]]>
+    </message>
+    <sender>Chad</sender>
+    <locale>en</locale>
+    <color>0</color>
+  </event>
+  <event timestamp="1344527224748" module="PRESENTATION" eventname="CursorMoveEvent">
+    <xOffset>0.441591784338896</xOffset>
+    <yOffset>0.9978605049208387</yOffset>
+  </event>
+  <event timestamp="1344527224754" module="PRESENTATION" eventname="CursorMoveEvent">
+    <xOffset>0.4338896020539153</xOffset>
+    <yOffset>0.9944373127941806</yOffset>
+  </event>
+  <event timestamp="1344527224764" module="PRESENTATION" eventname="CursorMoveEvent">
+    <xOffset>0.4300385109114249</xOffset>
+    <yOffset>0.9910141206675225</yOffset>
+  </event>
+  <event timestamp="1344527224770" module="PRESENTATION" eventname="CursorMoveEvent">
+    <yOffset>0.9875909285408644</yOffset>
+    <xOffset>0.4274711168164313</xOffset>
+  </event>
+  <event timestamp="1344527224777" module="PRESENTATION" eventname="CursorMoveEvent">
+    <xOffset>0.4249037227214377</xOffset>
+    <yOffset>0.9858793324775353</yOffset>
+  </event>
+  <event timestamp="1344527224786" module="PRESENTATION" eventname="CursorMoveEvent">
+    <yOffset>0.9841677364142063</yOffset>
+    <xOffset>0.42362002567394097</xOffset>
+  </event>
+  <event timestamp="1344527224794" module="PRESENTATION" eventname="CursorMoveEvent">
+    <yOffset>0.9824561403508771</yOffset>
+    <xOffset>0.42105263157894735</xOffset>
+  </event>
+  <event timestamp="1344527224803" module="PRESENTATION" eventname="CursorMoveEvent">
+    <yOffset>0.9824561403508771</yOffset>
+    <xOffset>0.4197689345314506</xOffset>
+  </event>
+  <event timestamp="1344527224857" module="PRESENTATION" eventname="CursorMoveEvent">
+    <xOffset>0.4184852374839538</xOffset>
+    <yOffset>0.9824561403508771</yOffset>
+  </event>
+  <event timestamp="1344527224860" module="PRESENTATION" eventname="CursorMoveEvent">
+    <xOffset>0.4159178433889602</xOffset>
+    <yOffset>0.9824561403508771</yOffset>
+  </event>
+  <event timestamp="1344527224869" module="PRESENTATION" eventname="CursorMoveEvent">
+    <xOffset>0.41335044929396664</xOffset>
+    <yOffset>0.9824561403508771</yOffset>
+  </event>
+  <event timestamp="1344527224880" module="PRESENTATION" eventname="CursorMoveEvent">
+    <yOffset>0.9841677364142063</yOffset>
+    <xOffset>0.40949935815147626</xOffset>
+  </event>
+  <event timestamp="1344527224899" module="PRESENTATION" eventname="CursorMoveEvent">
+    <yOffset>0.9858793324775353</yOffset>
+    <xOffset>0.4056482670089859</xOffset>
+  </event>
+  <event timestamp="1344527224901" module="PRESENTATION" eventname="CursorMoveEvent">
+    <yOffset>0.9944373127941806</yOffset>
+    <xOffset>0.3940949935815148</xOffset>
+  </event>
+  <event timestamp="1344527230894" module="PRESENTATION" eventname="CursorMoveEvent">
+    <yOffset>0.6795036371416345</yOffset>
+    <xOffset>0.6341463414634146</xOffset>
+  </event>
+  <event timestamp="1344527231243" module="PRESENTATION" eventname="CursorMoveEvent">
+    <xOffset>0.6341463414634146</xOffset>
+    <yOffset>0.6777920410783055</yOffset>
+  </event>
+  <event timestamp="1344527231441" module="PRESENTATION" eventname="CursorMoveEvent">
+    <xOffset>0.6302952503209243</xOffset>
+    <yOffset>0.6709456568249893</yOffset>
+  </event>
+  <event timestamp="1344527231449" module="PRESENTATION" eventname="CursorMoveEvent">
+    <yOffset>0.6658108686350022</yOffset>
+    <xOffset>0.6264441591784339</xOffset>
+  </event>
+  <event timestamp="1344527231457" module="PRESENTATION" eventname="CursorMoveEvent">
+    <xOffset>0.6225930680359435</xOffset>
+    <yOffset>0.6572528883183568</yOffset>
+  </event>
+  <event timestamp="1344527231466" module="PRESENTATION" eventname="CursorMoveEvent">
+    <xOffset>0.6161745827984596</xOffset>
+    <yOffset>0.6504065040650406</yOffset>
+  </event>
+  <event timestamp="1344527231474" module="PRESENTATION" eventname="CursorMoveEvent">
+    <xOffset>0.6110397946084724</xOffset>
+    <yOffset>0.6401369276850664</yOffset>
+  </event>
+  <event timestamp="1344527231481" module="PRESENTATION" eventname="CursorMoveEvent">
+    <yOffset>0.6281557552417629</yOffset>
+    <xOffset>0.6020539152759948</xOffset>
+  </event>
+  <event timestamp="1344527231488" module="PRESENTATION" eventname="CursorMoveEvent">
+    <yOffset>0.6144629867351306</yOffset>
+    <xOffset>0.5905006418485238</xOffset>
+  </event>
+  <event timestamp="1344527231497" module="PRESENTATION" eventname="CursorMoveEvent">
+    <xOffset>0.5725288831835686</xOffset>
+    <yOffset>0.5905006418485238</yOffset>
+  </event>
+  <event timestamp="1344527231505" module="PRESENTATION" eventname="CursorMoveEvent">
+    <yOffset>0.5614035087719298</yOffset>
+    <xOffset>0.5494223363286265</xOffset>
+  </event>
+  <event timestamp="1344527231514" module="PRESENTATION" eventname="CursorMoveEvent">
+    <xOffset>0.5314505776636713</xOffset>
+    <yOffset>0.535729567821994</yOffset>
+  </event>
+  <event timestamp="1344527231522" module="PRESENTATION" eventname="CursorMoveEvent">
+    <yOffset>0.5186136071887034</yOffset>
+    <xOffset>0.5173299101412067</xOffset>
+  </event>
+  <event timestamp="1344527231529" module="PRESENTATION" eventname="CursorMoveEvent">
+    <xOffset>0.5044929396662388</xOffset>
+    <yOffset>0.501497646555413</yOffset>
+  </event>
+  <event timestamp="1344527231537" module="PRESENTATION" eventname="CursorMoveEvent">
+    <xOffset>0.49293966623876767</xOffset>
+    <yOffset>0.48609328198545143</yOffset>
+  </event>
+  <event timestamp="1344527231546" module="PRESENTATION" eventname="CursorMoveEvent">
+    <xOffset>0.48267008985879334</xOffset>
+    <yOffset>0.47411210954214805</yOffset>
+  </event>
+  <event timestamp="1344527231553" module="PRESENTATION" eventname="CursorMoveEvent">
+    <yOffset>0.4621309370988447</yOffset>
+    <xOffset>0.4749679075738126</xOffset>
+  </event>
+  <event timestamp="1344527231560" module="PRESENTATION" eventname="CursorMoveEvent">
+    <xOffset>0.4672657252888318</xOffset>
+    <yOffset>0.4501497646555413</yOffset>
+  </event>
+  <event timestamp="1344527231568" module="PRESENTATION" eventname="CursorMoveEvent">
+    <yOffset>0.43988018827556696</yOffset>
+    <xOffset>0.46084724005134786</xOffset>
+  </event>
+  <event timestamp="1344527231577" module="PRESENTATION" eventname="CursorMoveEvent">
+    <xOffset>0.4557124518613607</xOffset>
+    <yOffset>0.4278990158322636</yOffset>
+  </event>
+  <event timestamp="1344527231585" module="PRESENTATION" eventname="CursorMoveEvent">
+    <xOffset>0.45057766367137353</xOffset>
+    <yOffset>0.4159178433889602</yOffset>
+  </event>
+  <event timestamp="1344527231592" module="PRESENTATION" eventname="CursorMoveEvent">
+    <xOffset>0.4454428754813864</xOffset>
+    <yOffset>0.4056482670089859</yOffset>
+  </event>
+  <event timestamp="1344527231601" module="PRESENTATION" eventname="CursorMoveEvent">
+    <yOffset>0.3970902866923406</yOffset>
+    <xOffset>0.441591784338896</xOffset>
+  </event>
+  <event timestamp="1344527231608" module="PRESENTATION" eventname="CursorMoveEvent">
+    <yOffset>0.3902439024390244</yOffset>
+    <xOffset>0.43774069319640563</xOffset>
+  </event>
+  <event timestamp="1344527231617" module="PRESENTATION" eventname="CursorMoveEvent">
+    <xOffset>0.43645699614890887</xOffset>
+    <yOffset>0.3851091142490372</yOffset>
+  </event>
+  <event timestamp="1344527231627" module="PRESENTATION" eventname="CursorMoveEvent">
+    <xOffset>0.43645699614890887</xOffset>
+    <yOffset>0.3816859221223791</yOffset>
+  </event>
+  <event timestamp="1344527231632" module="PRESENTATION" eventname="CursorMoveEvent">
+    <xOffset>0.43517329910141206</xOffset>
+    <yOffset>0.378262729995721</yOffset>
+  </event>
+  <event timestamp="1344527231640" module="PRESENTATION" eventname="CursorMoveEvent">
+    <xOffset>0.4338896020539153</xOffset>
+    <yOffset>0.3748395378690629</yOffset>
+  </event>
+  <event timestamp="1344527231648" module="PRESENTATION" eventname="CursorMoveEvent">
+    <xOffset>0.4326059050064185</xOffset>
+    <yOffset>0.3679931536157467</yOffset>
+  </event>
+  <event timestamp="1344527231656" module="PRESENTATION" eventname="CursorMoveEvent">
+    <yOffset>0.3628583654257595</yOffset>
+    <xOffset>0.4326059050064185</xOffset>
+  </event>
+  <event timestamp="1344527231665" module="PRESENTATION" eventname="CursorMoveEvent">
+    <yOffset>0.3560119811724433</yOffset>
+    <xOffset>0.4313222079589217</xOffset>
+  </event>
+  <event timestamp="1344527231672" module="PRESENTATION" eventname="CursorMoveEvent">
+    <yOffset>0.34745400085579803</yOffset>
+    <xOffset>0.4300385109114249</xOffset>
+  </event>
+  <event timestamp="1344527231681" module="PRESENTATION" eventname="CursorMoveEvent">
+    <xOffset>0.4274711168164313</xOffset>
+    <yOffset>0.3406076166024818</yOffset>
+  </event>
+  <event timestamp="1344527231688" module="PRESENTATION" eventname="CursorMoveEvent">
+    <yOffset>0.33204963628583656</yOffset>
+    <xOffset>0.42618741976893454</xOffset>
+  </event>
+  <event timestamp="1344527231697" module="PRESENTATION" eventname="CursorMoveEvent">
+    <xOffset>0.4249037227214377</xOffset>
+    <yOffset>0.32691484809584936</yOffset>
+  </event>
+  <event timestamp="1344527231706" module="PRESENTATION" eventname="CursorMoveEvent">
+    <xOffset>0.42233632862644416</xOffset>
+    <yOffset>0.31835686777920413</yOffset>
+  </event>
+  <event timestamp="1344527231712" module="PRESENTATION" eventname="CursorMoveEvent">
+    <xOffset>0.42233632862644416</xOffset>
+    <yOffset>0.3115104835258879</yOffset>
+  </event>
+  <event timestamp="1344527231720" module="PRESENTATION" eventname="CursorMoveEvent">
+    <xOffset>0.42105263157894735</xOffset>
+    <yOffset>0.30124090714591356</yOffset>
+  </event>
+  <event timestamp="1344527231728" module="PRESENTATION" eventname="CursorMoveEvent">
+    <yOffset>0.2943945228925973</yOffset>
+    <xOffset>0.4184852374839538</xOffset>
+  </event>
+  <event timestamp="1344527231736" module="PRESENTATION" eventname="CursorMoveEvent">
+    <yOffset>0.28241335044929394</yOffset>
+    <xOffset>0.417201540436457</xOffset>
+  </event>
+  <event timestamp="1344527231745" module="PRESENTATION" eventname="CursorMoveEvent">
+    <yOffset>0.2738553701326487</yOffset>
+    <xOffset>0.4159178433889602</xOffset>
+  </event>
+  <event timestamp="1344527231753" module="PRESENTATION" eventname="CursorMoveEvent">
+    <xOffset>0.4146341463414634</xOffset>
+    <yOffset>0.26700898587933247</yOffset>
+  </event>
+  <event timestamp="1344527231762" module="PRESENTATION" eventname="CursorMoveEvent">
+    <yOffset>0.2584510055626872</yOffset>
+    <xOffset>0.41335044929396664</xOffset>
+  </event>
+  <event timestamp="1344527231768" module="PRESENTATION" eventname="CursorMoveEvent">
+    <yOffset>0.25331621737270005</yOffset>
+    <xOffset>0.4120667522464698</xOffset>
+  </event>
+  <event timestamp="1344527231776" module="PRESENTATION" eventname="CursorMoveEvent">
+    <xOffset>0.4120667522464698</xOffset>
+    <yOffset>0.24818142918271288</yOffset>
+  </event>
+  <event timestamp="1344527231785" module="PRESENTATION" eventname="CursorMoveEvent">
+    <xOffset>0.4120667522464698</xOffset>
+    <yOffset>0.24304664099272572</yOffset>
+  </event>
+  <event timestamp="1344527231794" module="PRESENTATION" eventname="CursorMoveEvent">
+    <yOffset>0.2362002567394095</yOffset>
+    <xOffset>0.4120667522464698</xOffset>
+  </event>
+  <event timestamp="1344527240171" module="PRESENTATION" eventname="GenerateSlideEvent">
+    <presentationName>Flex-4-Accessibility-Best-Practices</presentationName>
+    <pagesCompleted>1</pagesCompleted>
+    <numberOfPages>47</numberOfPages>
+  </event>
+  <event timestamp="1344527240183" module="PRESENTATION" eventname="GenerateSlideEvent">
+    <numberOfPages>47</numberOfPages>
+    <presentationName>Flex-4-Accessibility-Best-Practices</presentationName>
+    <pagesCompleted>2</pagesCompleted>
+  </event>
+  <event timestamp="1344527240238" module="PRESENTATION" eventname="GenerateSlideEvent">
+    <presentationName>Flex-4-Accessibility-Best-Practices</presentationName>
+    <pagesCompleted>3</pagesCompleted>
+    <numberOfPages>47</numberOfPages>
+  </event>
+  <event timestamp="1344527240311" module="PRESENTATION" eventname="GenerateSlideEvent">
+    <numberOfPages>47</numberOfPages>
+    <presentationName>Flex-4-Accessibility-Best-Practices</presentationName>
+    <pagesCompleted>4</pagesCompleted>
+  </event>
+  <event timestamp="1344527240381" module="PRESENTATION" eventname="GenerateSlideEvent">
+    <presentationName>Flex-4-Accessibility-Best-Practices</presentationName>
+    <pagesCompleted>5</pagesCompleted>
+    <numberOfPages>47</numberOfPages>
+  </event>
+  <event timestamp="1344527240442" module="PRESENTATION" eventname="GenerateSlideEvent">
+    <pagesCompleted>6</pagesCompleted>
+    <numberOfPages>47</numberOfPages>
+    <presentationName>Flex-4-Accessibility-Best-Practices</presentationName>
+  </event>
+  <event timestamp="1344527240521" module="PRESENTATION" eventname="GenerateSlideEvent">
+    <numberOfPages>47</numberOfPages>
+    <pagesCompleted>7</pagesCompleted>
+    <presentationName>Flex-4-Accessibility-Best-Practices</presentationName>
+  </event>
+  <event timestamp="1344527240576" module="PRESENTATION" eventname="GenerateSlideEvent">
+    <presentationName>Flex-4-Accessibility-Best-Practices</presentationName>
+    <numberOfPages>47</numberOfPages>
+    <pagesCompleted>8</pagesCompleted>
+  </event>
+  <event timestamp="1344527240600" module="PRESENTATION" eventname="GenerateSlideEvent">
+    <pagesCompleted>9</pagesCompleted>
+    <presentationName>Flex-4-Accessibility-Best-Practices</presentationName>
+    <numberOfPages>47</numberOfPages>
+  </event>
+  <event timestamp="1344527240643" module="PRESENTATION" eventname="GenerateSlideEvent">
+    <pagesCompleted>10</pagesCompleted>
+    <presentationName>Flex-4-Accessibility-Best-Practices</presentationName>
+    <numberOfPages>47</numberOfPages>
+  </event>
+  <event timestamp="1344527240675" module="PRESENTATION" eventname="GenerateSlideEvent">
+    <pagesCompleted>11</pagesCompleted>
+    <presentationName>Flex-4-Accessibility-Best-Practices</presentationName>
+    <numberOfPages>47</numberOfPages>
+  </event>
+  <event timestamp="1344527240712" module="PRESENTATION" eventname="GenerateSlideEvent">
+    <presentationName>Flex-4-Accessibility-Best-Practices</presentationName>
+    <pagesCompleted>12</pagesCompleted>
+    <numberOfPages>47</numberOfPages>
+  </event>
+  <event timestamp="1344527240748" module="PRESENTATION" eventname="GenerateSlideEvent">
+    <pagesCompleted>13</pagesCompleted>
+    <numberOfPages>47</numberOfPages>
+    <presentationName>Flex-4-Accessibility-Best-Practices</presentationName>
+  </event>
+  <event timestamp="1344527240777" module="PRESENTATION" eventname="GenerateSlideEvent">
+    <pagesCompleted>14</pagesCompleted>
+    <presentationName>Flex-4-Accessibility-Best-Practices</presentationName>
+    <numberOfPages>47</numberOfPages>
+  </event>
+  <event timestamp="1344527240822" module="PRESENTATION" eventname="GenerateSlideEvent">
+    <numberOfPages>47</numberOfPages>
+    <presentationName>Flex-4-Accessibility-Best-Practices</presentationName>
+    <pagesCompleted>15</pagesCompleted>
+  </event>
+  <event timestamp="1344527240851" module="PRESENTATION" eventname="GenerateSlideEvent">
+    <numberOfPages>47</numberOfPages>
+    <pagesCompleted>16</pagesCompleted>
+    <presentationName>Flex-4-Accessibility-Best-Practices</presentationName>
+  </event>
+  <event timestamp="1344527240887" module="PRESENTATION" eventname="GenerateSlideEvent">
+    <numberOfPages>47</numberOfPages>
+    <presentationName>Flex-4-Accessibility-Best-Practices</presentationName>
+    <pagesCompleted>17</pagesCompleted>
+  </event>
+  <event timestamp="1344527240924" module="PRESENTATION" eventname="GenerateSlideEvent">
+    <numberOfPages>47</numberOfPages>
+    <presentationName>Flex-4-Accessibility-Best-Practices</presentationName>
+    <pagesCompleted>18</pagesCompleted>
+  </event>
+  <event timestamp="1344527240949" module="PRESENTATION" eventname="GenerateSlideEvent">
+    <pagesCompleted>19</pagesCompleted>
+    <presentationName>Flex-4-Accessibility-Best-Practices</presentationName>
+    <numberOfPages>47</numberOfPages>
+  </event>
+  <event timestamp="1344527240971" module="PRESENTATION" eventname="GenerateSlideEvent">
+    <numberOfPages>47</numberOfPages>
+    <pagesCompleted>20</pagesCompleted>
+    <presentationName>Flex-4-Accessibility-Best-Practices</presentationName>
+  </event>
+  <event timestamp="1344527241016" module="PRESENTATION" eventname="GenerateSlideEvent">
+    <pagesCompleted>21</pagesCompleted>
+    <numberOfPages>47</numberOfPages>
+    <presentationName>Flex-4-Accessibility-Best-Practices</presentationName>
+  </event>
+  <event timestamp="1344527241036" module="PRESENTATION" eventname="GenerateSlideEvent">
+    <numberOfPages>47</numberOfPages>
+    <presentationName>Flex-4-Accessibility-Best-Practices</presentationName>
+    <pagesCompleted>22</pagesCompleted>
+  </event>
+  <event timestamp="1344527241077" module="PRESENTATION" eventname="GenerateSlideEvent">
+    <presentationName>Flex-4-Accessibility-Best-Practices</presentationName>
+    <numberOfPages>47</numberOfPages>
+    <pagesCompleted>23</pagesCompleted>
+  </event>
+  <event timestamp="1344527241101" module="PRESENTATION" eventname="GenerateSlideEvent">
+    <numberOfPages>47</numberOfPages>
+    <presentationName>Flex-4-Accessibility-Best-Practices</presentationName>
+    <pagesCompleted>24</pagesCompleted>
+  </event>
+  <event timestamp="1344527241154" module="PRESENTATION" eventname="GenerateSlideEvent">
+    <pagesCompleted>25</pagesCompleted>
+    <presentationName>Flex-4-Accessibility-Best-Practices</presentationName>
+    <numberOfPages>47</numberOfPages>
+  </event>
+  <event timestamp="1344527241217" module="PRESENTATION" eventname="GenerateSlideEvent">
+    <presentationName>Flex-4-Accessibility-Best-Practices</presentationName>
+    <pagesCompleted>26</pagesCompleted>
+    <numberOfPages>47</numberOfPages>
+  </event>
+  <event timestamp="1344527241229" module="PRESENTATION" eventname="GenerateSlideEvent">
+    <presentationName>Flex-4-Accessibility-Best-Practices</presentationName>
+    <pagesCompleted>27</pagesCompleted>
+    <numberOfPages>47</numberOfPages>
+  </event>
+  <event timestamp="1344527241288" module="PRESENTATION" eventname="GenerateSlideEvent">
+    <pagesCompleted>28</pagesCompleted>
+    <presentationName>Flex-4-Accessibility-Best-Practices</presentationName>
+    <numberOfPages>47</numberOfPages>
+  </event>
+  <event timestamp="1344527241302" module="PRESENTATION" eventname="GenerateSlideEvent">
+    <numberOfPages>47</numberOfPages>
+    <pagesCompleted>29</pagesCompleted>
+    <presentationName>Flex-4-Accessibility-Best-Practices</presentationName>
+  </event>
+  <event timestamp="1344527241375" module="PRESENTATION" eventname="GenerateSlideEvent">
+    <numberOfPages>47</numberOfPages>
+    <presentationName>Flex-4-Accessibility-Best-Practices</presentationName>
+    <pagesCompleted>30</pagesCompleted>
+  </event>
+  <event timestamp="1344527241398" module="PRESENTATION" eventname="GenerateSlideEvent">
+    <pagesCompleted>31</pagesCompleted>
+    <presentationName>Flex-4-Accessibility-Best-Practices</presentationName>
+    <numberOfPages>47</numberOfPages>
+  </event>
+  <event timestamp="1344527241423" module="PRESENTATION" eventname="GenerateSlideEvent">
+    <pagesCompleted>32</pagesCompleted>
+    <presentationName>Flex-4-Accessibility-Best-Practices</presentationName>
+    <numberOfPages>47</numberOfPages>
+  </event>
+  <event timestamp="1344527241441" module="PRESENTATION" eventname="GenerateSlideEvent">
+    <numberOfPages>47</numberOfPages>
+    <presentationName>Flex-4-Accessibility-Best-Practices</presentationName>
+    <pagesCompleted>33</pagesCompleted>
+  </event>
+  <event timestamp="1344527241487" module="PRESENTATION" eventname="GenerateSlideEvent">
+    <pagesCompleted>34</pagesCompleted>
+    <numberOfPages>47</numberOfPages>
+    <presentationName>Flex-4-Accessibility-Best-Practices</presentationName>
+  </event>
+  <event timestamp="1344527241498" module="PRESENTATION" eventname="GenerateSlideEvent">
+    <pagesCompleted>35</pagesCompleted>
+    <presentationName>Flex-4-Accessibility-Best-Practices</presentationName>
+    <numberOfPages>47</numberOfPages>
+  </event>
+  <event timestamp="1344527241552" module="PRESENTATION" eventname="GenerateSlideEvent">
+    <presentationName>Flex-4-Accessibility-Best-Practices</presentationName>
+    <pagesCompleted>36</pagesCompleted>
+    <numberOfPages>47</numberOfPages>
+  </event>
+  <event timestamp="1344527241560" module="PRESENTATION" eventname="GenerateSlideEvent">
+    <presentationName>Flex-4-Accessibility-Best-Practices</presentationName>
+    <numberOfPages>47</numberOfPages>
+    <pagesCompleted>37</pagesCompleted>
+  </event>
+  <event timestamp="1344527241615" module="PRESENTATION" eventname="GenerateSlideEvent">
+    <numberOfPages>47</numberOfPages>
+    <presentationName>Flex-4-Accessibility-Best-Practices</presentationName>
+    <pagesCompleted>38</pagesCompleted>
+  </event>
+  <event timestamp="1344527241624" module="PRESENTATION" eventname="GenerateSlideEvent">
+    <numberOfPages>47</numberOfPages>
+    <pagesCompleted>39</pagesCompleted>
+    <presentationName>Flex-4-Accessibility-Best-Practices</presentationName>
+  </event>
+  <event timestamp="1344527241670" module="PRESENTATION" eventname="GenerateSlideEvent">
+    <pagesCompleted>40</pagesCompleted>
+    <numberOfPages>47</numberOfPages>
+    <presentationName>Flex-4-Accessibility-Best-Practices</presentationName>
+  </event>
+  <event timestamp="1344527241687" module="PRESENTATION" eventname="GenerateSlideEvent">
+    <pagesCompleted>41</pagesCompleted>
+    <numberOfPages>47</numberOfPages>
+    <presentationName>Flex-4-Accessibility-Best-Practices</presentationName>
+  </event>
+  <event timestamp="1344527241734" module="PRESENTATION" eventname="GenerateSlideEvent">
+    <pagesCompleted>42</pagesCompleted>
+    <numberOfPages>47</numberOfPages>
+    <presentationName>Flex-4-Accessibility-Best-Practices</presentationName>
+  </event>
+  <event timestamp="1344527241752" module="PRESENTATION" eventname="GenerateSlideEvent">
+    <presentationName>Flex-4-Accessibility-Best-Practices</presentationName>
+    <numberOfPages>47</numberOfPages>
+    <pagesCompleted>43</pagesCompleted>
+  </event>
+  <event timestamp="1344527241793" module="PRESENTATION" eventname="GenerateSlideEvent">
+    <pagesCompleted>44</pagesCompleted>
+    <presentationName>Flex-4-Accessibility-Best-Practices</presentationName>
+    <numberOfPages>47</numberOfPages>
+  </event>
+  <event timestamp="1344527241812" module="PRESENTATION" eventname="GenerateSlideEvent">
+    <pagesCompleted>45</pagesCompleted>
+    <presentationName>Flex-4-Accessibility-Best-Practices</presentationName>
+    <numberOfPages>47</numberOfPages>
+  </event>
+  <event timestamp="1344527241844" module="PRESENTATION" eventname="GenerateSlideEvent">
+    <presentationName>Flex-4-Accessibility-Best-Practices</presentationName>
+    <pagesCompleted>46</pagesCompleted>
+    <numberOfPages>47</numberOfPages>
+  </event>
+  <event timestamp="1344527241866" module="PRESENTATION" eventname="GenerateSlideEvent">
+    <presentationName>Flex-4-Accessibility-Best-Practices</presentationName>
+    <numberOfPages>47</numberOfPages>
+    <pagesCompleted>47</pagesCompleted>
+  </event>
+  <event timestamp="1344527244840" module="PRESENTATION" eventname="CursorMoveEvent">
+    <xOffset>0.6328626444159179</xOffset>
+    <yOffset>0.06332905434317501</yOffset>
+  </event>
+  <event timestamp="1344527244848" module="PRESENTATION" eventname="CursorMoveEvent">
+    <xOffset>0.6893453145057766</xOffset>
+    <yOffset>0.0787334189131365</yOffset>
+  </event>
+  <event timestamp="1344527244857" module="PRESENTATION" eventname="CursorMoveEvent">
+    <xOffset>0.7560975609756098</xOffset>
+    <yOffset>0.09584937954642704</yOffset>
+  </event>
+  <event timestamp="1344527244864" module="PRESENTATION" eventname="CursorMoveEvent">
+    <xOffset>0.8292682926829268</xOffset>
+    <yOffset>0.10954214805305948</yOffset>
+  </event>
+  <event timestamp="1344527244872" module="PRESENTATION" eventname="CursorMoveEvent">
+    <xOffset>0.9088575096277278</xOffset>
+    <yOffset>0.12836970474967907</yOffset>
+  </event>
+  <event timestamp="1344527244880" module="PRESENTATION" eventname="CursorMoveEvent">
+    <xOffset>0.9961489088575096</xOffset>
+    <yOffset>0.14719726144629866</yOffset>
+  </event>
+  <event timestamp="1344527247282" module="PRESENTATION" eventname="ConversionCompletedEvent">
+    <presentationName>Flex-4-Accessibility-Best-Practices</presentationName>
+    <slidesInfo>
+<uploadedpresentation>
+  <conference id='6e35e3b2778883f5db637d7a5dba0a427f692e91-1344527193990' room='6e35e3b2778883f5db637d7a5dba0a427f692e91-1344527193990'>
+    <presentation name='Flex-4-Accessibility-Best-Practices'>
+      <slides count='47'>
+        <slide number='1' name='slide/1' thumb='thumbnail/1' />
+        <slide number='2' name='slide/2' thumb='thumbnail/2' />
+        <slide number='3' name='slide/3' thumb='thumbnail/3' />
+        <slide number='4' name='slide/4' thumb='thumbnail/4' />
+        <slide number='5' name='slide/5' thumb='thumbnail/5' />
+        <slide number='6' name='slide/6' thumb='thumbnail/6' />
+        <slide number='7' name='slide/7' thumb='thumbnail/7' />
+        <slide number='8' name='slide/8' thumb='thumbnail/8' />
+        <slide number='9' name='slide/9' thumb='thumbnail/9' />
+        <slide number='10' name='slide/10' thumb='thumbnail/10' />
+        <slide number='11' name='slide/11' thumb='thumbnail/11' />
+        <slide number='12' name='slide/12' thumb='thumbnail/12' />
+        <slide number='13' name='slide/13' thumb='thumbnail/13' />
+        <slide number='14' name='slide/14' thumb='thumbnail/14' />
+        <slide number='15' name='slide/15' thumb='thumbnail/15' />
+        <slide number='16' name='slide/16' thumb='thumbnail/16' />
+        <slide number='17' name='slide/17' thumb='thumbnail/17' />
+        <slide number='18' name='slide/18' thumb='thumbnail/18' />
+        <slide number='19' name='slide/19' thumb='thumbnail/19' />
+        <slide number='20' name='slide/20' thumb='thumbnail/20' />
+        <slide number='21' name='slide/21' thumb='thumbnail/21' />
+        <slide number='22' name='slide/22' thumb='thumbnail/22' />
+        <slide number='23' name='slide/23' thumb='thumbnail/23' />
+        <slide number='24' name='slide/24' thumb='thumbnail/24' />
+        <slide number='25' name='slide/25' thumb='thumbnail/25' />
+        <slide number='26' name='slide/26' thumb='thumbnail/26' />
+        <slide number='27' name='slide/27' thumb='thumbnail/27' />
+        <slide number='28' name='slide/28' thumb='thumbnail/28' />
+        <slide number='29' name='slide/29' thumb='thumbnail/29' />
+        <slide number='30' name='slide/30' thumb='thumbnail/30' />
+        <slide number='31' name='slide/31' thumb='thumbnail/31' />
+        <slide number='32' name='slide/32' thumb='thumbnail/32' />
+        <slide number='33' name='slide/33' thumb='thumbnail/33' />
+        <slide number='34' name='slide/34' thumb='thumbnail/34' />
+        <slide number='35' name='slide/35' thumb='thumbnail/35' />
+        <slide number='36' name='slide/36' thumb='thumbnail/36' />
+        <slide number='37' name='slide/37' thumb='thumbnail/37' />
+        <slide number='38' name='slide/38' thumb='thumbnail/38' />
+        <slide number='39' name='slide/39' thumb='thumbnail/39' />
+        <slide number='40' name='slide/40' thumb='thumbnail/40' />
+        <slide number='41' name='slide/41' thumb='thumbnail/41' />
+        <slide number='42' name='slide/42' thumb='thumbnail/42' />
+        <slide number='43' name='slide/43' thumb='thumbnail/43' />
+        <slide number='44' name='slide/44' thumb='thumbnail/44' />
+        <slide number='45' name='slide/45' thumb='thumbnail/45' />
+        <slide number='46' name='slide/46' thumb='thumbnail/46' />
+        <slide number='47' name='slide/47' thumb='thumbnail/47' />
+      </slides>
+    </presentation>
+  </conference>
+</uploadedpresentation>    </slidesInfo>
+  </event>
+  <event timestamp="1344527247439" module="PRESENTATION" eventname="SharePresentationEvent">
+    <presentationName>Flex-4-Accessibility-Best-Practices</presentationName>
+    <share>true</share>
+  </event>
+  <event timestamp="1344527247441" module="PRESENTATION" eventname="ResizeAndMoveSlideEvent">
+    <heightRatio>100.0</heightRatio>
+    <yOffset>0.0</yOffset>
+    <widthRatio>100.0</widthRatio>
+    <xOffset>0.0</xOffset>
+  </event>
+  <event timestamp="1344527250443" module="PRESENTATION" eventname="GotoSlideEvent">
+    <slide>0</slide>
+  </event>
+  <event timestamp="1344527250561" module="PRESENTATION" eventname="ResizeAndMoveSlideEvent">
+    <widthRatio>100.0</widthRatio>
+    <heightRatio>100.0</heightRatio>
+    <xOffset>0.0</xOffset>
+    <yOffset>0.0</yOffset>
+  </event>
+  <event timestamp="1344527252803" module="CHAT" eventname="PublicChatEvent">
+    <locale>en</locale>
+    <sender>Chad</sender>
+    <message>
+      <![CDATA[hopefully the new one works]]>
+    </message>
+    <color>0</color>
+  </event>
+  <event timestamp="1344527253076" module="VOICE" eventname="ParticipantTalkingEvent">
+    <bridge>79838</bridge>
+    <participant>2</participant>
+    <talking>true</talking>
+  </event>
+  <event timestamp="1344527253805" module="VOICE" eventname="ParticipantTalkingEvent">
+    <talking>false</talking>
+    <bridge>79838</bridge>
+    <participant>2</participant>
+  </event>
+  <event timestamp="1344527256853" module="CHAT" eventname="PublicChatEvent">
+    <sender>Chad</sender>
+    <color>0</color>
+    <message>
+      <![CDATA[It does!]]>
+    </message>
+    <locale>en</locale>
+  </event>
+  <event timestamp="1344527259437" module="CHAT" eventname="PublicChatEvent">
+    <color>0</color>
+    <message>
+      <![CDATA[YAY]]>
+    </message>
+    <sender>Chad</sender>
+    <locale>en</locale>
+  </event>
+  <event timestamp="1344527259544" module="VOICE" eventname="ParticipantTalkingEvent">
+    <participant>2</participant>
+    <bridge>79838</bridge>
+    <talking>true</talking>
+  </event>
+  <event timestamp="1344527260871" module="VOICE" eventname="ParticipantTalkingEvent">
+    <talking>false</talking>
+    <participant>2</participant>
+    <bridge>79838</bridge>
+  </event>
+  <event timestamp="1344527262499" module="PRESENTATION" eventname="CursorMoveEvent">
+    <yOffset>0.7470817120622568</yOffset>
+    <xOffset>0.9584191653315023</xOffset>
+  </event>
+  <event timestamp="1344527262505" module="PRESENTATION" eventname="CursorMoveEvent">
+    <xOffset>0.899671931029221</xOffset>
+    <yOffset>0.7263294422827496</yOffset>
+  </event>
+  <event timestamp="1344527262513" module="PRESENTATION" eventname="CursorMoveEvent">
+    <xOffset>0.8459601739528496</xOffset>
+    <yOffset>0.7094682230869002</yOffset>
+  </event>
+  <event timestamp="1344527262522" module="PRESENTATION" eventname="CursorMoveEvent">
+    <yOffset>0.6939040207522698</yOffset>
+    <xOffset>0.7939269092851149</xOffset>
+  </event>
+  <event timestamp="1344527262529" module="PRESENTATION" eventname="CursorMoveEvent">
+    <xOffset>0.7217517357137407</xOffset>
+    <yOffset>0.6848249027237354</yOffset>
+  </event>
+  <event timestamp="1344527262536" module="PRESENTATION" eventname="CursorMoveEvent">
+    <xOffset>0.6361486228732739</xOffset>
+    <yOffset>0.682230869001297</yOffset>
+  </event>
+  <event timestamp="1344527262544" module="PRESENTATION" eventname="CursorMoveEvent">
+    <yOffset>0.6861219195849546</yOffset>
+    <xOffset>0.5471885252155337</xOffset>
+  </event>
+  <event timestamp="1344527262551" module="PRESENTATION" eventname="CursorMoveEvent">
+    <yOffset>0.695201037613489</yOffset>
+    <xOffset>0.4599069199664302</xOffset>
+  </event>
+  <event timestamp="1344527262560" module="PRESENTATION" eventname="CursorMoveEvent">
+    <xOffset>0.37598229953459983</xOffset>
+    <yOffset>0.7172503242542153</yOffset>
+  </event>
+  <event timestamp="1344527262567" module="PRESENTATION" eventname="CursorMoveEvent">
+    <yOffset>0.7392996108949417</yOffset>
+    <xOffset>0.3054856183718624</xOffset>
+  </event>
+  <event timestamp="1344527262575" module="PRESENTATION" eventname="CursorMoveEvent">
+    <xOffset>0.25009536888685435</xOffset>
+    <yOffset>0.7652399481193255</yOffset>
+  </event>
+  <event timestamp="1344527262583" module="PRESENTATION" eventname="CursorMoveEvent">
+    <xOffset>0.2114900434882124</xOffset>
+    <yOffset>0.7859922178988327</yOffset>
+  </event>
+  <event timestamp="1344527262593" module="PRESENTATION" eventname="CursorMoveEvent">
+    <xOffset>0.1829556725413901</xOffset>
+    <yOffset>0.8028534370946823</yOffset>
+  </event>
+  <event timestamp="1344527262600" module="PRESENTATION" eventname="CursorMoveEvent">
+    <xOffset>0.16952773327229725</xOffset>
+    <yOffset>0.8106355382619974</yOffset>
+  </event>
+  <event timestamp="1344527262608" module="PRESENTATION" eventname="CursorMoveEvent">
+    <yOffset>0.8132295719844358</yOffset>
+    <xOffset>0.16449225604638743</xOffset>
+  </event>
+  <event timestamp="1344527262621" module="PRESENTATION" eventname="CursorMoveEvent">
+    <yOffset>0.814526588845655</yOffset>
+    <xOffset>0.16281376363775082</xOffset>
+  </event>
+  <event timestamp="1344527262632" module="PRESENTATION" eventname="CursorMoveEvent">
+    <yOffset>0.8184176394293126</yOffset>
+    <xOffset>0.17624170290684368</xOffset>
+  </event>
+  <event timestamp="1344527262639" module="PRESENTATION" eventname="CursorMoveEvent">
+    <yOffset>0.8287937743190662</yOffset>
+    <xOffset>0.20141908903639277</xOffset>
+  </event>
+  <event timestamp="1344527262648" module="PRESENTATION" eventname="CursorMoveEvent">
+    <xOffset>0.24505989166094455</xOffset>
+    <yOffset>0.8430609597924773</yOffset>
+  </event>
+  <event timestamp="1344527262655" module="PRESENTATION" eventname="CursorMoveEvent">
+    <yOffset>0.8651102464332037</yOffset>
+    <xOffset>0.3088426031891356</xOffset>
+  </event>
+  <event timestamp="1344527262663" module="PRESENTATION" eventname="CursorMoveEvent">
+    <xOffset>0.3843747615777829</xOffset>
+    <yOffset>0.8910505836575876</yOffset>
+  </event>
+  <event timestamp="1344527262671" module="PRESENTATION" eventname="CursorMoveEvent">
+    <xOffset>0.4599069199664302</xOffset>
+    <yOffset>0.914396887159533</yOffset>
+  </event>
+  <event timestamp="1344527262679" module="PRESENTATION" eventname="CursorMoveEvent">
+    <xOffset>0.5404745555809872</xOffset>
+    <yOffset>0.9364461738002594</yOffset>
+  </event>
+  <event timestamp="1344527262688" module="PRESENTATION" eventname="CursorMoveEvent">
+    <yOffset>0.9520103761348897</yOffset>
+    <xOffset>0.5841153582055391</xOffset>
+  </event>
+  <event timestamp="1344527262695" module="PRESENTATION" eventname="CursorMoveEvent">
+    <yOffset>0.9623865110246433</yOffset>
+    <xOffset>0.6025787747005417</xOffset>
+  </event>
+  <event timestamp="1344527262703" module="PRESENTATION" eventname="CursorMoveEvent">
+    <xOffset>0.6092927443350882</xOffset>
+    <yOffset>0.9740596627756161</yOffset>
+  </event>
+  <event timestamp="1344527262711" module="PRESENTATION" eventname="CursorMoveEvent">
+    <yOffset>0.9870298313878081</yOffset>
+    <xOffset>0.614328221560998</xOffset>
+  </event>
+  <event timestamp="1344527263040" module="PRESENTATION" eventname="CursorMoveEvent">
+    <yOffset>0.9987029831387808</yOffset>
+    <xOffset>0.48676279850461585</xOffset>
+  </event>
+  <event timestamp="1344527263047" module="PRESENTATION" eventname="CursorMoveEvent">
+    <xOffset>0.48508430609597925</xOffset>
+    <yOffset>0.9987029831387808</yOffset>
+  </event>
+  <event timestamp="1344527263056" module="PRESENTATION" eventname="CursorMoveEvent">
+    <yOffset>0.9987029831387808</yOffset>
+    <xOffset>0.48340581368734264</xOffset>
+  </event>
+  <event timestamp="1344527263081" module="PRESENTATION" eventname="CursorMoveEvent">
+    <yOffset>1.0</yOffset>
+    <xOffset>0.48172732127870604</xOffset>
+  </event>
+  <event timestamp="1344527263096" module="PRESENTATION" eventname="CursorMoveEvent">
+    <xOffset>0.48004882887006944</xOffset>
+    <yOffset>1.0012970168612192</yOffset>
+  </event>
+  <event timestamp="1344527263103" module="PRESENTATION" eventname="CursorMoveEvent">
+    <yOffset>1.0038910505836576</yOffset>
+    <xOffset>0.47669184405279624</xOffset>
+  </event>
+  <event timestamp="1344527264203" module="VOICE" eventname="ParticipantTalkingEvent">
+    <participant>2</participant>
+    <talking>true</talking>
+    <bridge>79838</bridge>
+  </event>
+  <event timestamp="1344527268354" module="PRESENTATION" eventname="CursorMoveEvent">
+    <xOffset>0.678110933089189</xOffset>
+    <yOffset>0.6264591439688716</yOffset>
+  </event>
+  <event timestamp="1344527268663" module="PRESENTATION" eventname="CursorMoveEvent">
+    <yOffset>0.6264591439688716</yOffset>
+    <xOffset>0.6764324406805524</xOffset>
+  </event>
+  <event timestamp="1344527268686" module="VOICE" eventname="ParticipantTalkingEvent">
+    <talking>false</talking>
+    <participant>2</participant>
+    <bridge>79838</bridge>
+  </event>
+  <event timestamp="1344527268703" module="PRESENTATION" eventname="CursorMoveEvent">
+    <xOffset>0.6747539482719158</xOffset>
+    <yOffset>0.6277561608300908</yOffset>
+  </event>
+  <event timestamp="1344527268711" module="PRESENTATION" eventname="CursorMoveEvent">
+    <yOffset>0.6277561608300908</yOffset>
+    <xOffset>0.6730754558632792</xOffset>
+  </event>
+  <event timestamp="1344527268719" module="PRESENTATION" eventname="CursorMoveEvent">
+    <yOffset>0.62905317769131</yOffset>
+    <xOffset>0.6730754558632792</xOffset>
+  </event>
+  <event timestamp="1344527268727" module="PRESENTATION" eventname="CursorMoveEvent">
+    <yOffset>0.6303501945525292</yOffset>
+    <xOffset>0.6713969634546426</xOffset>
+  </event>
+  <event timestamp="1344527268735" module="PRESENTATION" eventname="CursorMoveEvent">
+    <xOffset>0.6713969634546426</xOffset>
+    <yOffset>0.6316472114137484</yOffset>
+  </event>
+  <event timestamp="1344527268743" module="PRESENTATION" eventname="CursorMoveEvent">
+    <yOffset>0.6329442282749675</yOffset>
+    <xOffset>0.669718471046006</xOffset>
+  </event>
+  <event timestamp="1344527268750" module="PRESENTATION" eventname="CursorMoveEvent">
+    <xOffset>0.6663614862287328</xOffset>
+    <yOffset>0.6368352788586251</yOffset>
+  </event>
+  <event timestamp="1344527268759" module="PRESENTATION" eventname="CursorMoveEvent">
+    <yOffset>0.6394293125810635</yOffset>
+    <xOffset>0.6646829938200961</xOffset>
+  </event>
+  <event timestamp="1344527268767" module="PRESENTATION" eventname="CursorMoveEvent">
+    <xOffset>0.6596475165941863</xOffset>
+    <yOffset>0.642023346303502</yOffset>
+  </event>
+  <event timestamp="1344527268775" module="PRESENTATION" eventname="CursorMoveEvent">
+    <xOffset>0.6562905317769131</xOffset>
+    <yOffset>0.6472114137483788</yOffset>
+  </event>
+  <event timestamp="1344527268783" module="PRESENTATION" eventname="CursorMoveEvent">
+    <xOffset>0.6495765621423667</xOffset>
+    <yOffset>0.6511024643320363</yOffset>
+  </event>
+  <event timestamp="1344527268791" module="PRESENTATION" eventname="CursorMoveEvent">
+    <yOffset>0.6549935149156939</yOffset>
+    <xOffset>0.6462195773250935</xOffset>
+  </event>
+  <event timestamp="1344527268803" module="PRESENTATION" eventname="CursorMoveEvent">
+    <yOffset>0.6588845654993515</yOffset>
+    <xOffset>0.6395056076905471</xOffset>
+  </event>
+  <event timestamp="1344527268807" module="PRESENTATION" eventname="CursorMoveEvent">
+    <xOffset>0.6378271152819105</xOffset>
+    <yOffset>0.6601815823605707</yOffset>
+  </event>
+  <event timestamp="1344527268815" module="PRESENTATION" eventname="CursorMoveEvent">
+    <yOffset>0.6614785992217899</yOffset>
+    <xOffset>0.6344701304646373</xOffset>
+  </event>
+  <event timestamp="1344527268831" module="PRESENTATION" eventname="CursorMoveEvent">
+    <xOffset>0.6344701304646373</xOffset>
+    <yOffset>0.6627756160830091</yOffset>
+  </event>
+  <event timestamp="1344527268879" module="PRESENTATION" eventname="CursorMoveEvent">
+    <xOffset>0.6327916380560006</xOffset>
+    <yOffset>0.6653696498054474</yOffset>
+  </event>
+  <event timestamp="1344527268887" module="PRESENTATION" eventname="CursorMoveEvent">
+    <yOffset>0.669260700389105</yOffset>
+    <xOffset>0.6294346532387274</xOffset>
+  </event>
+  <event timestamp="1344527268895" module="PRESENTATION" eventname="CursorMoveEvent">
+    <yOffset>0.6770428015564203</yOffset>
+    <xOffset>0.6260776684214542</xOffset>
+  </event>
+  <event timestamp="1344527268903" module="PRESENTATION" eventname="CursorMoveEvent">
+    <yOffset>0.6861219195849546</yOffset>
+    <xOffset>0.622720683604181</xOffset>
+  </event>
+  <event timestamp="1344527268915" module="PRESENTATION" eventname="CursorMoveEvent">
+    <yOffset>0.6990920881971465</yOffset>
+    <xOffset>0.6160067139696346</xOffset>
+  </event>
+  <event timestamp="1344527268919" module="PRESENTATION" eventname="CursorMoveEvent">
+    <xOffset>0.6109712367437248</xOffset>
+    <yOffset>0.7120622568093385</yOffset>
+  </event>
+  <event timestamp="1344527268927" module="PRESENTATION" eventname="CursorMoveEvent">
+    <xOffset>0.6025787747005417</xOffset>
+    <yOffset>0.7250324254215305</yOffset>
+  </event>
+  <event timestamp="1344527268935" module="PRESENTATION" eventname="CursorMoveEvent">
+    <xOffset>0.5958648050659953</xOffset>
+    <yOffset>0.7367055771725033</yOffset>
+  </event>
+  <event timestamp="1344527268944" module="PRESENTATION" eventname="CursorMoveEvent">
+    <xOffset>0.5891508354314489</xOffset>
+    <yOffset>0.7496757457846952</yOffset>
+  </event>
+  <event timestamp="1344527268951" module="PRESENTATION" eventname="CursorMoveEvent">
+    <xOffset>0.5824368657969025</xOffset>
+    <yOffset>0.7613488975356679</yOffset>
+  </event>
+  <event timestamp="1344527268958" module="PRESENTATION" eventname="CursorMoveEvent">
+    <yOffset>0.7756160830090791</yOffset>
+    <xOffset>0.5774013885709927</xOffset>
+  </event>
+  <event timestamp="1344527268967" module="PRESENTATION" eventname="CursorMoveEvent">
+    <xOffset>0.5740444037537195</xOffset>
+    <yOffset>0.7859922178988327</yOffset>
+  </event>
+  <event timestamp="1344527268975" module="PRESENTATION" eventname="CursorMoveEvent">
+    <xOffset>0.5673304341191729</xOffset>
+    <yOffset>0.7976653696498055</yOffset>
+  </event>
+  <event timestamp="1344527268983" module="PRESENTATION" eventname="CursorMoveEvent">
+    <yOffset>0.8119325551232166</yOffset>
+    <xOffset>0.5639734493018997</xOffset>
+  </event>
+  <event timestamp="1344527268990" module="PRESENTATION" eventname="CursorMoveEvent">
+    <xOffset>0.5589379720759899</xOffset>
+    <yOffset>0.8261997405966277</yOffset>
+  </event>
+  <event timestamp="1344527268999" module="PRESENTATION" eventname="CursorMoveEvent">
+    <yOffset>0.8443579766536965</yOffset>
+    <xOffset>0.5522240024414435</xOffset>
+  </event>
+  <event timestamp="1344527269007" module="PRESENTATION" eventname="CursorMoveEvent">
+    <yOffset>0.8625162127107653</yOffset>
+    <xOffset>0.5471885252155337</xOffset>
+  </event>
+  <event timestamp="1344527269016" module="PRESENTATION" eventname="CursorMoveEvent">
+    <xOffset>0.537117570763714</xOffset>
+    <yOffset>0.8832684824902723</yOffset>
+  </event>
+  <event timestamp="1344527269022" module="PRESENTATION" eventname="CursorMoveEvent">
+    <xOffset>0.5304036011291676</xOffset>
+    <yOffset>0.9053177691309987</yOffset>
+  </event>
+  <event timestamp="1344527269032" module="PRESENTATION" eventname="CursorMoveEvent">
+    <xOffset>0.520332646677348</xOffset>
+    <yOffset>0.9247730220492867</yOffset>
+  </event>
+  <event timestamp="1344527269039" module="PRESENTATION" eventname="CursorMoveEvent">
+    <xOffset>0.511940184634165</xOffset>
+    <yOffset>0.940337224383917</yOffset>
+  </event>
+  <event timestamp="1344527269047" module="PRESENTATION" eventname="CursorMoveEvent">
+    <xOffset>0.5018692301823453</xOffset>
+    <yOffset>0.9520103761348897</yOffset>
+  </event>
+  <event timestamp="1344527269054" module="PRESENTATION" eventname="CursorMoveEvent">
+    <xOffset>0.4951552605477989</xOffset>
+    <yOffset>0.9623865110246433</yOffset>
+  </event>
+  <event timestamp="1344527269063" module="PRESENTATION" eventname="CursorMoveEvent">
+    <xOffset>0.4901197833218891</xOffset>
+    <yOffset>0.9675745784695201</yOffset>
+  </event>
+  <event timestamp="1344527269070" module="PRESENTATION" eventname="CursorMoveEvent">
+    <xOffset>0.48508430609597925</xOffset>
+    <yOffset>0.9727626459143969</yOffset>
+  </event>
+  <event timestamp="1344527269079" module="PRESENTATION" eventname="CursorMoveEvent">
+    <xOffset>0.48172732127870604</xOffset>
+    <yOffset>0.9766536964980544</yOffset>
+  </event>
+  <event timestamp="1344527269087" module="PRESENTATION" eventname="CursorMoveEvent">
+    <yOffset>0.980544747081712</yOffset>
+    <xOffset>0.47837033646143284</xOffset>
+  </event>
+  <event timestamp="1344527269095" module="PRESENTATION" eventname="CursorMoveEvent">
+    <xOffset>0.47837033646143284</xOffset>
+    <yOffset>0.9844357976653697</yOffset>
+  </event>
+  <event timestamp="1344527269102" module="PRESENTATION" eventname="CursorMoveEvent">
+    <xOffset>0.47501335164415964</xOffset>
+    <yOffset>0.9870298313878081</yOffset>
+  </event>
+  <event timestamp="1344527269111" module="PRESENTATION" eventname="CursorMoveEvent">
+    <xOffset>0.47333485923552304</xOffset>
+    <yOffset>0.9909208819714657</yOffset>
+  </event>
+  <event timestamp="1344527269118" module="PRESENTATION" eventname="CursorMoveEvent">
+    <xOffset>0.47333485923552304</xOffset>
+    <yOffset>0.9948119325551232</yOffset>
+  </event>
+  <event timestamp="1344527269127" module="PRESENTATION" eventname="CursorMoveEvent">
+    <xOffset>0.4716563668268864</xOffset>
+    <yOffset>0.9974059662775616</yOffset>
+  </event>
+  <event timestamp="1344527269909" module="PRESENTATION" eventname="GotoSlideEvent">
+    <slide>1</slide>
+  </event>
+  <event timestamp="1344527270962" module="VOICE" eventname="ParticipantTalkingEvent">
+    <talking>true</talking>
+    <bridge>79838</bridge>
+    <participant>2</participant>
+  </event>
+  <event timestamp="1344527271053" module="PRESENTATION" eventname="CursorMoveEvent">
+    <xOffset>0.5387960631723506</xOffset>
+    <yOffset>0.6264591439688716</yOffset>
+  </event>
+  <event timestamp="1344527271144" module="PRESENTATION" eventname="ResizeAndMoveSlideEvent">
+    <heightRatio>100.0</heightRatio>
+    <xOffset>0.0</xOffset>
+    <yOffset>0.0</yOffset>
+    <widthRatio>100.0</widthRatio>
+  </event>
+  <event timestamp="1344527271198" module="PRESENTATION" eventname="CursorMoveEvent">
+    <yOffset>0.6277561608300908</yOffset>
+    <xOffset>0.5387960631723506</xOffset>
+  </event>
+  <event timestamp="1344527271214" module="PRESENTATION" eventname="CursorMoveEvent">
+    <xOffset>0.5404745555809872</xOffset>
+    <yOffset>0.6277561608300908</yOffset>
+  </event>
+  <event timestamp="1344527271268" module="PRESENTATION" eventname="CursorMoveEvent">
+    <yOffset>0.62905317769131</yOffset>
+    <xOffset>0.5404745555809872</xOffset>
+  </event>
+  <event timestamp="1344527271270" module="PRESENTATION" eventname="CursorMoveEvent">
+    <xOffset>0.5404745555809872</xOffset>
+    <yOffset>0.6303501945525292</yOffset>
+  </event>
+  <event timestamp="1344527271290" module="PRESENTATION" eventname="CursorMoveEvent">
+    <xOffset>0.5404745555809872</xOffset>
+    <yOffset>0.6316472114137484</yOffset>
+  </event>
+  <event timestamp="1344527271291" module="PRESENTATION" eventname="CursorMoveEvent">
+    <xOffset>0.5404745555809872</xOffset>
+    <yOffset>0.6342412451361867</yOffset>
+  </event>
+  <event timestamp="1344527271292" module="PRESENTATION" eventname="CursorMoveEvent">
+    <yOffset>0.6368352788586251</yOffset>
+    <xOffset>0.5404745555809872</xOffset>
+  </event>
+  <event timestamp="1344527271293" module="PRESENTATION" eventname="CursorMoveEvent">
+    <xOffset>0.5404745555809872</xOffset>
+    <yOffset>0.6407263294422828</yOffset>
+  </event>
+  <event timestamp="1344527271294" module="PRESENTATION" eventname="CursorMoveEvent">
+    <xOffset>0.5404745555809872</xOffset>
+    <yOffset>0.6459143968871596</yOffset>
+  </event>
+  <event timestamp="1344527271295" module="PRESENTATION" eventname="CursorMoveEvent">
+    <yOffset>0.6588845654993515</yOffset>
+    <xOffset>0.5387960631723506</xOffset>
+  </event>
+  <event timestamp="1344527271313" module="PRESENTATION" eventname="CursorMoveEvent">
+    <xOffset>0.528725108720531</xOffset>
+    <yOffset>0.7003891050583657</yOffset>
+  </event>
+  <event timestamp="1344527271324" module="PRESENTATION" eventname="CursorMoveEvent">
+    <xOffset>0.5220111390859846</xOffset>
+    <yOffset>0.7315175097276264</yOffset>
+  </event>
+  <event timestamp="1344527271326" module="PRESENTATION" eventname="CursorMoveEvent">
+    <xOffset>0.5102616922255283</xOffset>
+    <yOffset>0.7639429312581063</yOffset>
+  </event>
+  <event timestamp="1344527271334" module="PRESENTATION" eventname="CursorMoveEvent">
+    <xOffset>0.5001907377737087</xOffset>
+    <yOffset>0.7963683527885862</yOffset>
+  </event>
+  <event timestamp="1344527271342" module="PRESENTATION" eventname="CursorMoveEvent">
+    <yOffset>0.8249027237354085</yOffset>
+    <xOffset>0.4884412909132525</xOffset>
+  </event>
+  <event timestamp="1344527271352" module="PRESENTATION" eventname="CursorMoveEvent">
+    <yOffset>0.8508430609597925</yOffset>
+    <xOffset>0.47837033646143284</xOffset>
+  </event>
+  <event timestamp="1344527271358" module="PRESENTATION" eventname="CursorMoveEvent">
+    <yOffset>0.8728923476005188</yOffset>
+    <xOffset>0.4699778744182498</xOffset>
+  </event>
+  <event timestamp="1344527271366" module="PRESENTATION" eventname="CursorMoveEvent">
+    <yOffset>0.893644617380026</yOffset>
+    <xOffset>0.4632639047837034</xOffset>
+  </event>
+  <event timestamp="1344527271378" module="PRESENTATION" eventname="CursorMoveEvent">
+    <yOffset>0.9156939040207522</yOffset>
+    <xOffset>0.456549935149157</xOffset>
+  </event>
+  <event timestamp="1344527271383" module="PRESENTATION" eventname="CursorMoveEvent">
+    <xOffset>0.4548714427405203</xOffset>
+    <yOffset>0.9416342412451362</yOffset>
+  </event>
+  <event timestamp="1344527271390" module="PRESENTATION" eventname="CursorMoveEvent">
+    <yOffset>0.9623865110246433</yOffset>
+    <xOffset>0.4498359655146105</xOffset>
+  </event>
+  <event timestamp="1344527271398" module="PRESENTATION" eventname="CursorMoveEvent">
+    <xOffset>0.4431219958800641</xOffset>
+    <yOffset>0.9870298313878081</yOffset>
+  </event>
+  <event timestamp="1344527271902" module="VOICE" eventname="ParticipantTalkingEvent">
+    <bridge>79838</bridge>
+    <talking>false</talking>
+    <participant>2</participant>
+  </event>
+  <event timestamp="1344527272281" module="VOICE" eventname="ParticipantTalkingEvent">
+    <talking>true</talking>
+    <participant>2</participant>
+    <bridge>79838</bridge>
+  </event>
+  <event timestamp="1344527273329" module="PRESENTATION" eventname="GotoSlideEvent">
+    <slide>2</slide>
+  </event>
+  <event timestamp="1344527273425" module="PRESENTATION" eventname="ResizeAndMoveSlideEvent">
+    <heightRatio>100.0</heightRatio>
+    <widthRatio>100.0</widthRatio>
+    <xOffset>0.0</xOffset>
+    <yOffset>0.0</yOffset>
+  </event>
+  <event timestamp="1344527276063" module="VOICE" eventname="ParticipantTalkingEvent">
+    <talking>false</talking>
+    <participant>2</participant>
+    <bridge>79838</bridge>
+  </event>
+  <event timestamp="1344527276128" module="PRESENTATION" eventname="CursorMoveEvent">
+    <xOffset>0.29541466392004273</xOffset>
+    <yOffset>0.9740596627756161</yOffset>
+  </event>
+  <event timestamp="1344527276135" module="PRESENTATION" eventname="CursorMoveEvent">
+    <xOffset>0.33066300450141145</xOffset>
+    <yOffset>0.940337224383917</yOffset>
+  </event>
+  <event timestamp="1344527276144" module="PRESENTATION" eventname="CursorMoveEvent">
+    <xOffset>0.35584039063096057</xOffset>
+    <yOffset>0.914396887159533</yOffset>
+  </event>
+  <event timestamp="1344527276151" module="PRESENTATION" eventname="CursorMoveEvent">
+    <xOffset>0.37262531471732663</xOffset>
+    <yOffset>0.8988326848249028</yOffset>
+  </event>
+  <event timestamp="1344527276159" module="PRESENTATION" eventname="CursorMoveEvent">
+    <xOffset>0.3877317463950561</xOffset>
+    <yOffset>0.8871595330739299</yOffset>
+  </event>
+  <event timestamp="1344527276167" module="PRESENTATION" eventname="CursorMoveEvent">
+    <xOffset>0.40115968566414895</xOffset>
+    <yOffset>0.8754863813229572</yOffset>
+  </event>
+  <event timestamp="1344527276175" module="PRESENTATION" eventname="CursorMoveEvent">
+    <xOffset>0.4162661173418784</xOffset>
+    <yOffset>0.8625162127107653</yOffset>
+  </event>
+  <event timestamp="1344527276192" module="PRESENTATION" eventname="CursorMoveEvent">
+    <yOffset>0.8495460440985733</yOffset>
+    <xOffset>0.43305104142824447</xOffset>
+  </event>
+  <event timestamp="1344527276193" module="PRESENTATION" eventname="CursorMoveEvent">
+    <yOffset>0.8378728923476005</yOffset>
+    <xOffset>0.4515144579232471</xOffset>
+  </event>
+  <event timestamp="1344527276198" module="PRESENTATION" eventname="CursorMoveEvent">
+    <yOffset>0.8261997405966277</yOffset>
+    <xOffset>0.46494239719234</xOffset>
+  </event>
+  <event timestamp="1344527276206" module="PRESENTATION" eventname="CursorMoveEvent">
+    <yOffset>0.8171206225680934</yOffset>
+    <xOffset>0.47501335164415964</xOffset>
+  </event>
+  <event timestamp="1344527276214" module="PRESENTATION" eventname="CursorMoveEvent">
+    <xOffset>0.48340581368734264</xOffset>
+    <yOffset>0.808041504539559</yOffset>
+  </event>
+  <event timestamp="1344527276223" module="PRESENTATION" eventname="CursorMoveEvent">
+    <yOffset>0.8002594033722439</yOffset>
+    <xOffset>0.4884412909132525</xOffset>
+  </event>
+  <event timestamp="1344527276230" module="PRESENTATION" eventname="CursorMoveEvent">
+    <xOffset>0.4934767681391623</xOffset>
+    <yOffset>0.7976653696498055</yOffset>
+  </event>
+  <event timestamp="1344527276238" module="PRESENTATION" eventname="CursorMoveEvent">
+    <yOffset>0.795071335927367</yOffset>
+    <xOffset>0.4968337529564355</xOffset>
+  </event>
+  <event timestamp="1344527276246" module="PRESENTATION" eventname="CursorMoveEvent">
+    <yOffset>0.7898832684824902</yOffset>
+    <xOffset>0.5001907377737087</xOffset>
+  </event>
+  <event timestamp="1344527276254" module="PRESENTATION" eventname="CursorMoveEvent">
+    <yOffset>0.7846952010376135</yOffset>
+    <xOffset>0.5018692301823453</xOffset>
+  </event>
+  <event timestamp="1344527276262" module="PRESENTATION" eventname="CursorMoveEvent">
+    <xOffset>0.5102616922255283</xOffset>
+    <yOffset>0.7717250324254216</yOffset>
+  </event>
+  <event timestamp="1344527276270" module="PRESENTATION" eventname="CursorMoveEvent">
+    <xOffset>0.520332646677348</xOffset>
+    <yOffset>0.7587548638132295</yOffset>
+  </event>
+  <event timestamp="1344527276278" module="PRESENTATION" eventname="CursorMoveEvent">
+    <xOffset>0.5270466163118944</xOffset>
+    <yOffset>0.7509727626459144</yOffset>
+  </event>
+  <event timestamp="1344527276286" module="PRESENTATION" eventname="CursorMoveEvent">
+    <yOffset>0.74189364461738</yOffset>
+    <xOffset>0.5354390783550774</xOffset>
+  </event>
+  <event timestamp="1344527276295" module="PRESENTATION" eventname="CursorMoveEvent">
+    <xOffset>0.5387960631723506</xOffset>
+    <yOffset>0.7380025940337225</yOffset>
+  </event>
+  <event timestamp="1344527276302" module="PRESENTATION" eventname="CursorMoveEvent">
+    <xOffset>0.5438315403982605</xOffset>
+    <yOffset>0.7328145265888456</yOffset>
+  </event>
+  <event timestamp="1344527276310" module="PRESENTATION" eventname="CursorMoveEvent">
+    <xOffset>0.5471885252155337</xOffset>
+    <yOffset>0.728923476005188</yOffset>
+  </event>
+  <event timestamp="1344527276318" module="PRESENTATION" eventname="CursorMoveEvent">
+    <yOffset>0.7263294422827496</yOffset>
+    <xOffset>0.5505455100328069</xOffset>
+  </event>
+  <event timestamp="1344527276326" module="PRESENTATION" eventname="CursorMoveEvent">
+    <xOffset>0.5522240024414435</xOffset>
+    <yOffset>0.7237354085603113</yOffset>
+  </event>
+  <event timestamp="1344527276338" module="PRESENTATION" eventname="CursorMoveEvent">
+    <xOffset>0.5522240024414435</xOffset>
+    <yOffset>0.7224383916990921</yOffset>
+  </event>
+  <event timestamp="1344527276683" module="VOICE" eventname="ParticipantTalkingEvent">
+    <talking>true</talking>
+    <bridge>79838</bridge>
+    <participant>2</participant>
+  </event>
+  <event timestamp="1344527277520" module="PRESENTATION" eventname="CursorMoveEvent">
+    <yOffset>0.7237354085603113</yOffset>
+    <xOffset>0.5572594796673533</xOffset>
+  </event>
+  <event timestamp="1344527277528" module="PRESENTATION" eventname="CursorMoveEvent">
+    <xOffset>0.5673304341191729</xOffset>
+    <yOffset>0.728923476005188</yOffset>
+  </event>
+  <event timestamp="1344527277545" module="PRESENTATION" eventname="CursorMoveEvent">
+    <xOffset>0.5774013885709927</xOffset>
+    <yOffset>0.7328145265888456</yOffset>
+  </event>
+  <event timestamp="1344527277547" module="PRESENTATION" eventname="CursorMoveEvent">
+    <xOffset>0.5841153582055391</xOffset>
+    <yOffset>0.7367055771725033</yOffset>
+  </event>
+  <event timestamp="1344527277552" module="PRESENTATION" eventname="CursorMoveEvent">
+    <xOffset>0.5874723430228123</xOffset>
+    <yOffset>0.7367055771725033</yOffset>
+  </event>
+  <event timestamp="1344527277562" module="PRESENTATION" eventname="CursorMoveEvent">
+    <xOffset>0.5891508354314489</xOffset>
+    <yOffset>0.7380025940337225</yOffset>
+  </event>
+  <event timestamp="1344527277911" module="PRESENTATION" eventname="CursorMoveEvent">
+    <yOffset>0.74189364461738</yOffset>
+    <xOffset>0.5874723430228123</xOffset>
+  </event>
+  <event timestamp="1344527277921" module="PRESENTATION" eventname="CursorMoveEvent">
+    <yOffset>0.7444876783398184</yOffset>
+    <xOffset>0.5857938506141757</xOffset>
+  </event>
+  <event timestamp="1344527277928" module="PRESENTATION" eventname="CursorMoveEvent">
+    <xOffset>0.5824368657969025</xOffset>
+    <yOffset>0.748378728923476</yOffset>
+  </event>
+  <event timestamp="1344527277935" module="PRESENTATION" eventname="CursorMoveEvent">
+    <xOffset>0.5807583733882659</xOffset>
+    <yOffset>0.7496757457846952</yOffset>
+  </event>
+  <event timestamp="1344527277943" module="PRESENTATION" eventname="CursorMoveEvent">
+    <yOffset>0.7509727626459144</yOffset>
+    <xOffset>0.5774013885709927</xOffset>
+  </event>
+  <event timestamp="1344527277951" module="PRESENTATION" eventname="CursorMoveEvent">
+    <yOffset>0.7522697795071336</yOffset>
+    <xOffset>0.5774013885709927</xOffset>
+  </event>
+  <event timestamp="1344527278104" module="PRESENTATION" eventname="CursorMoveEvent">
+    <xOffset>0.5757228961623561</xOffset>
+    <yOffset>0.7522697795071336</yOffset>
+  </event>
+  <event timestamp="1344527278719" module="PRESENTATION" eventname="CursorMoveEvent">
+    <yOffset>0.7535667963683528</yOffset>
+    <xOffset>0.5757228961623561</xOffset>
+  </event>
+  <event timestamp="1344527278728" module="PRESENTATION" eventname="CursorMoveEvent">
+    <yOffset>0.7600518806744487</yOffset>
+    <xOffset>0.5841153582055391</xOffset>
+  </event>
+  <event timestamp="1344527278735" module="PRESENTATION" eventname="CursorMoveEvent">
+    <yOffset>0.7652399481193255</yOffset>
+    <xOffset>0.5925078202487221</xOffset>
+  </event>
+  <event timestamp="1344527278743" module="PRESENTATION" eventname="CursorMoveEvent">
+    <xOffset>0.605935759517815</xOffset>
+    <yOffset>0.7691309987029832</yOffset>
+  </event>
+  <event timestamp="1344527278751" module="PRESENTATION" eventname="CursorMoveEvent">
+    <xOffset>0.6277561608300908</xOffset>
+    <yOffset>0.7756160830090791</yOffset>
+  </event>
+  <event timestamp="1344527278763" module="PRESENTATION" eventname="CursorMoveEvent">
+    <yOffset>0.7821011673151751</yOffset>
+    <xOffset>0.6546120393682765</xOffset>
+  </event>
+  <event timestamp="1344527278767" module="PRESENTATION" eventname="CursorMoveEvent">
+    <xOffset>0.6999313344014649</xOffset>
+    <yOffset>0.7898832684824902</yOffset>
+  </event>
+  <event timestamp="1344527278775" module="PRESENTATION" eventname="CursorMoveEvent">
+    <xOffset>0.7653925383382926</xOffset>
+    <yOffset>0.8015564202334631</yOffset>
+  </event>
+  <event timestamp="1344527278789" module="PRESENTATION" eventname="CursorMoveEvent">
+    <xOffset>0.8325322346837568</xOffset>
+    <yOffset>0.8119325551232166</yOffset>
+  </event>
+  <event timestamp="1344527278798" module="PRESENTATION" eventname="CursorMoveEvent">
+    <xOffset>0.9013504234378577</xOffset>
+    <yOffset>0.8184176394293126</yOffset>
+  </event>
+  <event timestamp="1344527278800" module="PRESENTATION" eventname="CursorMoveEvent">
+    <yOffset>0.8261997405966277</yOffset>
+    <xOffset>0.9684901197833219</xOffset>
+  </event>
+  <event timestamp="1344527283515" module="CHAT" eventname="PublicChatEvent">
+    <sender>Chad</sender>
+    <message>
+      <![CDATA[is this reading?]]>
+    </message>
+    <locale>en</locale>
+    <color>0</color>
+  </event>
+  <event timestamp="1344527284923" module="VOICE" eventname="ParticipantTalkingEvent">
+    <talking>false</talking>
+    <bridge>79838</bridge>
+    <participant>2</participant>
+  </event>
+  <event timestamp="1344527286267" module="VOICE" eventname="ParticipantTalkingEvent">
+    <participant>2</participant>
+    <talking>true</talking>
+    <bridge>79838</bridge>
+  </event>
+  <event timestamp="1344527287302" module="PRESENTATION" eventname="GotoSlideEvent">
+    <slide>3</slide>
+  </event>
+  <event timestamp="1344527287430" module="PRESENTATION" eventname="ResizeAndMoveSlideEvent">
+    <yOffset>0.0</yOffset>
+    <widthRatio>100.0</widthRatio>
+    <heightRatio>100.0</heightRatio>
+    <xOffset>0.0</xOffset>
+  </event>
+  <event timestamp="1344527288767" module="PRESENTATION" eventname="CursorMoveEvent">
+    <xOffset>0.43640802624551767</xOffset>
+    <yOffset>0.9896238651102465</yOffset>
+  </event>
+  <event timestamp="1344527288775" module="PRESENTATION" eventname="CursorMoveEvent">
+    <xOffset>0.456549935149157</xOffset>
+    <yOffset>0.9701686121919585</yOffset>
+  </event>
+  <event timestamp="1344527288783" module="PRESENTATION" eventname="CursorMoveEvent">
+    <yOffset>0.9571984435797666</yOffset>
+    <xOffset>0.4699778744182498</xOffset>
+  </event>
+  <event timestamp="1344527288792" module="PRESENTATION" eventname="CursorMoveEvent">
+    <xOffset>0.48004882887006944</xOffset>
+    <yOffset>0.9481193255512321</yOffset>
+  </event>
+  <event timestamp="1344527288798" module="PRESENTATION" eventname="CursorMoveEvent">
+    <xOffset>0.4884412909132525</xOffset>
+    <yOffset>0.9377431906614786</yOffset>
+  </event>
+  <event timestamp="1344527288813" module="PRESENTATION" eventname="CursorMoveEvent">
+    <yOffset>0.9286640726329443</yOffset>
+    <xOffset>0.4934767681391623</xOffset>
+  </event>
+  <event timestamp="1344527288814" module="PRESENTATION" eventname="CursorMoveEvent">
+    <xOffset>0.4985122453650721</xOffset>
+    <yOffset>0.9221789883268483</yOffset>
+  </event>
+  <event timestamp="1344527288822" module="PRESENTATION" eventname="CursorMoveEvent">
+    <xOffset>0.5001907377737087</xOffset>
+    <yOffset>0.9195849546044098</yOffset>
+  </event>
+  <event timestamp="1344527288830" module="PRESENTATION" eventname="CursorMoveEvent">
+    <yOffset>0.9169909208819714</yOffset>
+    <xOffset>0.5018692301823453</xOffset>
+  </event>
+  <event timestamp="1344527288838" module="PRESENTATION" eventname="CursorMoveEvent">
+    <xOffset>0.5035477225909819</xOffset>
+    <yOffset>0.9130998702983139</yOffset>
+  </event>
+  <event timestamp="1344527288846" module="PRESENTATION" eventname="CursorMoveEvent">
+    <xOffset>0.5035477225909819</xOffset>
+    <yOffset>0.9092088197146563</yOffset>
+  </event>
+  <event timestamp="1344527288853" module="PRESENTATION" eventname="CursorMoveEvent">
+    <xOffset>0.5052262149996185</xOffset>
+    <yOffset>0.9066147859922179</yOffset>
+  </event>
+  <event timestamp="1344527288862" module="PRESENTATION" eventname="CursorMoveEvent">
+    <yOffset>0.8988326848249028</yOffset>
+    <xOffset>0.5085831998168917</xOffset>
+  </event>
+  <event timestamp="1344527288870" module="PRESENTATION" eventname="CursorMoveEvent">
+    <xOffset>0.5136186770428016</xOffset>
+    <yOffset>0.8884565499351491</yOffset>
+  </event>
+  <event timestamp="1344527288878" module="PRESENTATION" eventname="CursorMoveEvent">
+    <yOffset>0.8767833981841764</yOffset>
+    <xOffset>0.5186541542687114</xOffset>
+  </event>
+  <event timestamp="1344527288886" module="PRESENTATION" eventname="CursorMoveEvent">
+    <yOffset>0.8638132295719845</yOffset>
+    <xOffset>0.5253681239032578</xOffset>
+  </event>
+  <event timestamp="1344527288894" module="PRESENTATION" eventname="CursorMoveEvent">
+    <yOffset>0.8521400778210116</yOffset>
+    <xOffset>0.5270466163118944</xOffset>
+  </event>
+  <event timestamp="1344527288902" module="PRESENTATION" eventname="CursorMoveEvent">
+    <xOffset>0.5304036011291676</xOffset>
+    <yOffset>0.8313878080415046</yOffset>
+  </event>
+  <event timestamp="1344527288910" module="PRESENTATION" eventname="CursorMoveEvent">
+    <xOffset>0.5471885252155337</xOffset>
+    <yOffset>0.808041504539559</yOffset>
+  </event>
+  <event timestamp="1344527288918" module="PRESENTATION" eventname="CursorMoveEvent">
+    <yOffset>0.7924773022049286</yOffset>
+    <xOffset>0.5589379720759899</xOffset>
+  </event>
+  <event timestamp="1344527288926" module="PRESENTATION" eventname="CursorMoveEvent">
+    <yOffset>0.7808041504539559</yOffset>
+    <xOffset>0.5706874189364461</xOffset>
+  </event>
+  <event timestamp="1344527288934" module="PRESENTATION" eventname="CursorMoveEvent">
+    <xOffset>0.5757228961623561</xOffset>
+    <yOffset>0.7730220492866408</yOffset>
+  </event>
+  <event timestamp="1344527288942" module="PRESENTATION" eventname="CursorMoveEvent">
+    <xOffset>0.5774013885709927</xOffset>
+    <yOffset>0.7704280155642024</yOffset>
+  </event>
+  <event timestamp="1344527288950" module="PRESENTATION" eventname="CursorMoveEvent">
+    <yOffset>0.767833981841764</yOffset>
+    <xOffset>0.5790798809796293</xOffset>
+  </event>
+  <event timestamp="1344527288958" module="PRESENTATION" eventname="CursorMoveEvent">
+    <xOffset>0.5807583733882659</xOffset>
+    <yOffset>0.7665369649805448</yOffset>
+  </event>
+  <event timestamp="1344527289087" module="PRESENTATION" eventname="CursorMoveEvent">
+    <yOffset>0.7665369649805448</yOffset>
+    <xOffset>0.5790798809796293</xOffset>
+  </event>
+  <event timestamp="1344527289094" module="PRESENTATION" eventname="CursorMoveEvent">
+    <yOffset>0.7665369649805448</yOffset>
+    <xOffset>0.5774013885709927</xOffset>
+  </event>
+  <event timestamp="1344527289102" module="PRESENTATION" eventname="CursorMoveEvent">
+    <yOffset>0.7691309987029832</yOffset>
+    <xOffset>0.5774013885709927</xOffset>
+  </event>
+  <event timestamp="1344527289111" module="PRESENTATION" eventname="CursorMoveEvent">
+    <xOffset>0.5740444037537195</xOffset>
+    <yOffset>0.7691309987029832</yOffset>
+  </event>
+  <event timestamp="1344527289135" module="PRESENTATION" eventname="CursorMoveEvent">
+    <xOffset>0.5740444037537195</xOffset>
+    <yOffset>0.7704280155642024</yOffset>
+  </event>
+  <event timestamp="1344527289855" module="PRESENTATION" eventname="CursorMoveEvent">
+    <yOffset>0.7717250324254216</yOffset>
+    <xOffset>0.5706874189364461</xOffset>
+  </event>
+  <event timestamp="1344527289863" module="PRESENTATION" eventname="CursorMoveEvent">
+    <xOffset>0.5706874189364461</xOffset>
+    <yOffset>0.7730220492866408</yOffset>
+  </event>
+  <event timestamp="1344527290118" module="PRESENTATION" eventname="CursorMoveEvent">
+    <yOffset>0.7756160830090791</yOffset>
+    <xOffset>0.5690089265278095</xOffset>
+  </event>
+  <event timestamp="1344527290126" module="PRESENTATION" eventname="CursorMoveEvent">
+    <yOffset>0.7782101167315175</yOffset>
+    <xOffset>0.5673304341191729</xOffset>
+  </event>
+  <event timestamp="1344527290143" module="PRESENTATION" eventname="CursorMoveEvent">
+    <yOffset>0.7808041504539559</yOffset>
+    <xOffset>0.5656519417105363</xOffset>
+  </event>
+  <event timestamp="1344527290159" module="PRESENTATION" eventname="CursorMoveEvent">
+    <xOffset>0.5656519417105363</xOffset>
+    <yOffset>0.7821011673151751</yOffset>
+  </event>
+  <event timestamp="1344527290183" module="PRESENTATION" eventname="CursorMoveEvent">
+    <yOffset>0.7833981841763943</yOffset>
+    <xOffset>0.5656519417105363</xOffset>
+  </event>
+  <event timestamp="1344527290362" module="VOICE" eventname="ParticipantTalkingEvent">
+    <participant>2</participant>
+    <talking>false</talking>
+    <bridge>79838</bridge>
+  </event>
+  <event timestamp="1344527290430" module="PRESENTATION" eventname="CursorMoveEvent">
+    <xOffset>0.5656519417105363</xOffset>
+    <yOffset>0.7846952010376135</yOffset>
+  </event>
+  <event timestamp="1344527290543" module="PRESENTATION" eventname="CursorMoveEvent">
+    <xOffset>0.5656519417105363</xOffset>
+    <yOffset>0.7872892347600519</yOffset>
+  </event>
+  <event timestamp="1344527290550" module="PRESENTATION" eventname="CursorMoveEvent">
+    <xOffset>0.5656519417105363</xOffset>
+    <yOffset>0.788586251621271</yOffset>
+  </event>
+  <event timestamp="1344527290559" module="PRESENTATION" eventname="CursorMoveEvent">
+    <xOffset>0.5656519417105363</xOffset>
+    <yOffset>0.7898832684824902</yOffset>
+  </event>
+  <event timestamp="1344527290566" module="PRESENTATION" eventname="CursorMoveEvent">
+    <xOffset>0.5656519417105363</xOffset>
+    <yOffset>0.7924773022049286</yOffset>
+  </event>
+  <event timestamp="1344527290575" module="PRESENTATION" eventname="CursorMoveEvent">
+    <yOffset>0.7963683527885862</yOffset>
+    <xOffset>0.5656519417105363</xOffset>
+  </event>
+  <event timestamp="1344527290583" module="PRESENTATION" eventname="CursorMoveEvent">
+    <xOffset>0.5673304341191729</xOffset>
+    <yOffset>0.7989623865110247</yOffset>
+  </event>
+  <event timestamp="1344527290593" module="PRESENTATION" eventname="CursorMoveEvent">
+    <xOffset>0.5706874189364461</xOffset>
+    <yOffset>0.8028534370946823</yOffset>
+  </event>
+  <event timestamp="1344527290598" module="PRESENTATION" eventname="CursorMoveEvent">
+    <yOffset>0.8093385214007782</yOffset>
+    <xOffset>0.5790798809796293</xOffset>
+  </event>
+  <event timestamp="1344527290607" module="PRESENTATION" eventname="CursorMoveEvent">
+    <yOffset>0.8184176394293126</yOffset>
+    <xOffset>0.5908293278400855</xOffset>
+  </event>
+  <event timestamp="1344527290615" module="PRESENTATION" eventname="CursorMoveEvent">
+    <yOffset>0.8249027237354085</yOffset>
+    <xOffset>0.605935759517815</xOffset>
+  </event>
+  <event timestamp="1344527290623" module="PRESENTATION" eventname="CursorMoveEvent">
+    <yOffset>0.833981841763943</yOffset>
+    <xOffset>0.6277561608300908</xOffset>
+  </event>
+  <event timestamp="1344527290631" module="PRESENTATION" eventname="CursorMoveEvent">
+    <xOffset>0.6546120393682765</xOffset>
+    <yOffset>0.8469520103761349</yOffset>
+  </event>
+  <event timestamp="1344527290638" module="PRESENTATION" eventname="CursorMoveEvent">
+    <yOffset>0.8599221789883269</yOffset>
+    <xOffset>0.6898603799496452</xOffset>
+  </event>
+  <event timestamp="1344527290646" module="PRESENTATION" eventname="CursorMoveEvent">
+    <xOffset>0.7251087205310139</xOffset>
+    <yOffset>0.874189364461738</yOffset>
+  </event>
+  <event timestamp="1344527290654" module="PRESENTATION" eventname="CursorMoveEvent">
+    <xOffset>0.7653925383382926</xOffset>
+    <yOffset>0.8858625162127107</yOffset>
+  </event>
+  <event timestamp="1344527290662" module="PRESENTATION" eventname="CursorMoveEvent">
+    <xOffset>0.7989623865110247</xOffset>
+    <yOffset>0.8975356679636836</yOffset>
+  </event>
+  <event timestamp="1344527290684" module="PRESENTATION" eventname="CursorMoveEvent">
+    <yOffset>0.9053177691309987</yOffset>
+    <xOffset>0.8325322346837568</xOffset>
+  </event>
+  <event timestamp="1344527290689" module="PRESENTATION" eventname="CursorMoveEvent">
+    <yOffset>0.9118028534370947</yOffset>
+    <xOffset>0.8644235904478523</xOffset>
+  </event>
+  <event timestamp="1344527290690" module="PRESENTATION" eventname="CursorMoveEvent">
+    <yOffset>0.9182879377431906</yOffset>
+    <xOffset>0.9013504234378577</xOffset>
+  </event>
+  <event timestamp="1344527290706" module="PRESENTATION" eventname="CursorMoveEvent">
+    <xOffset>0.9315632867933166</xOffset>
+    <yOffset>0.920881971465629</yOffset>
+  </event>
+  <event timestamp="1344527290707" module="PRESENTATION" eventname="CursorMoveEvent">
+    <yOffset>0.9234760051880675</yOffset>
+    <xOffset>0.9668116273746853</xOffset>
+  </event>
+  <event timestamp="1344527290709" module="PRESENTATION" eventname="CursorMoveEvent">
+    <xOffset>0.9886320286869612</xOffset>
+    <yOffset>0.9247730220492867</yOffset>
+  </event>
+  <event timestamp="1344527291082" module="VOICE" eventname="ParticipantTalkingEvent">
+    <talking>true</talking>
+    <bridge>79838</bridge>
+    <participant>2</participant>
+  </event>
+  <event timestamp="1344527293076" module="CHAT" eventname="PublicChatEvent">
+    <message>
+      <![CDATA[yay]]>
+    </message>
+    <color>0</color>
+    <locale>en</locale>
+    <sender>Chad</sender>
+  </event>
+  <event timestamp="1344527294143" module="VOICE" eventname="ParticipantTalkingEvent">
+    <talking>false</talking>
+    <bridge>79838</bridge>
+    <participant>2</participant>
+  </event>
+  <event timestamp="1344527294902" module="VOICE" eventname="ParticipantTalkingEvent">
+    <participant>2</participant>
+    <talking>true</talking>
+    <bridge>79838</bridge>
+  </event>
+  <event timestamp="1344527295084" module="PRESENTATION" eventname="GotoSlideEvent">
+    <slide>4</slide>
+  </event>
+  <event timestamp="1344527295225" module="PRESENTATION" eventname="ResizeAndMoveSlideEvent">
+    <widthRatio>100.0</widthRatio>
+    <yOffset>0.0</yOffset>
+    <xOffset>0.0</xOffset>
+    <heightRatio>100.0</heightRatio>
+  </event>
+  <event timestamp="1344527295745" module="PRESENTATION" eventname="CursorMoveEvent">
+    <xOffset>0.4985122453650721</xOffset>
+    <yOffset>0.9948119325551232</yOffset>
+  </event>
+  <event timestamp="1344527295750" module="PRESENTATION" eventname="CursorMoveEvent">
+    <xOffset>0.5236896314946212</xOffset>
+    <yOffset>0.9844357976653697</yOffset>
+  </event>
+  <event timestamp="1344527295757" module="PRESENTATION" eventname="CursorMoveEvent">
+    <xOffset>0.5505455100328069</xOffset>
+    <yOffset>0.9766536964980544</yOffset>
+  </event>
+  <event timestamp="1344527295765" module="PRESENTATION" eventname="CursorMoveEvent">
+    <yOffset>0.9688715953307393</yOffset>
+    <xOffset>0.5690089265278095</xOffset>
+  </event>
+  <event timestamp="1344527295774" module="PRESENTATION" eventname="CursorMoveEvent">
+    <yOffset>0.9636835278858625</yOffset>
+    <xOffset>0.5857938506141757</xOffset>
+  </event>
+  <event timestamp="1344527295782" module="PRESENTATION" eventname="CursorMoveEvent">
+    <yOffset>0.959792477302205</yOffset>
+    <xOffset>0.5958648050659953</xOffset>
+  </event>
+  <event timestamp="1344527295791" module="PRESENTATION" eventname="CursorMoveEvent">
+    <yOffset>0.9571984435797666</yOffset>
+    <xOffset>0.5992217898832685</xOffset>
+  </event>
+  <event timestamp="1344527295797" module="PRESENTATION" eventname="CursorMoveEvent">
+    <yOffset>0.9559014267185474</yOffset>
+    <xOffset>0.6042572671091784</xOffset>
+  </event>
+  <event timestamp="1344527296031" module="PRESENTATION" eventname="CursorMoveEvent">
+    <xOffset>0.6042572671091784</xOffset>
+    <yOffset>0.9546044098573282</yOffset>
+  </event>
+  <event timestamp="1344527296039" module="PRESENTATION" eventname="CursorMoveEvent">
+    <yOffset>0.953307392996109</yOffset>
+    <xOffset>0.6009002822919051</xOffset>
+  </event>
+  <event timestamp="1344527296047" module="PRESENTATION" eventname="CursorMoveEvent">
+    <yOffset>0.9507133592736705</yOffset>
+    <xOffset>0.5941863126573587</xOffset>
+  </event>
+  <event timestamp="1344527296055" module="PRESENTATION" eventname="CursorMoveEvent">
+    <xOffset>0.5891508354314489</xOffset>
+    <yOffset>0.9494163424124513</yOffset>
+  </event>
+  <event timestamp="1344527296063" module="PRESENTATION" eventname="CursorMoveEvent">
+    <xOffset>0.5841153582055391</xOffset>
+    <yOffset>0.9494163424124513</yOffset>
+  </event>
+  <event timestamp="1344527296071" module="PRESENTATION" eventname="CursorMoveEvent">
+    <xOffset>0.5824368657969025</xOffset>
+    <yOffset>0.9494163424124513</yOffset>
+  </event>
+  <event timestamp="1344527296079" module="PRESENTATION" eventname="CursorMoveEvent">
+    <xOffset>0.5807583733882659</xOffset>
+    <yOffset>0.9494163424124513</yOffset>
+  </event>
+  <event timestamp="1344527296087" module="PRESENTATION" eventname="CursorMoveEvent">
+    <yOffset>0.9494163424124513</yOffset>
+    <xOffset>0.5774013885709927</xOffset>
+  </event>
+  <event timestamp="1344527296095" module="PRESENTATION" eventname="CursorMoveEvent">
+    <yOffset>0.9494163424124513</yOffset>
+    <xOffset>0.5740444037537195</xOffset>
+  </event>
+  <event timestamp="1344527296103" module="PRESENTATION" eventname="CursorMoveEvent">
+    <xOffset>0.5673304341191729</xOffset>
+    <yOffset>0.9520103761348897</yOffset>
+  </event>
+  <event timestamp="1344527296114" module="PRESENTATION" eventname="CursorMoveEvent">
+    <yOffset>0.9559014267185474</yOffset>
+    <xOffset>0.5572594796673533</xOffset>
+  </event>
+  <event timestamp="1344527296118" module="PRESENTATION" eventname="CursorMoveEvent">
+    <yOffset>0.9610894941634242</yOffset>
+    <xOffset>0.537117570763714</xOffset>
+  </event>
+  <event timestamp="1344527296127" module="PRESENTATION" eventname="CursorMoveEvent">
+    <yOffset>0.9701686121919585</yOffset>
+    <xOffset>0.5186541542687114</xOffset>
+  </event>
+  <event timestamp="1344527296135" module="PRESENTATION" eventname="CursorMoveEvent">
+    <yOffset>0.9792477302204928</yOffset>
+    <xOffset>0.4968337529564355</xOffset>
+  </event>
+  <event timestamp="1344527296143" module="PRESENTATION" eventname="CursorMoveEvent">
+    <yOffset>0.9896238651102465</yOffset>
+    <xOffset>0.4699778744182498</xOffset>
+  </event>
+  <event timestamp="1344527296150" module="PRESENTATION" eventname="CursorMoveEvent">
+    <yOffset>0.9974059662775616</yOffset>
+    <xOffset>0.4515144579232471</xOffset>
+  </event>
+  <event timestamp="1344527297458" module="VOICE" eventname="ParticipantTalkingEvent">
+    <talking>false</talking>
+    <participant>2</participant>
+    <bridge>79838</bridge>
+  </event>
+  <event timestamp="1344527297881" module="PRESENTATION" eventname="GotoSlideEvent">
+    <slide>3</slide>
+  </event>
+  <event timestamp="1344527297940" module="PRESENTATION" eventname="ResizeAndMoveSlideEvent">
+    <widthRatio>100.0</widthRatio>
+    <xOffset>0.0</xOffset>
+    <yOffset>0.0</yOffset>
+    <heightRatio>100.0</heightRatio>
+  </event>
+  <event timestamp="1344527298202" module="VOICE" eventname="ParticipantTalkingEvent">
+    <talking>true</talking>
+    <participant>2</participant>
+    <bridge>79838</bridge>
+  </event>
+  <event timestamp="1344527299192" module="PRESENTATION" eventname="CursorMoveEvent">
+    <xOffset>0.4582284275577936</xOffset>
+    <yOffset>0.993514915693904</yOffset>
+  </event>
+  <event timestamp="1344527299198" module="PRESENTATION" eventname="CursorMoveEvent">
+    <yOffset>0.9714656290531777</yOffset>
+    <xOffset>0.5690089265278095</xOffset>
+  </event>
+  <event timestamp="1344527299207" module="PRESENTATION" eventname="CursorMoveEvent">
+    <yOffset>0.9571984435797666</yOffset>
+    <xOffset>0.6965743495841917</xOffset>
+  </event>
+  <event timestamp="1344527299215" module="PRESENTATION" eventname="CursorMoveEvent">
+    <xOffset>0.8325322346837568</xOffset>
+    <yOffset>0.9520103761348897</yOffset>
+  </event>
+  <event timestamp="1344527299223" module="PRESENTATION" eventname="CursorMoveEvent">
+    <yOffset>0.9468223086900129</yOffset>
+    <xOffset>0.9500267032883193</xOffset>
+  </event>
+  <event timestamp="1344527300983" module="VOICE" eventname="ParticipantTalkingEvent">
+    <talking>false</talking>
+    <bridge>79838</bridge>
+    <participant>2</participant>
+  </event>
+  <event timestamp="1344527304282" module="VOICE" eventname="ParticipantTalkingEvent">
+    <talking>true</talking>
+    <participant>2</participant>
+    <bridge>79838</bridge>
+  </event>
+  <event timestamp="1344527305186" module="CHAT" eventname="PublicChatEvent">
+    <locale>en</locale>
+    <color>0</color>
+    <sender>Chad</sender>
+    <message>
+      <![CDATA[slide 4]]>
+    </message>
+  </event>
+  <event timestamp="1344527308182" module="VOICE" eventname="ParticipantTalkingEvent">
+    <talking>false</talking>
+    <bridge>79838</bridge>
+    <participant>2</participant>
+  </event>
+  <event timestamp="1344527308222" module="VOICE" eventname="ParticipantTalkingEvent">
+    <talking>true</talking>
+    <bridge>79838</bridge>
+    <participant>2</participant>
+  </event>
+  <event timestamp="1344527308988" module="CHAT" eventname="PublicChatEvent">
+    <message>
+      <![CDATA[log out]]>
+    </message>
+    <locale>en</locale>
+    <color>0</color>
+    <sender>Chad</sender>
+  </event>
+  <event timestamp="1344527310682" module="VOICE" eventname="ParticipantTalkingEvent">
+    <talking>false</talking>
+    <bridge>79838</bridge>
+    <participant>2</participant>
+  </event>
+  <event timestamp="1344527311158" module="PARTICIPANT" eventname="ParticipantLeftEvent">
+    <userId>6</userId>
+  </event>
+  <event timestamp="1344527311159" module="PARTICIPANT" eventname="EndAndKickAllEvent">
+  </event>
+</recording>

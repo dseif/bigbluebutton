@@ -1,0 +1,6 @@
+Implemented:
+ Keyboard navigation
+ Input box focus
+ Screen reader cooperation
+ Audible alerts
+Chat Module

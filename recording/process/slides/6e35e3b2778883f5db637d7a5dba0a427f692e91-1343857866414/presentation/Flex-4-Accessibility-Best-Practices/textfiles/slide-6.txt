@@ -1,0 +1,49 @@
+6Adobe Flex White Paper
+Accessibility properties
+EachMXandSparkcomponentthatprovidesaccessibilitysupportexportsaccessibilityinformationvia
+standardActionScriptaccessibilityproperties.Formoreinformation,seetheActionScript3.0API(http://help.
+adobe.com/en_US/FlashPlatform/reference/actionscript/3/index.html) and specifically the
+flash.accessibilityAPI(http://help.adobe.com/en_US/FlashPlatform/reference/actionscript/3/flash/
+accessibility/package-detail.html).
+The primary mechanism for defining and updating accessibility information for user interface objects is the
+AccessibilityProperties class, which exports basic accessibility information from Flex interface elements to
+assistive technologies.
+Name and description
+Two key properties set via an AccessibilityProperties object are name and description:
+· name -- The accessible name property in Flex allows assistive technology to identify user interface elements.
+The name is the core identifying text for an element and is often set to be the label text placed near or on the
+element or alternative text for a visual element such as an image. Note: The value assigned to this
+AccessibilityProperties.name property is not the same as that assigned to an element's name property,
+which provides a programmatic name for the element. The AccessibilityProperties.name value should
+be a human readable, descriptive name. An accessible name should be concise and provide all required
+information for the user to identify the component. Role, state, and value information, such as the type of
+component(button,checkbox,andsoon),shouldnotbeincludedintheaccessiblename.Thisinformationis
+exposed through the accessibility implementation associated with the component in the accessible role,
+state, or value methods.
+· description -- The accessible description property (set using accessibilityProperties.description)
+provides supplementary detail of the component via a long form description of its use and purpose. This
+property is a good place to put information such as special instructions on how to interact with the
+component or an extended description that may be useful in understanding the component.
+The accessible name and description fields can be accessed directly in ActionScript via the object.
+accessibleProperties.name and object.accessibleProperties.description properties. Flex 3.5 and
+later, however, provides convenience accessor methods for accessible MX and Spark objects directly through
+these properties:
+mx.core.UIComponent.accessibilityName (http://help.adobe.com/en_US/FlashPlatform/reference/
+actionscript/3/mx/core/UIComponent.html#accessibilityName)
+mx.core.UIComponent.accessibilityDescription (http://help.adobe.com/en_US/FlashPlatform/
+reference/actionscript/3/mx/core/UIComponent.html#accessibilityDescription)
+Inthisdocument,theseaccessormethodsareusedwheneverpossibleforsimplicity.Ifan
+accessibilityProperties object does not exist for a component that supports it, then one will
+automaticallybecreatedwhenusingtheseconveniencemethods.Inaddition,usingtheseconvenience
+methods automatically invokes the Accessibility.updateProperties() method, which then informs
+assistive technology to refresh any cached MSAA information. Thus, developers do not need to call
+Accessibility.updateProperties() when using these accessors.
+Inthefollowingexample,thesearchentryboxdefinesanaccessiblenameanddescriptiondirectlyforthe
+TextInputSparkcomponent:
+<s:TextInput x="36" y="28" width="252" height="21"
+accessibilityName="Search Term"
+accessibilityDescription="Results displayed below after submit."/>
+<s:Button x="296" y="28"
+label="Search"/>
+TheTextInputelementabovedefinesboththeaccessibilityName and accessibilityDescription
+properties for the element. The Spark Button, however, simply defines a label attribute, and does not define

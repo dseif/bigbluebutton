@@ -1,0 +1,19 @@
+Welcome to
+Teacher (moderator):
+ You can mute/unmute anyone
+by clicking their microphone
+icon.
+ You can lock a student's audio
+(they can't unmute/mute).
+ You can mute all/unmute all
+(does not change those locked).
+Student:
+ You can mute/unmute
+yourself.
+You should mute yourself
+during the lecture to
+minimize background noise.
+If it's your first time using this software, we recommend
+you to watch the following videos.
+BigBlueButton
+Teacher Overview Student Overview

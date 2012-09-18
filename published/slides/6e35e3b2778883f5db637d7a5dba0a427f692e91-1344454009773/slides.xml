@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<popcorn>
+  <timeline>
+    <altimage in="0" out="57" src="logo.png" target="slide" width="200"/>
+  </timeline>
+  <chattimeline in="27" direction="down" name="chad" message="&#10;      dthat&#10;    " target="chat"/>
+  <chattimeline in="28" direction="down" name="chad" message="&#10;      athat&#10;    " target="chat"/>
+  <chattimeline in="28" direction="down" name="chad" message="&#10;      ahta&#10;    " target="chat"/>
+  <chattimeline in="29" direction="down" name="chad" message="&#10;      tadsklfjasdf&#10;    " target="chat"/>
+  <chattimeline in="30" direction="down" name="chad" message="&#10;      akljdaf&#10;    " target="chat"/>
+  <chattimeline in="31" direction="down" name="chad" message="&#10;      askljasd&#10;    " target="chat"/>
+  <chattimeline in="31" direction="down" name="chad" message="&#10;      fasdklfjads&#10;    " target="chat"/>
+  <chattimeline in="33" direction="down" name="chad" message="&#10;      fasdflknasdf&#10;    " target="chat"/>
+</popcorn>

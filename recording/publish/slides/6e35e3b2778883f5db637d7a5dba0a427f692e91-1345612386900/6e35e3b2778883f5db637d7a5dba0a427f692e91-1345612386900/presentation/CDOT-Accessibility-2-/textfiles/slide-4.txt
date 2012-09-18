@@ -1,0 +1,9 @@
+Implemented:
+ Resize and move windows
+ Hotkey reference window
+ Localised hotkeys
+Planned:
+ Tab order
+ More hotkeys
+ Modular accessibility
+General Changes

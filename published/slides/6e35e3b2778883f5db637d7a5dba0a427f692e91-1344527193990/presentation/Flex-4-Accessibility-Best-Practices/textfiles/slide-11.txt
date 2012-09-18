@@ -1,0 +1,48 @@
+11Adobe Flex White Paper
+each bar, pie slice, or line on a graph. When an alternative data table or DataGrid component cannot be used to
+present this information, it can be provided in text format instead; for example:
+// ActionScript
+imgChart1.accessibilityName = "Q1, East, Units sold 2,000; Q1, South, Units Sold: 1,800;
+Q1 North, Units sold: 1,700; Q1, West, Units Sold: 2,200";
+// MXML
+<mx:Image id="imgChart1" accessibilityName="Q1, East, Units sold 2,000;
+Q1, South, Units Sold: 1,800; Q1 North, Units sold: 1,700;
+Q1, West, Units Sold: 2,200" />
+Notes on image equivalents and use
+For buttons with images, describe the action the button triggers rather than the image itself. For example, for a
+button with a printer icon, "print form" is a better text equivalent than "printer".
+Avoid using the terms "image" and "photograph" to describe the element unless it is essential. For any item
+rendered, assistive technology will indicate the element type to the user, so including these terms in the
+equivalent text is redundant. For example, when a screen reader encounters an image with "image of a red
+ball"asalternativetext,itwillannounce"Image:Imageofaredball."Incontrast,whenthetextalternativeis
+simply"Redball,"therenderinginassistivetechnologywillbethefarmoreconcise"Image:RedBall."
+Consistency is important when images are used to invoke an action. For example, if an application uses a print
+button with an image of a printer and the equivalent text "Print", then that same image and equivalent text
+should be used for print buttons throughout the application.
+Developers should not use the same image to represent more than one concept or function, nor should they
+associate more than one image for the same function.
+Imagesthatareusedsolelyforthepurposeofdecorationconveynomeaningandthusdonotneedatext
+equivalent. As described above, however, set the accessibilityEnabled property to false or set the
+silent property of the AccessibilityProperties object to true to hide such images from assistive
+technologies.
+Text that conveys additional information through font, size, or color
+Content that conveys meaning through size, shape, location, or color must be accompanied by a textual
+equivalentforthatinformation.Inpractice,thisgenerallyariseswhentextstylingisusedtoconvey
+information. For example, a text cloud showing frequency of word use through font size requires a text
+equivalent, such as an HTML table or HTML ordered list that provides the same data. The preferred method of
+providingthisinformationinaFlexapplicationviatheaccessiblenameonthetextcloudImage:
+//ActionScript
+imgCloud.accessibilityName = "Favorite Shaved Ice Flavors in Descending order:
+1. Grape, 2. Orange, 3. Lime";
+// MXML
+<mx:Image id="imgCloud" accessibilityName="Favorite Shaved Ice Flavors
+in Descending order: 1. Grape, 2. Orange, 3. Lime" />
+Likewise, when text color is used to convey information, provide a text equivalent or rewrite the text. See
+"Color" on page 44 for more information. For error text that uses a color such as red, the text "error" can be
+added to the label of the error text field; for example:
+//ActionScript
+txtError.text = "Error: An incorrect search term was entered.";
+// MXML
+<s:Text id="txtError" text="Error: An incorrect search term was entered." />
+Adding the word "error" to the text itself instead of just to the accessible name is preferred because the
+accessible name property is not apparent to users with color blindness or other visual impairments who are

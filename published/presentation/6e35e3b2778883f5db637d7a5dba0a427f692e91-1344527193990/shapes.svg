@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" id="svgfile" style="position:absolute; height:600px; width:800px;" version="1.1" viewBox="0 0 800 600">
+  <image id="image0" in="0" out="4.0" src="logo.png" width="800"/>
+  <image id="image1" in="7.0" out="50.2" xlink:href="presentation/default/slide-1.png" height="1200" width="1600" visibility="hidden" text="presentation/default/textfiles/slide-1.txt"/>
+  <image id="image2" in="53.2" out="72.6" xlink:href="presentation/Flex-4-Accessibility-Best-Practices/slide-1.png" height="1200" width="927" visibility="hidden" text="presentation/Flex-4-Accessibility-Best-Practices/textfiles/slide-1.txt"/>
+  <image id="image3" in="72.6" out="76.1" xlink:href="presentation/Flex-4-Accessibility-Best-Practices/slide-2.png" height="1200" width="927" visibility="hidden" text="presentation/Flex-4-Accessibility-Best-Practices/textfiles/slide-2.txt"/>
+  <image id="image4" in="76.1" out="90.0" xlink:href="presentation/Flex-4-Accessibility-Best-Practices/slide-3.png" height="1200" width="927" visibility="hidden" text="presentation/Flex-4-Accessibility-Best-Practices/textfiles/slide-3.txt"/>
+  <image id="image5" in="90.0 100.6" out="97.8 113.9" xlink:href="presentation/Flex-4-Accessibility-Best-Practices/slide-4.png" height="1200" width="927" visibility="hidden" text="presentation/Flex-4-Accessibility-Best-Practices/textfiles/slide-4.txt"/>
+  <image id="image6" in="97.8" out="100.6" xlink:href="presentation/Flex-4-Accessibility-Best-Practices/slide-5.png" height="1200" width="927" visibility="hidden" text="presentation/Flex-4-Accessibility-Best-Practices/textfiles/slide-5.txt"/>
+</svg>

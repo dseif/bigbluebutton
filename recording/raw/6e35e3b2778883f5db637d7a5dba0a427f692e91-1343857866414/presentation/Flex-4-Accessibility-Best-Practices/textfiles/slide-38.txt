@@ -1,0 +1,53 @@
+38Adobe Flex White Paper
+// place visual indicator that field has been over typed
+lblPhoneError.visible = true;
+}
+else // hide visual indicator
+lblPhoneError.visible = false;
+}
+...
+Time-limited forms and controls
+For timed interactions, developers should ensure that forms do not disappear or expire if a response is not
+received within a specified amount of time. Users with disabilities, who may be unable to complete the form
+within a predetermined time, need a mechanism to indicate that they require more time. For time-limited tests
+and similar applications, this guideline may be disregarded because removing the time limit would invalidate
+thepurposeoftheactivity.Inthesescenarios,developersshouldmaketheuserawareofthetime-based
+constraint and provide contact information for users that may need to seek exceptions to the time constraints
+imposed by the activity.
+Ontime-limitedforms,developersshouldwarntheuserwhenthetimelimitisabouttoexpireandallowthe
+user to extend or eliminate the time limit. When prompted that time is about to expire, the user must be given
+atleast20secondstoextendthetimelimitwithasimpleaction,suchaspressingthespacebar.Iftheuser
+indicates that additional time is needed, setTimeout() can be used to add time to a timeout counter; for
+example:
+var timeoutID: uint;
+var timeoutAlertID: uint;
+...
+timeoutID = setTimeout(timeIsAboutToExpire, 3600000);
+...
+function alertHandler(e: CloseEvent): void
+{
+if (alert.YES)
+{
+clearTimeout(timeoutID);
+timeoutID = setTimeout(timeIsAboutToExpire, 3600000); // set new timeout
+}
+else
+closeForm();
+}
+function timeIsAboutToExpire(): void
+{
+// display alert
+timeoutAlertID = setTimeout(closeForm, 20000);
+Alert.yesLabel = "Magenta";
+Alert.noLabel = "Blue";
+alert = Alert.show("Your Session is about to Expire.",Alert.YES|Alert.NO, alertHandler);
+}
+...
+function closeForm(): void
+{
+// close the form time has expired
+// close the timeout alert if it has not been closed
+// display an alert telling the user that the session had expired
+alert = Alert.show("Your Session Has Ended.");
+...
+}

@@ -1,0 +1,34 @@
+24Adobe Flex White Paper
+labelField="@label">
+<mx:dataProvider>
+<fx:XML>
+<node label="Foods">
+<node label="Fruits">
+<node label="Apples" data="apples"/>
+<node label="Oranges" data="oranges"/>
+<node label="Bananas" data="bananas"/>
+</node>
+<node label="Veggies" data="veggies"/>
+<node label="Desserts" data="desserts"/>
+</node>
+</fx:XML>
+</mx:dataProvider>
+</mx:Tree>
+<mx:DataGrid accessibilityName="Pets:" height="150" id="fg" minWidth="200">
+<mx:columns>
+<mx:DataGridColumn headerText="ID" dataField="cid"/>
+<mx:DataGridColumn headerText="Name" dataField="name"/>
+<mx:DataGridColumn headerText="Age" dataField="age"/>
+</mx:columns>
+<mx:ArrayList>
+<fx:Array>
+<fx:Object cid="1" name="Arnold" age="3" />
+<fx:Object cid="2" name="Denver" age="5" />
+<fx:Object cid="3" name="Jack" age="8" />
+</fx:Array>
+</mx:ArrayList>
+</mx:DataGrid>
+<s:TextArea accessibilityName="Comment" heightInLines="3"
+id="ta1" text="Enter text" />
+</mx:Form>
+</s:Application>

@@ -1,0 +1,26 @@
+46Adobe Flex White Paper
+ofthedeployedapplication,providingcolorandcontrastoptionsmaybearequirement.Ifthisisthecase,the
+application must allow the user to select from a wide variety of color and contrast options from within the
+application or via user preferences. These selections enable users with low vision and users with color
+deficiencies to use the application effectively. Application options should allow users to choose from a full
+range of color and contrast settings, including at least two high-contrast options--one with dark text on a light
+background and one with light text on a dark background--and at least two low-contrast options. These
+options should be stored so they can be retrieved and applied for each user, instead of reverting to hard-coded
+defaults whenever the application is restarted.
+Flickering
+For many users, flickering or blinking content is distracting and annoying. For users with photosensitive
+epilepsy, it can be dangerous. Content that flashes, blinks, or flickers within certain frequency ranges can
+induceseizuresintheseusers.Examplesofflickeringcontentinclude:
+· Flashingtext
+· Rapidchangesinbackgroundcolor
+· Pulsinglightsandstrobeeffects
+· Moviescenesthatincludegunfireorlightning
+· Timersorbuttonsthatrefreshfrequently
+Itisbesttoavoidthistypeofflickeringcontentwheneverpossible.Providinguserswithanoptiontodisable
+flashing content does not provide adequate protection, because users may not notice the option in time. A
+seizure may occur faster than a user could disable the flashing.
+Ifflickeringorflashingcontentmustbeusedintheapplication,ensureusersafetybyapplyingablinkratethat
+is either very slow or very fast. U.S. Government standards prohibit content that flashes at a rate between 2
+and 55 times per second. This means that any flickering content must blink fewer than 2 times per second or
+morethan55timespersecond.Iftheapplicationcomplieswiththisflickerrateguidelinethecontentwillbe
+safe, regardless of the size, color, or duration of the blinking content.

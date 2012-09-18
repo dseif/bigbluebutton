@@ -1,0 +1,63 @@
+<?xml version="1.0"?>
+<recording id="panzoom_events">
+  <event timestamp="1.1" orig="1343857868186.0">
+    <viewBox>0.0 0.0 800.0 600.0</viewBox>
+  </event>
+  <event timestamp="4.3" orig="1343857871394.0">
+    <viewBox>0.0 0.0 1600.0 1200.0</viewBox>
+  </event>
+  <event timestamp="21.6" orig="1343857888703.0">
+    <viewBox>0.0 0.0 1600.0 1200.0</viewBox>
+  </event>
+  <event timestamp="24.7" orig="1343857891873.0">
+    <viewBox>0.0 0.0 927.0 1200.0</viewBox>
+  </event>
+  <event timestamp="27.8" orig="1343857894956.0">
+    <viewBox>0.0 0.0 927.0 1200.0</viewBox>
+  </event>
+  <event timestamp="30.2" orig="1343857897289.0">
+    <viewBox>0.0 0.0 927.0 1200.0</viewBox>
+  </event>
+  <event timestamp="32.2" orig="1343857899339.0">
+    <viewBox>0.0 0.0 927.0 1200.0</viewBox>
+  </event>
+  <event timestamp="34.0" orig="1343857901172.0">
+    <viewBox>0.0 0.0 927.0 1200.0</viewBox>
+  </event>
+  <event timestamp="35.4" orig="1343857902539.0">
+    <viewBox>0.0 0.0 927.0 1200.0</viewBox>
+  </event>
+  <event timestamp="36.8" orig="1343857903923.0">
+    <viewBox>0.0 0.0 927.0 1200.0</viewBox>
+  </event>
+  <event timestamp="38.4" orig="1343857905508.0">
+    <viewBox>0.0 0.0 927.0 1200.0</viewBox>
+  </event>
+  <event timestamp="39.7" orig="1343857906839.0">
+    <viewBox>0.0 0.0 927.0 1200.0</viewBox>
+  </event>
+  <event timestamp="40.8" orig="1343857907956.0">
+    <viewBox>0.0 0.0 927.0 1200.0</viewBox>
+  </event>
+  <event timestamp="42.0" orig="1343857909122.0">
+    <viewBox>0.0 0.0 927.0 1200.0</viewBox>
+  </event>
+  <event timestamp="43.0" orig="1343857910171.0">
+    <viewBox>0.0 0.0 927.0 1200.0</viewBox>
+  </event>
+  <event timestamp="44.1" orig="1343857911206.0">
+    <viewBox>0.0 0.0 927.0 1200.0</viewBox>
+  </event>
+  <event timestamp="47.0" orig="1343857914173.0">
+    <viewBox>0.0 0.0 927.0 1200.0</viewBox>
+  </event>
+  <event timestamp="49.1" orig="1343857916232.0">
+    <viewBox>0.0 0.0 927.0 1200.0</viewBox>
+  </event>
+  <event timestamp="51.5" orig="1343857918621.0">
+    <viewBox>0.0 0.0 927.0 1200.0</viewBox>
+  </event>
+  <event timestamp="56.3" orig="1343857923423.0">
+    <viewBox>0.0 0.0 927.0 1200.0</viewBox>
+  </event>
+</recording>

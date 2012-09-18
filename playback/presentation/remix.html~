@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<!--
+BigBlueButton open source conferencing system - http://www.bigbluebutton.org/
+
+Copyright (c) 2012 BigBlueButton Inc. and by respective authors (see below).
+
+This program is free software; you can redistribute it and/or modify it under the
+terms of the GNU Lesser General Public License as published by the Free Software
+Foundation; either version 3.0 of the License, or (at your option) any later
+version.
+*
+BigBlueButton is distributed in the hope that it will be useful, but WITHOUT ANY
+WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
+PARTICULAR PURPOSE. See the GNU Lesser General Public License for more details.
+
+You should have received a copy of the GNU Lesser General Public License along
+with BigBlueButton; if not, see <http://www.gnu.org/licenses/>.
+-->
+<html>
+<head>
+  <title>BigBlueButton Playback</title>
+  <link rel="stylesheet" href="css/bbb.playback.css">
+  
+  <link rel="stylesheet" href="butter/templates/assets/css/jquery-ui/jquery.ui.butter.css">
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.18/jquery-ui.js"></script>
+  <!--<script type="text/javascript" src="lib/jquery-ui-1.8.23.custom.min.js"></script>-->
+  <link href="//www.mozilla.org/tabzilla/media/css/tabzilla.css" rel="stylesheet">
+  <link rel="stylesheet" href="butter/css/transitions.css">
+  <script src="butter/src/butter.js" data-butter-exclude></script>
+
+  <script src="butter/templates/assets/editors/wikipedia.js" data-butter-exclude></script>
+  <script src="butter/templates/assets/editors/popup/popup.js" data-butter-exclude></script>
+  <script src="butter/templates/assets/editors/image/image.js" data-butter-exclude></script>
+  <script src="butter/templates/assets/editors/titles/titles.js" data-butter-exclude></script>
+  <script src="butter/templates/assets/editors/webpage/webpage.js" data-butter-exclude></script>
+  <script src="butter/templates/basic/template.js" data-butter-exclude></script>
+  <link href="acornmediaplayer/acornmediaplayer.base.css" rel="stylesheet" type="text/css" />
+  <script src="acornmediaplayer/jquery.acornmediaplayer.js"></script>
+  <link href="acornmediaplayer/themes/access/acorn.access.css" rel="stylesheet" type="text/css" />
+
+
+  <script>
+	jQuery(function() {
+		jQuery('video').acornMediaPlayer();
+		$('.acorn-controls').width('500');
+		$('.acorn-controls').position({
+			"my": "center top",
+			"at": "center bottom",
+			"of": $('#playbackArea'),
+			"offset": "0 -90"
+		});
+	});
+  </script>
+
+  <style>
+	.acorn-player.access {
+		overflow: visible;
+	}
+  </style>
+</head>
+<body id="remix">
+	<div id="playbackArea" class="clearfix" role="main">
+		<div id="thumbnails" role="region" aria-label="Slide thumbnails" data-butter="target"></div>
+		<div id="presentation">
+			<div id="slide" role="region" aria-label="Slide" data-butter="target"></div>
+                        <div id="slideText" class="visually-hidden" role="region" aria-live="polite" aria-label="polite"></div>
+		</div>
+		<div class="circle" id="cursor" style="visibility:hidden;"></div>
+		<div class="chatcontainer">
+			<div id="chat" aria-live="polite" role="region" aria-label="Chat messages"></div>
+			<div id="videoRecordingWrapper" role="region" aria-label="Video">
+<div id="video-container" class="video-container-wrapper" data-butter="target">
+			  <div id="video" controls data-butter="media">
+			  </div>
+</div>
+		  </div>
+		</div>
+	</div>
+	<p id="footer">Recorded with <a href="http://bigbluebutton.org/">BigBlueButton</a>.</p>
+</body>
+</html>

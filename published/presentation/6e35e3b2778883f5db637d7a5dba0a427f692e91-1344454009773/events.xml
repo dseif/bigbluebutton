@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<recording meeting_id="6e35e3b2778883f5db637d7a5dba0a427f692e91-1344454009773">
+  <metadata meetingId="English 101" email="chad" title="English 101" meetingName="English 101" description="presentation take 2"/>
+  <event timestamp="1344454011068" module="PARTICIPANT" eventname="ParticipantJoinEvent">
+    <userId>1</userId>
+    <status>{raiseHand=false, hasStream=false, presenter=false}</status>
+    <name>chad</name>
+    <role>MODERATOR</role>
+  </event>
+  <event timestamp="1344454011425" module="PRESENTATION" eventname="GenerateSlideEvent">
+    <numberOfPages>1</numberOfPages>
+    <presentationName>default</presentationName>
+    <pagesCompleted>1</pagesCompleted>
+  </event>
+  <event timestamp="1344454012106" module="PRESENTATION" eventname="ConversionCompletedEvent">
+    <presentationName>default</presentationName>
+    <slidesInfo>
+<uploadedpresentation>
+  <conference id='6e35e3b2778883f5db637d7a5dba0a427f692e91-1344454009773' room='6e35e3b2778883f5db637d7a5dba0a427f692e91-1344454009773'>
+    <presentation name='default'>
+      <slides count='1'>
+        <slide number='1' name='slide/1' thumb='thumbnail/1' />
+      </slides>
+    </presentation>
+  </conference>
+</uploadedpresentation>    </slidesInfo>
+  </event>
+  <event timestamp="1344454012174" module="PARTICIPANT" eventname="ParticipantStatusChangeEvent">
+    <userId>1</userId>
+    <value>true</value>
+    <status>presenter</status>
+  </event>
+  <event timestamp="1344454012175" module="PARTICIPANT" eventname="AssignPresenterEvent">
+    <name>chad</name>
+    <assignedBy>1</assignedBy>
+    <userid>1</userid>
+  </event>
+  <event timestamp="1344454012953" module="PRESENTATION" eventname="ResizeAndMoveSlideEvent">
+    <yOffset>0.0</yOffset>
+    <widthRatio>100.0</widthRatio>
+    <xOffset>0.0</xOffset>
+    <heightRatio>100.0</heightRatio>
+  </event>
+  <event timestamp="1344454017455" module="VOICE" eventname="ParticipantJoinedEvent">
+    <callername>1-chad</callername>
+    <talking>false</talking>
+    <callernumber>1-chad</callernumber>
+    <bridge>72198</bridge>
+    <muted>false</muted>
+    <locked>false</locked>
+    <participant>4</participant>
+  </event>
+  <event timestamp="1344454017461" module="VOICE" eventname="StartRecordingEvent">
+    <bridge>72198</bridge>
+    <recordingTimestamp>1344454017459070</recordingTimestamp>
+    <filename>/var/freeswitch/meetings/6e35e3b2778883f5db637d7a5dba0a427f692e91-1344454009773-1344454017453.wav</filename>
+  </event>
+  <event timestamp="1344454021516" module="PARTICIPANT" eventname="ParticipantStatusChangeEvent">
+    <status>hasStream</status>
+    <value>true,stream=320x2401-1344457627122</value>
+    <userId>1</userId>
+  </event>
+  <event timestamp="1344454021551" module="WEBCAM" eventname="StartWebcamShareEvent">
+    <stream>320x2401-1344457627122</stream>
+  </event>
+  <event timestamp="1344454023308" module="VOICE" eventname="ParticipantTalkingEvent">
+    <bridge>72198</bridge>
+    <talking>true</talking>
+    <participant>4</participant>
+  </event>
+  <event timestamp="1344454025345" module="VOICE" eventname="ParticipantTalkingEvent">
+    <bridge>72198</bridge>
+    <talking>false</talking>
+    <participant>4</participant>
+  </event>
+  <event timestamp="1344454030808" module="VOICE" eventname="ParticipantTalkingEvent">
+    <participant>4</participant>
+    <bridge>72198</bridge>
+    <talking>true</talking>
+  </event>
+  <event timestamp="1344454031725" module="VOICE" eventname="ParticipantTalkingEvent">
+    <participant>4</participant>
+    <bridge>72198</bridge>
+    <talking>false</talking>
+  </event>
+  <event timestamp="1344454032069" module="VOICE" eventname="ParticipantTalkingEvent">
+    <bridge>72198</bridge>
+    <participant>4</participant>
+    <talking>true</talking>
+  </event>
+  <event timestamp="1344454033586" module="VOICE" eventname="ParticipantTalkingEvent">
+    <talking>false</talking>
+    <bridge>72198</bridge>
+    <participant>4</participant>
+  </event>
+  <event timestamp="1344454034285" module="VOICE" eventname="ParticipantTalkingEvent">
+    <talking>true</talking>
+    <bridge>72198</bridge>
+    <participant>4</participant>
+  </event>
+  <event timestamp="1344454037226" module="VOICE" eventname="ParticipantTalkingEvent">
+    <talking>false</talking>
+    <participant>4</participant>
+    <bridge>72198</bridge>
+  </event>
+  <event timestamp="1344454037766" module="VOICE" eventname="ParticipantTalkingEvent">
+    <bridge>72198</bridge>
+    <participant>4</participant>
+    <talking>true</talking>
+  </event>
+  <event timestamp="1344454038800" module="CHAT" eventname="PublicChatEvent">
+    <message>
+      <![CDATA[dthat]]>
+    </message>
+    <locale>en</locale>
+    <sender>chad</sender>
+    <color>0</color>
+  </event>
+  <event timestamp="1344454039474" module="CHAT" eventname="PublicChatEvent">
+    <message>
+      <![CDATA[athat]]>
+    </message>
+    <color>0</color>
+    <sender>chad</sender>
+    <locale>en</locale>
+  </event>
+  <event timestamp="1344454040066" module="CHAT" eventname="PublicChatEvent">
+    <color>0</color>
+    <locale>en</locale>
+    <message>
+      <![CDATA[ahta]]>
+    </message>
+    <sender>chad</sender>
+  </event>
+  <event timestamp="1344454040914" module="CHAT" eventname="PublicChatEvent">
+    <color>0</color>
+    <locale>en</locale>
+    <message>
+      <![CDATA[tadsklfjasdf]]>
+    </message>
+    <sender>chad</sender>
+  </event>
+  <event timestamp="1344454041578" module="CHAT" eventname="PublicChatEvent">
+    <sender>chad</sender>
+    <message>
+      <![CDATA[akljdaf]]>
+    </message>
+    <color>0</color>
+    <locale>en</locale>
+  </event>
+  <event timestamp="1344454042146" module="CHAT" eventname="PublicChatEvent">
+    <message>
+      <![CDATA[askljasd]]>
+    </message>
+    <color>0</color>
+    <locale>en</locale>
+    <sender>chad</sender>
+  </event>
+  <event timestamp="1344454042722" module="CHAT" eventname="PublicChatEvent">
+    <sender>chad</sender>
+    <locale>en</locale>
+    <message>
+      <![CDATA[fasdklfjads]]>
+    </message>
+    <color>0</color>
+  </event>
+  <event timestamp="1344454044458" module="CHAT" eventname="PublicChatEvent">
+    <color>0</color>
+    <sender>chad</sender>
+    <message>
+      <![CDATA[fasdflknasdf]]>
+    </message>
+    <locale>en</locale>
+  </event>
+  <event timestamp="1344454048105" module="VOICE" eventname="ParticipantTalkingEvent">
+    <talking>false</talking>
+    <participant>4</participant>
+    <bridge>72198</bridge>
+  </event>
+  <event timestamp="1344454049366" module="VOICE" eventname="ParticipantTalkingEvent">
+    <talking>true</talking>
+    <bridge>72198</bridge>
+    <participant>4</participant>
+  </event>
+  <event timestamp="1344454051445" module="VOICE" eventname="ParticipantTalkingEvent">
+    <participant>4</participant>
+    <bridge>72198</bridge>
+    <talking>false</talking>
+  </event>
+  <event timestamp="1344454052585" module="VOICE" eventname="ParticipantTalkingEvent">
+    <participant>4</participant>
+    <talking>true</talking>
+    <bridge>72198</bridge>
+  </event>
+  <event timestamp="1344454053505" module="VOICE" eventname="ParticipantTalkingEvent">
+    <participant>4</participant>
+    <talking>false</talking>
+    <bridge>72198</bridge>
+  </event>
+  <event timestamp="1344454055086" module="VOICE" eventname="ParticipantTalkingEvent">
+    <talking>true</talking>
+    <participant>4</participant>
+    <bridge>72198</bridge>
+  </event>
+  <event timestamp="1344454056725" module="VOICE" eventname="ParticipantTalkingEvent">
+    <talking>false</talking>
+    <bridge>72198</bridge>
+    <participant>4</participant>
+  </event>
+  <event timestamp="1344454062566" module="VOICE" eventname="ParticipantTalkingEvent">
+    <talking>true</talking>
+    <participant>4</participant>
+    <bridge>72198</bridge>
+  </event>
+  <event timestamp="1344454063985" module="VOICE" eventname="ParticipantTalkingEvent">
+    <bridge>72198</bridge>
+    <participant>4</participant>
+    <talking>false</talking>
+  </event>
+  <event timestamp="1344454065705" module="VOICE" eventname="ParticipantTalkingEvent">
+    <participant>4</participant>
+    <bridge>72198</bridge>
+    <talking>true</talking>
+  </event>
+  <event timestamp="1344454066906" module="VOICE" eventname="ParticipantTalkingEvent">
+    <talking>false</talking>
+    <participant>4</participant>
+    <bridge>72198</bridge>
+  </event>
+  <event timestamp="1344454068278" module="PARTICIPANT" eventname="ParticipantLeftEvent">
+    <userId>1</userId>
+  </event>
+  <event timestamp="1344454068299" module="PARTICIPANT" eventname="EndAndKickAllEvent">
+  </event>
+  <event timestamp="1344454068346" module="WEBCAM" eventname="StopWebcamShareEvent">
+    <stream>320x2401-1344457627122</stream>
+    <duration>46</duration>
+  </event>
+</recording>

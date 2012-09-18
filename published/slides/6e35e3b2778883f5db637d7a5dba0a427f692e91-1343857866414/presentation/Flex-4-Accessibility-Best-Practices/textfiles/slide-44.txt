@@ -1,0 +1,43 @@
+44Adobe Flex White Paper
+properties. Thus, developers should be careful to fire events only when the underlying data reflects that such a
+change has occurred.
+Manually setting focus
+The same methods and properties used to set focus manually are often used by code that forcibly shifts focus.
+However, the events that trigger each of these scenarios are generally different. For example, mouse click
+events(includingwhenEnterorSpaceispressedonthekeyboard)andkeyboardeventslisteningforshortcut
+keys are typically used to set focus manually. The primary difference is that the former events are expected by
+the user to shift focus while the later events are not expected to shift focus. When a focus shift occurs without
+being linked to an expected action, it may prevent access to all content in a field or form.
+// assign the Mouse click event handler (also triggered by assistive
+technology and the space key) to the submit button
+// when the address form is completed, a hypothetical credit card entry form is displayed
+// focus is set to the first field in that screen, the credit card holder name field
+btnSubmit.addEventListener(MouseEvent.CLICK, submitForm);
+function submitForm(e:MouseEvent): void
+{
+// submit the form (not shown)
+// when the next form appears, set focus to the first text input
+txtCreditCardHolderName.setFocus();
+}
+Color
+The colors that are used in Flex applications affect accessibility for users that are blind or have low vision as
+well as for users with a color deficiency such as color blindness. Color-related accessibility guidelines focus on
+two requirements: avoiding the use of color as the sole means of providing information and ensuring sufficient
+contrast.
+Conveying information with color
+Color can be an effective way to draw a user's attention to important information, however, when color alone
+isreliedontoconveyinformation,thatinformationwillbeinaccessibletouserswhoarecolorblind.In
+accessible applications, developers must not use color as the only means of communicating any information.
+Common situations were color is used alone to convey meaning include:
+· Indicatingaction
+· Promptingaresponse
+· Distinguishingvisualelements
+· Communicatingselection
+· Communicatingerrors
+This requirement is not intended to discourage the use of color. Rather, the goal is to provide additional,
+alternative methods of conveying the same information whenever color is used. These alternative methods fall
+into two categories: those available to users who do not have assistive technology and those available to users
+of assistive technologies.
+Providing alternatives to individuals who are not using assistive technology ensures the application is
+accessible to users who are color blind. For these users, an on-screen alternative that is positioned close to the
+color-coded material is sufficient. This alternative should appear automatically and not require the user to

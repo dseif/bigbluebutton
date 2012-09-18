@@ -1,0 +1,50 @@
+14Adobe Flex White Paper
+the percentage complete (for example, "Content loading: 30% complete") via supplementary text on the
+screen or the accessibilityName property:
+loadProgressBar.accessibilityName =
+"Content loading: " + String(Math.floor(loadProgressBar.value)) + " % complete";
+Controlling dynamic and automatically updating content
+Developers must provide user controls for any content that automatically updates for a period longer than five
+seconds.Further,theusercontrolsmustbekeyboardaccessible;see"Keyboardaccessibility"onpage15for
+more information.
+Decorative and non-essential dynamic content
+Decorative and non-essential dynamic content must be accompanied by a control to stop or hide it; for
+example:
+btnStop.accessibilityName = "Stop automatic decorative content changes";
+btnSop.addEventListener(MouseEvent.CLICK, stopContentUpdates);
+function stopContentUpdates(): void
+{
+// stop content updates not shown
+// update skin of stop button
+btnStop.accessibilityName = "Display automatic decorative content changes";
+}
+Automatically advancing sequential content
+For news feeds, instructions, and other content that automatically sequences from one item to another,
+developers should provide controls to pause and step through the content. These controls typically include
+buttonsforPause/Play,Next,andPreviousoperations.WhenthePausebuttonisactivated,itshouldchangeto
+a Play button; for example:
+// set the accessible names of the story number, icon buttons for pause, next, and previous
+// News story panel not shown
+txtStoryNumber.text = "Story 2 of 5";
+btnPlayPause.accessibilityName = "Pause";
+btnNext.accessibilityName = "Next Story";
+btnPrevious.accessibilityName = "Previous Story";
+btnPlayPause.addEventListener(MouseEvent.CLICK, playPause);
+function playPause(e:MouseEvent): void
+{
+// set accessible name based on the hypothetical Boolean playing
+if (playing) // stop playing and change the pause button to play
+btnPlayPause.accessibilityName = "Play";
+else // play and change the play button to pause
+btnPlayPause.accessibilityName = "Pause";
+// change skin of button not shown
+// advanced news story not shown
+}
+WhentheNextandPreviousbuttonsareactivated,focuscanbesettothemostappropriateplace,suchasthe
+newsstorytextitself.Ifthesuspendedcontentissequentialandincludesinformationthatshouldnotbe
+skipped, then it should resume at the point at which it was paused by the user. For example, if a user pauses a
+series of printer connection instructions at step three, then the content should resume at that same step.
+Dynamic real-time content
+Real-time content that updates automatically, such as stock tickers, scoreboards, and clocks, creates a unique
+set of challenges for users with disabilities. Frequent updates can disrupt screen readers and distract users with
+cognitivedisabilities.InFlexapplications,someautomaticallyupdatingcontentisignoredcompletelyby

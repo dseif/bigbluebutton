@@ -1,0 +1,66 @@
+Adobe® Flex® White Paper
+Best practices for accessibility with
+Adobe® Flex® 4
+Building applications that can be used by individuals with disabilities
+To reach as wide an audience as possible, developers of Flex applications need to ensure that their applications
+built with Adobe Flex can be used by individuals with disabilities. Conforming to regulatory requirements such
+as Section 508 of the Rehabilitation Act or the Web Content Accessibility Guidelines (WCAG) 2.0 helps
+developers build applications that are accessible to users, regardless of disability. Compliance with such
+guidelines may be a formal requirement on some projects.
+This document covers general principles and best practices of accessible design that apply to all Flex
+applications independent of the disabilities the target user audience may have. Developers who are familiar
+with accessible software design practices used in other development contexts will likely be familiar with the
+best practices described in this document for Flex 4 applications.
+Achieving accessibility
+An application is not made accessible by simply switching on or enabling accessibility. Likewise, accessible
+applications are not created merely by exposing accessibility information for individual components, although
+this is a necessary first step. Accessibility is achieved through correct design of the application and user
+interaction, and by applying accessibility information to individual components, groups of components, and to
+the application as a whole. Developers must consider how user interface items interact together, how they flow
+from one to another, and how the user will interact with them. This document includes guidelines for the
+design and development of accessible Flex 4 applications, and covers the following topics:
+· EnablingAccessibilityinFlexprojects
+· EmbeddingAccessibleFlexApplications
+· AccessibleFlexComponents
+· AccessibilityProperties
+· SettingComponentNameInformation
+· CheckingforthePresenceofAssistiveTechnology
+· TextualEquivalents
+· KeyboardAccessibility
+· ReadingOrder
+· ReadingandTabOrderinPractice
+· SkippingRepetitiveComponents
+Table of contents
+1: Achieving acces-
+sibility
+2: An overview of
+assistive technologies
+2: Accessibility test-
+ing overview
+3: Enabling acces-
+sibility
+4: Embedding acces-
+sible Flex applications
+5: Accessible Flex
+components
+6: Accessibility
+properties
+7: Setting component
+name information
+9: Checking for the
+presence of assistive
+technology
+10: Textual equiva-
+lents
+15: Keyboard acces-
+sibility
+23: Reading order
+29: Reading and tab
+order in practice
+31: Skipping repetitive
+components
+32: Forms
+39: Focus
+44: Color
+46: Flickering
+47: Resources

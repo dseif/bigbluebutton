@@ -1,0 +1,49 @@
+28Adobe Flex White Paper
+Ifaccessibilitycannoteasilybedisabledbygrouping,developerscanplaceallbackgroundcomponentsinan
+array and cycle through the array to disable accessibility for each component individually.
+Note:Inadditiontodisablingaccessibilityforhiddenelements,keyboardaccessshouldalsoberestrictedto
+current,activeelements.See"Keyboardaccessibility"onpage15forinformationonhowtoremove
+keyboard access from hidden content.
+Exclude hidden or inactive elements
+Elementsthatarehiddenbehindotherelements,providedonlyfordecoration,orlocatedoff-screenshouldbe
+excluded from the reading order while they are invisible or inactive. Any active elements that can still be seen
+by sighted users should remain in the reading order, even if they are read-only (not editable) or disabled.
+Hidden elements include rollover content that has not been activated and elements that are hidden behind
+modalpop-upwindows.Inaddition,inactivedecorativeelementsthatdonotconveyinformationshouldnot
+be included in the reading order.
+Setting the accessibilityEnabled property to false on a form, grouping, or container component will
+disable accessibility for all child components; for example:
+// turn accessibility support off for this form when it is hidden behind a modal pop-up
+frmSignInForm.accessibilityEnabled = false;
+When the property is set on an individual component, the setting affects the accessibility of just that particular
+component. When accessibility is disabled for a component, it will not be exposed to assistive technology via
+MSAA.
+Provide controls for disruptive elements
+Screen readers may interpret any automatically updating content on the screen as a change that must be
+reported to the user. This can cause the screen reader to start over at the top of the page every time there is a
+changeonthescreen.Examplesofelementsthatcanbedisruptivetoscreenreaderuserswhenaccessibilityis
+not implemented correctly include:
+· Animations
+· Weatherandprogressupdates
+· Clocks
+· Scoreboards
+· Timers
+Itisnotagoodpracticetoremovethesecomponentsfromthereadingordertopreventscreenreadersfrom
+announcing the information repeatedly. This approach makes any dynamic content inaccessible to screen
+reader users, and does nothing for other users who may simply want to stop, pause, or hide the dynamic
+content. See "Controlling dynamic and automatically updating content" on page 14 for guidelines on
+handling such content.
+Avoid redundant elements
+When screen reader software encounters a Flex component, such as a form field, it announces the
+component's accessible name. Screen reader users do not require visual labels for form fields that have an
+accessible name property, but other users do need the visual label. A problem arises for screen reader users
+whenboththevisuallabelandtheaccessiblenameareexposedtoassistivetechnology.Inthesecases,the
+screenreaderreadsboth.Ifthelabelandaccessiblenameareidentical,theuserhearseverythingtwice;ifthey
+arenotidentical,theresultscanbeevenmoreconfusing.InFlex,thisislikelytohappenwithTextInput,
+ComboBox, List, DataGrid, and TextArea components. To avoid this redundancy, it is best to hide the visual
+label for such components from the screen reader by setting the accessibilityEnabled property to false;
+for example:
+lblFirstName.accessibilityEnabled = false;
+Silence form items and form headings
+InFlex4,FormItemandFormHeadingcomponentsexposeaccessibilityproperties;priortoFlex4theywere
+notexposedbydefault.Becauseofthischange,labelcontentpresentintheFormItemcontainersand

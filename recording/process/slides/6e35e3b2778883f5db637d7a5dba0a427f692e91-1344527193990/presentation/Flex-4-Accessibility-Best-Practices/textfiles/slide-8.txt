@@ -1,0 +1,47 @@
+8Adobe Flex White Paper
+Text labels provided with elements
+For elements that provide a visual label, the visual label will automatically be provided as the accessible name
+oftheelement.ExamplesofsuchelementsincludeButton,CheckBox,RadioButton,LinkButton,andMenu
+components.InthefollowingButtondeclaration,forexample,theaccessibilityName will be "Search"
+because that is the button's label:
+<s:Button x="296" y="28" label="Search"/>
+Ifthelabeldoesnotsufficientlydescribethepurposeofthebutton,thedevelopershouldexplicitlysetthe
+accessibilityName property.
+Text labels positioned near an element
+Ifatextlabelispositionednearanelement,developerscandefinethetextlabelaspartofaparentFormItem
+containerinFlex.TheFormItemwillexportthelabeloftheFlexcontrolitisgroupedwith.Inthefollowing
+example,theTextInputelementisgroupedwitha"Search"textlabel.
+<mx:FormItem label="Search">
+<s:TextInput width="252" height="21" accessibilityDescription=
+"Enter a search term into this field."/>
+</mx:FormItem>
+No text labels present
+For items that do not provide a text label, such as images, custom controls, and complex controls, the name of
+theelementcanbeexportedeitherviathetoolTipattributeordirectlythroughtheaccessibilityNameproperty
+of the element. When the toolTip for an element is set, the toolTip text will be appended to the accessible
+name of the element.
+//Option one - use the accessibilityName attribute
+<mx:Image width="60" height="56" source="assets/icecreampint.jpg"
+accessibilityName="Ice Cream Pint"/>
+//Option two - use the toolTip attribute
+<mx:Image width="60" height="56" source="assets/icecreampint.jpg"
+toolTip="Ice Cream Pint"/>
+Note: When no text label is present for a standard component (or when a label is provided as part of the
+element itself) do not include "image", "button", or any other description of the role of the component in the
+accessible name. This information will be announced automatically by screen reader software.
+Setting the accessible name at runtime
+Iftheaccessiblenamechangesatruntimeoritcannotbesetatcompiletimebecausethenameofanelement
+is unknown, the accessible name can be set using ActionScript and the convenience accessor
+accessibilityName. When the accessor is used, the developer neither needs to verify that an
+AccessibilityProperties object has been created nor call updateProperties(), as these are handled
+automatically; for example:
+btnSearch.accessibilityName = "Search";
+Iftheaccessorisnotused,thoseextrastepsarerequired:
+if (!btnSearch.accessibilityProperties)
+btnSearch.accessibilityProperties = new AccessibilityProperties();
+btnSearch.accessibilityProperties.name = "Search";
+Accessibility.updateProperties();
+Accessible Spark components and containers
+The following Spark components and containers (http://goo.gl/JeZcz) are accessible:
+· ButtonBarcomponent
+· Buttoncomponent

@@ -1,0 +1,51 @@
+13Adobe Flex White Paper
+<node label="Christopher Sharp" data="d3"/>
+</node>
+<node label="Compensation and Other">
+<node label="David Avila" data="d4"/>
+</node>
+</node>
+</fx:XML>
+</mx:dataProvider>
+</mx:Tree>
+Using text equivalents
+Ifanativeobjectcannotbeusedtoconveyhierarchicalinformation,atextequivalentforthehierarchyshould
+beprovidedviatheaccessibilityNameproperty.Forbasichierarchies,adirectdescriptionofthehierarchyis
+sufficient; for example:
+// ActionScript
+imgFoodPyramid.accessibilityName = "The original food pyramid consisted of
+four levels each representing a food group. The large base group Breads and
+Cereals appears at the bottom, followed by Fruits and Vegetables, Dairy and
+Meat, and the smallest group at the top, Fats and Sweets";
+// MXML
+<mx:Image id="imgFoodPyramid" accessibilityName="The original food pyramid
+consisted of four levels each representing a food group. The large base group
+Breads and Cereals appears at the bottom, followed by Fruits and Vegetables,
+Dairy and Meat, and the smallest group at the top, Fats and Sweets" />
+For more complex hierarchies, the text equivalent should describe all the elements at each level of the tree.
+When there are more than two levels in a structure, as in an organizational chart, use the word "level" to
+indicate each level in the hierarchy. For example, consider the following organizational hierarchy:
+Contact the Appropriate Technical Support Person in Your Department
+Senior Management
+Tim Springer
+Information Technology
+Mary Smith
+Financial
+Ted Robins
+HR
+Recruitment
+Christopher Sharp
+Compensation and Other
+David Avila
+The equivalent text for this organization may be defined as follows:
+imgTechSupportOrgChart.accessibilityName =
+"Level 1 - Senior Management, Level 2 - Tim Springer,
+Level 1 - Information Technology, Level 2 - Mary Smith,
+Level 1 - Finance, Level 2 - Ted Robins,
+Level 1 - HR, Level 2 - Recruitment, Level 3 - Christopher Sharp,
+Level 2 - Compensation and Other, Level 3 - David Avila";
+Providing text equivalents for progress bars
+Accessible applications must provide a text equivalent for any progress bars that convey important
+information. An equivalent may not be required for an initial preloader progress bar if loading completes
+within five seconds, though it is required for all other uses. The Flex 4 ProgressBar control does not provide
+accessibility support automatically. To provide alternative text for these controls, developers should indicate

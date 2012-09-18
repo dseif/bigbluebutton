@@ -1,0 +1,18 @@
+<recording>
+  <id>4c8a2069497e081492ce6322db00f7a06b59c2d3-1343771089839</id>
+  <state>available</state>
+  <published>true</published>
+  <start_time>1343771091697</start_time>
+  <end_time>1343771147918</end_time>
+  <playback>
+    <format>slides</format>
+    <link>http://192.168.209.145/playback/slides/playback.html?meetingId=4c8a2069497e081492ce6322db00f7a06b59c2d3-1343771089839</link>
+  </playback>
+  <meta>
+    <title>English 104</title>
+    <meetingId>English 104</meetingId>
+    <email>chad</email>
+    <description>test with chat-timeline</description>
+    <meetingName>English 104</meetingName>
+  </meta>
+</recording>

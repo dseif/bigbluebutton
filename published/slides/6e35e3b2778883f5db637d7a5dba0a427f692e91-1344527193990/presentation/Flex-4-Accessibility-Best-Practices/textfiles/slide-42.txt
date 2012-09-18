@@ -1,0 +1,45 @@
+42Adobe Flex White Paper
+{
+return _ target;
+}
+public function set target(value:SkinnableComponent):void
+{
+_ target = value;
+if ( _ target.skin)
+_ target.skin.addEventListener(FlexEvent.UPDATE _ COMPLETE,
+skin _ updateCompleteHandler, false, 0, true);
+}
+override protected function updateDisplayList(unscaledWidth:Number,
+unscaledHeight:Number):void
+{
+this.setActualSize(target.width, target.height);
+super.updateDisplayList(target.width, target.height);
+}
+private function skin _ updateCompleteHandler(event:Event):void
+{
+invalidateDisplayList();
+}
+]]>
+</fx:Script>
+<s:Rect id="focusRect" top="-1" left="-1" right="-1" bottom="-1">
+<s:fill>
+<s:SolidColor id="bgFill" color="0xC5C551" />
+</s:fill>
+</s:Rect>
+</s:Group>
+Setting focus when a window appears
+Whenever a new screen opens in a Flex application, developers should ensure that focus is set on the first
+interactiveelementortheelementthattheuserwouldusetofirstinteractwiththecontent.Ifthisinitialfocus
+is not set, screen readers may announce nothing at all when the screen changes. Setting the focus on the
+correct element in the screen ensures that all content is read in the intended order from that location forward.
+Otherwise,thescreenreadermayguesswherethefocusisandtheusermaymissimportantcontent.In
+general, focus should be set to the component with the lowest tabIndex property that has tabEnabled set to
+true.
+// when the title windows appears set focus to the first field
+txtUserName.setFocus();
+Return focus to open applications
+When keyboard users leave a Flex application to use another application and then return, the focus should be
+where it was last left, specifically on the last focused element. By default, Flash Player resets focus to the
+element with the lowest tabIndex property value that is enabled every time the user returns to the Flex
+application. Assistive technology users will need to tab back to the component that had the focus each time
+theyreturntotheapplication.IftheFlexapplicationisfrequentlyusedwithotherapplicationstocopy,paste,

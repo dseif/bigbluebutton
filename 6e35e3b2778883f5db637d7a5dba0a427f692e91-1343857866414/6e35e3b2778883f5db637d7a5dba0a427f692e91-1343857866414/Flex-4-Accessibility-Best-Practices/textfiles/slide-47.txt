@@ -1,0 +1,27 @@
+47
+Adobe Systems Incorporated
+345 Park Avenue
+San Jose, CA 95110-2704
+USA
+www.adobe.com
+Adobe,theAdobelogo,Flex,ActionScript,Flash,andFlashBuilderareeitherregisteredtrademarksortrademarksofAdobeSystemsIncorporatedintheUnitedStatesand/or
+other countries. Microsoft and Windows are either registered trademarks or trademarks of Microsoft Corporation in the
+United States and/or other countries. All other trademarks are the property of their respective owners.
+©2011AdobeSystemsIncorporated.Allrightsreserved.PrintedintheUSA.
+95012374 5/09
+Resources
+See the following resources for additional information on creating accessible Flex applications:
+· TheAdobeAccessibilityResourceCenterathttp://www.adobe.com/accessibility/
+· TheAdobeFlexAccessibilitysiteathttp://www.adobe.com/accessibility/products/flex/
+· UsingAdobeFlex4athttp://help.adobe.com/en_US/flex/using/index.html
+· ActionScript3.0ReferencefortheAdobeFlashPlatformReferenceathttp://help.adobe.com/en_US/
+FlashPlatform/reference/actionscript/3/flash/accessibility/Accessibility.html
+· SurfingtheInternetwithJAWSandMAGicathttp://www.freedomscientific.com/Training/Surfs-Up/_Surfs_Up_
+Start_Here.htm (This is a tutorial on using the JAWS screen reader to access web-based content from the
+maker of JAWS, Freedom Scientific.)
+See the following class references for details on Flex accessibility:
+· flash.accessibility.Accessibilityathttp://help.adobe.com/en_US/FlashPlatform/reference/actionscript/3/flash/
+accessibility/Accessibility.html -- The Accessibility class manages communication with assistive technologies.
+· flash.accessibility.AccessibilityPropertiesathttp://help.adobe.com/en_US/FlashPlatform/reference/
+actionscript/3/flash/accessibility/AccessibilityProperties.html -- The AccessibilityProperties class defines the
+core accessibility properties exported by user interface elements to enable access by assistive technologies.

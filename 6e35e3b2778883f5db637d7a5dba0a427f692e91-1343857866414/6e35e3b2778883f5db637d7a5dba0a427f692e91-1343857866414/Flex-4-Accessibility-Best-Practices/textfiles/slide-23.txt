@@ -1,0 +1,49 @@
+23Adobe Flex White Paper
+addEventListener(KeyEvent.KEY _ DOWN, performShortcut);
+function performShortcut(e:KeyEvent): void
+{
+if (e.keyCode == 63) // the question mark (?)
+{
+// call same code that button's click handler calls
+}
+}
+Shortcuts to avoid
+When choosing shortcut keystrokes for a Flex application, try to avoid the main shortcuts used in browsers,
+operating systems, and assistive technologies. The following shortcuts may cause difficulty if used in a Flex
+application:
+· Windows:F1(help),Alt+F4(closetheapplication),Ctrl+F4(closethecurrentwindow),Ctrl+W(closethe
+current window), Ctrl+Tab (switch tabs)
+· InternetExplorerandFirefox:F11(fullscreen),Alt+D(placethefocusintheaddressbar),Ctrl+P(print),
+Ctrl+N(newwindow),Ctrl+T(newtab),Ctrl+F(find),Ctrl+D(Bookmark),Ctrl+H(History)
+· JAWSandWindow-Eyes:NumpadPlus(toggleformsmode),Ctrl+Shift+A(toggleMSAAmode),Ctrl+Home
+(movetotopofdocument),Ctrl+End(movetobottomofdocument),mostsingleletters,Shift+mostsingle
+letters,Insert+DownArrow(JAWS,sayall),Control+Shift+R(Window-Eyes,readtobottomofdocument))
+While some conflicts are unavoidable, choose shortcuts carefully to avoid those most commonly used.
+Note: Screen readers trap most single letter keystrokes in virtual cursor or browse mode. When this mode is
+activated, Flex applications will not receive keystrokes until the user activates forms mode or MSAA mode, or
+passes the keystroke through to the application by pressing another keystroke combination.
+Reading order
+Providing textual equivalents, enabling, keyboard access, and setting accessibility properties is not, by itself,
+enough to make an application accessible to users of all assistive technology. Developers must also take steps
+to ensure that content is exposed to assistive technology in a sequence that is meaningful. This sequence is
+known as reading order and describes the order in which a screen reader reads the content of the screen. The
+default reading order of any SWF file, whether created in Adobe Flash or with Flex, does not always follow a
+predictable left-to-right, top-to-bottom order. When the content itself does not explicitly specify a reading
+order, Flash Player determines the default order based on a formula that uses the x and y coordinates of a
+component's bound rectangles. For simple Flex applications, reading order may not be an issue; however, for
+mostFlexapplications,thereadingordershouldbeexplicitlyspecified.Ifitisnot,thecontentmaybedifficult
+or impossible to understand with a screen reader.
+Theexamplecodebelowdefinesatreecomponent,adatagrid,andatextarea.Inthisexample,thedefault
+reading order flows from the tree control to the data grid and then to the text area (see Figure 2). This is the
+order in which the items will be encountered by screen reader users, and it is the desired order for the
+application. Developers can confirm this default order by reviewing the content with a screen reader or testing
+itinAccProbe.Inthiscase,thescreenreaderwouldannouncethebrowserpagetitle,followedbythetree
+component, the data grid, and the text area. Since this is roughly how a user would follow the application
+visually, the reading order does not need to be set explicitly.
+<?xml version="1.0" encoding="utf-8"?>
+<s:Application xmlns:fx="http://ns.adobe.com/mxml/2009"
+xmlns:s="library://ns.adobe.com/flex/spark"
+xmlns:mx="library://ns.adobe.com/flex/mx" minWidth="955"
+minHeight="600">
+<mx:Form>
+<mx:Tree accessibilityName="Lunch Items:" width="300" height="150"

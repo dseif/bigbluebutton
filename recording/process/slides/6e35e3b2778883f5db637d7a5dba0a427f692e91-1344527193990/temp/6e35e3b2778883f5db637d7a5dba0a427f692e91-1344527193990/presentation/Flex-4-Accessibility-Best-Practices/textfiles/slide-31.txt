@@ -1,0 +1,47 @@
+31Adobe Flex White Paper
+}
+]]>
+</fx:Script>
+...
+<mx:Accordion id="a1" tabIndex="50" width="100%">
+<mx:Form tabIndex="51" label="Accordion Pane 1" width="100%">
+<mx:FormItem id="f15" label="Text Input 1:">
+<s:TextInput tabIndex="54"/>
+</mx:FormItem>
+</mx:Form>
+<mx:Form tabIndex="52" label="Accordion Pane 2" width="100%">
+<mx:FormItem id="f16" label="Text Input 2:">
+<s:TextInput tabIndex="55"/>
+</mx:FormItem>
+</mx:Form>
+<mx:Form tabIndex="53" label="Accordion Pane 3" width="100%">
+<mx:FormItem id="f17" label="Text Input 3:">
+<s:TextInput tabIndex="56"/>
+</mx:FormItem>
+</mx:Form>
+</mx:Accordion>
+ForTabNavigatorcomponents,usethegetTabAt() method instead of getHeaderAt() to obtain the child
+component tabs. To correctly set the tabIndex on the title text of an MX Panel component, the component
+must be extended because the titleBar child component is protected and cannot be directly accessed from
+outside of the MX Panel component.
+The MX Text and Label controls are also compound components; they both contain a textField. Unfortunately,
+thereadingordercannotbesetcorrectlyforMXTextandLabelcontrolswhenusedwiththeFlex4SDK.This
+issuedoesnotoccurintheFlex3SDK,nordoesitoccurwhenusingtheSparkequivalentcomponentswiththe
+Flex4SDK.AdoberecommendsusingSparkcomponentsinsteadofMXcomponentswheneveranequivalent
+exists. The reading order of Spark RichText and Label components is controlled by simply setting the tabIndex
+property.
+Skipping repetitive components
+Repetitive components that appear on every screen in a Flex application can make the application difficult to
+use by individuals with disabilities. Users without disabilities quickly learn to ignore such repetitive
+components--aglobalnavigationfeature,forexample--untiltheyneedthem.Incontrast,usersofscreen
+reader software must listen to and navigate past them at the beginning of each new screen, and keyboard-only
+usersmusttabthroughthemoneachscreentoreachthenewpagecontent.Itisagoodpracticetoprovidea
+method for users to avoid these items until needed. There are two commonly used methods for achieving this
+without changing the visual appearance of the Flex application:
+· Changethereadingorder
+· Providealink,button,orshortcutkeytoskippasttherepetitivecontent
+Changing the reading order
+When repetitive navigation links appear above or to the left of content, change the reading order so that screen
+readers read the content before the navigation links. Screen reader users will encounter the main page content
+beforetherepetitivelinksandbuttons.Keyboard-onlyuserscanaccessthecontentwithouttabbingthrough
+thelinksorbuttonsoneachscreen.Iftherearemanyotherkeyboard-accessibleelementsonthescreen,

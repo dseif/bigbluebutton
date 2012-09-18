@@ -1,0 +1,48 @@
+22Adobe Flex White Paper
+Placing an element behind another in the z-order (front to back order) to hide it is not recommended, as the
+element may still appear in the tab order. Thus, developers should be sure to set the visible property on items
+that are not visible to false, move elements that are off-screen completely off-screen, and ensure that
+tabEnabled is set to false when an element is visible but should not appear in the tab order.
+Shortcuts and mnemonics
+Frequently used functions of an application should be accessible via keyboard shortcuts, so that they can be
+accessedasquicklywiththekeyboardaswithamouse.Keyboardshortcutstypicallyuseaneasily
+remembered letter (or mnemonic) from the name of the component or action. The letter is underlined in that
+name to help users identify and remember it. For example, Ctrl+S is a standard mnemonic for a Save button or
+Save menu item.
+There are no specific guidelines that explain when a shortcut is required, but it is a good practice to add a
+shortcut for any commonly used component that:
+· RequirespressingtheTabkeymorethanfivetimestoreach
+· Controlsmediaplayback
+· Isneededquickly,suchastosilenceaudioorstoprepeatedcontentupdates
+Itisimportanttoindicateshortcutsonthescreen.Thoughitispossibletoindicatethemviathe
+accessibilityShortcut property, screen readers do not always make use of this property and the
+informationprovidedtherewillbeunavailabletokeyboard-onlyuserswhoarenotusingascreenreader.In
+addition to underlining shortcut letters in menu items and button names, it is often helpful to make a list of
+shortcuts available on the screen or in a keyboard-accessible pop-up window. A list of shortcut keystrokes can
+also be provided in user guides and online help documentation.
+Keystrokes to silence audio
+Itisverydifficultforusersofascreenreadertolistentoanaudiotrackandthescreenreaderatthesametime.
+Audio that plays automatically when an application is loaded is especially disruptive. Thus, developers must
+ensure that users of assistive technology can stop the playback of any audio content (including narration,
+multimedia, or background music) that lasts longer than five seconds.
+Inthefollowingexample,Ctrl+Sisusedtopausetheaudiocontent:
+addEventListener(KeyEvent.KEY _ DOWN, pauseVideo);
+function pauseVideo(e: KeyEvent): void
+{
+// if ctrl+s is pressed pause the multimedia presentation
+if (e.ctrlKey && e.keyCode == 83)
+myVideoPlayer.pause();
+}
+Implementing keyboard shortcuts
+Eventlistenersforkeyboardshortcutsshouldbeplacedonthemostgeneralcomponentintheapplicationor
+ontheapplicationitself.Iftheeventlistenerisattachedtoaspecificcomponent,theshortcutkeysithandles
+will only be active when the focus is on that component.
+As an example, consider a developer who wants to provide quick access to the help screen for an application
+by using the question mark (?) key as a shortcut. The developer would add a listener for the KEY _ DOWN event
+on the main application object as shown in the following example:
+// assign the event listener directly on the main application object
+// For applications that accept user input (such as into form fields) the
+function below should be designed to verify that the user is not current
+in a form field. Otherwise a keystroke such as F1 or a keystroke
+combination such as Control+Shift+? could be used rather than the
+single key question mark (?).

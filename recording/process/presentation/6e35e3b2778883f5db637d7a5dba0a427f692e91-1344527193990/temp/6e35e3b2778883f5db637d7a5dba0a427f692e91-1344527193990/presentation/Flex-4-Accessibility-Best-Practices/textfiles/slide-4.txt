@@ -1,0 +1,26 @@
+4Adobe Flex White Paper
+Figure 1
+The Project Properties dialog box in Flash Builder 4 with the Generate Accessible SWF File setting selected.
+Enable accessibility using the command-line compiler
+When compiling a file using the mxmlc command-line compiler, it is possible to explicitly override the setting
+in the framework-config.xml file. To enable accessibility via the command-line compiler, use the
+compiler.accessible command line flag (or just ­accessible), as shown in the following example:
+c:>c:\flex _ 4 _ sdk\bin\mxmlc.exe ­compiler.accessible myApp.mxml
+EmbeddingaccessibleFlexapplications
+When a Flex application is to be deployed on the web, developers need to properly embed the Flex content
+into an HTML page to ensure that it interacts in an accessible fashion with the host web page.
+Note: The default HTML file created by Flash Builder 4 embeds Flex applications properly in the generated
+HTML. Developers who use the standard embedding code do not need to modify application elements to
+ensure that they are accessible.
+Developers who do not use the standard embedding code must set the Window Mode (wmode) parameter of
+the OBJECT element that is used to embed the SWF content in the HTML page to window. (This can also be
+accomplished by ensuring the wmode parameter is not set; in this case Flash Player will use window as the
+default value.) To set this value using a PARAM element as a child of the embedding OBJECT element, use the
+following syntax:
+<PARAM NAME="wmode" VALUE="window">
+Transparent applications that allow the web page to show through SWF content, and opaque applications that
+obscure but allow the SWF content to be on top of the page, are not accessible by assistive technologies
+becausethereisnodefinedchildwindowcreatedbyFlashPlayerinsideofthebrowser.Iftheapplicationbeing
+developed does not allow for the window mode to be set to window--because items must be displayed in
+front of or behind the SWF content--developers may provide an alternative page that inserts that content
+using the wmode='window' parameter.

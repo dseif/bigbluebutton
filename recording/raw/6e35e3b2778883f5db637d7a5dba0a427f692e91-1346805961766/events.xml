@@ -1,0 +1,486 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<recording meeting_id="6e35e3b2778883f5db637d7a5dba0a427f692e91-1346805961766">
+  <metadata title="English 101" meetingId="English 101" meetingName="English 101" description="testing 2
+" email="chad"/>
+  <event timestamp="1346805963087" module="PARTICIPANT" eventname="ParticipantJoinEvent">
+    <status>{raiseHand=false, hasStream=false, presenter=false}</status>
+    <role>MODERATOR</role>
+    <name>chad</name>
+    <userId>6</userId>
+  </event>
+  <event timestamp="1346805963315" module="PRESENTATION" eventname="GenerateSlideEvent">
+    <numberOfPages>1</numberOfPages>
+    <pagesCompleted>1</pagesCompleted>
+    <presentationName>default</presentationName>
+  </event>
+  <event timestamp="1346805963338" module="PARTICIPANT" eventname="ParticipantStatusChangeEvent">
+    <value>true</value>
+    <status>presenter</status>
+    <userId>6</userId>
+  </event>
+  <event timestamp="1346805963341" module="PARTICIPANT" eventname="AssignPresenterEvent">
+    <name>chad</name>
+    <userid>6</userid>
+    <assignedBy>1</assignedBy>
+  </event>
+  <event timestamp="1346805963511" module="PRESENTATION" eventname="ConversionCompletedEvent">
+    <presentationName>default</presentationName>
+    <slidesInfo>
+<uploadedpresentation>
+  <conference id='6e35e3b2778883f5db637d7a5dba0a427f692e91-1346805961766' room='6e35e3b2778883f5db637d7a5dba0a427f692e91-1346805961766'>
+    <presentation name='default'>
+      <slides count='1'>
+        <slide number='1' name='slide/1' thumb='thumbnail/1' />
+      </slides>
+    </presentation>
+  </conference>
+</uploadedpresentation>    </slidesInfo>
+  </event>
+  <event timestamp="1346805964191" module="PRESENTATION" eventname="ResizeAndMoveSlideEvent">
+    <widthRatio>100.0</widthRatio>
+    <xOffset>0.0</xOffset>
+    <yOffset>0.0</yOffset>
+    <heightRatio>100.0</heightRatio>
+  </event>
+  <event timestamp="1346805964346" module="PRESENTATION" eventname="SharePresentationEvent">
+    <share>true</share>
+    <presentationName>default</presentationName>
+  </event>
+  <event timestamp="1346805967389" module="PRESENTATION" eventname="GotoSlideEvent">
+    <slide>0</slide>
+  </event>
+  <event timestamp="1346805967508" module="PRESENTATION" eventname="ResizeAndMoveSlideEvent">
+    <heightRatio>100.0</heightRatio>
+    <widthRatio>100.0</widthRatio>
+    <yOffset>0.0</yOffset>
+    <xOffset>0.0</xOffset>
+  </event>
+  <event timestamp="1346805968259" module="VOICE" eventname="ParticipantJoinedEvent">
+    <locked>false</locked>
+    <callernumber>6-chad</callernumber>
+    <talking>false</talking>
+    <participant>3</participant>
+    <muted>false</muted>
+    <bridge>78493</bridge>
+    <callername>6-chad</callername>
+  </event>
+  <event timestamp="1346805968260" module="VOICE" eventname="StartRecordingEvent">
+    <bridge>78493</bridge>
+    <recordingTimestamp>1346805968252516</recordingTimestamp>
+    <filename>/var/freeswitch/meetings/6e35e3b2778883f5db637d7a5dba0a427f692e91-1346805961766-1346805968251.wav</filename>
+  </event>
+  <event timestamp="1346805968279" module="VOICE" eventname="ParticipantMutedEvent">
+    <muted>true</muted>
+    <bridge>78493</bridge>
+    <participant>3</participant>
+  </event>
+  <event timestamp="1346805968525" module="PRESENTATION" eventname="CursorMoveEvent">
+    <xOffset>0.7862068965517242</xOffset>
+    <yOffset>0.7282758620689656</yOffset>
+  </event>
+  <event timestamp="1346805968533" module="PRESENTATION" eventname="CursorMoveEvent">
+    <xOffset>0.7806896551724138</xOffset>
+    <yOffset>0.720919540229885</yOffset>
+  </event>
+  <event timestamp="1346805968541" module="PRESENTATION" eventname="CursorMoveEvent">
+    <yOffset>0.7117241379310345</yOffset>
+    <xOffset>0.7710344827586207</xOffset>
+  </event>
+  <event timestamp="1346805968549" module="PRESENTATION" eventname="CursorMoveEvent">
+    <xOffset>0.7544827586206897</xOffset>
+    <yOffset>0.6933333333333334</yOffset>
+  </event>
+  <event timestamp="1346805968556" module="PRESENTATION" eventname="CursorMoveEvent">
+    <xOffset>0.7268965517241379</xOffset>
+    <yOffset>0.6694252873563218</yOffset>
+  </event>
+  <event timestamp="1346805968564" module="PRESENTATION" eventname="CursorMoveEvent">
+    <xOffset>0.6882758620689655</xOffset>
+    <yOffset>0.6289655172413793</yOffset>
+  </event>
+  <event timestamp="1346805968574" module="PRESENTATION" eventname="CursorMoveEvent">
+    <yOffset>0.577471264367816</yOffset>
+    <xOffset>0.6413793103448275</xOffset>
+  </event>
+  <event timestamp="1346805968582" module="PRESENTATION" eventname="CursorMoveEvent">
+    <xOffset>0.5737931034482758</xOffset>
+    <yOffset>0.5002298850574712</yOffset>
+  </event>
+  <event timestamp="1346805968594" module="PRESENTATION" eventname="CursorMoveEvent">
+    <yOffset>0.4027586206896552</yOffset>
+    <xOffset>0.4882758620689655</xOffset>
+  </event>
+  <event timestamp="1346805968599" module="PRESENTATION" eventname="CursorMoveEvent">
+    <yOffset>0.288735632183908</yOffset>
+    <xOffset>0.3889655172413793</xOffset>
+  </event>
+  <event timestamp="1346805968607" module="PRESENTATION" eventname="CursorMoveEvent">
+    <xOffset>0.2813793103448276</xOffset>
+    <yOffset>0.18022988505747126</yOffset>
+  </event>
+  <event timestamp="1346805968615" module="PRESENTATION" eventname="CursorMoveEvent">
+    <yOffset>0.06988505747126436</yOffset>
+    <xOffset>0.17379310344827587</xOffset>
+  </event>
+  <event timestamp="1346805970206" module="PRESENTATION" eventname="CursorMoveEvent">
+    <yOffset>0.04597701149425287</yOffset>
+    <xOffset>0.16827586206896553</xOffset>
+  </event>
+  <event timestamp="1346805970214" module="PRESENTATION" eventname="CursorMoveEvent">
+    <yOffset>0.08275862068965517</yOffset>
+    <xOffset>0.22206896551724137</xOffset>
+  </event>
+  <event timestamp="1346805970221" module="PRESENTATION" eventname="CursorMoveEvent">
+    <xOffset>0.26620689655172414</xOffset>
+    <yOffset>0.12137931034482759</yOffset>
+  </event>
+  <event timestamp="1346805970229" module="PRESENTATION" eventname="CursorMoveEvent">
+    <yOffset>0.1489655172413793</yOffset>
+    <xOffset>0.30482758620689654</xOffset>
+  </event>
+  <event timestamp="1346805970236" module="PRESENTATION" eventname="CursorMoveEvent">
+    <xOffset>0.3393103448275862</xOffset>
+    <yOffset>0.18022988505747126</yOffset>
+  </event>
+  <event timestamp="1346805970245" module="PRESENTATION" eventname="CursorMoveEvent">
+    <xOffset>0.3696551724137931</xOffset>
+    <yOffset>0.20597701149425288</yOffset>
+  </event>
+  <event timestamp="1346805970252" module="PRESENTATION" eventname="CursorMoveEvent">
+    <xOffset>0.4</xOffset>
+    <yOffset>0.2317241379310345</yOffset>
+  </event>
+  <event timestamp="1346805970262" module="PRESENTATION" eventname="CursorMoveEvent">
+    <xOffset>0.4317241379310345</xOffset>
+    <yOffset>0.2611494252873563</yOffset>
+  </event>
+  <event timestamp="1346805970270" module="PRESENTATION" eventname="CursorMoveEvent">
+    <yOffset>0.2905747126436782</yOffset>
+    <xOffset>0.46206896551724136</xOffset>
+  </event>
+  <event timestamp="1346805970280" module="PRESENTATION" eventname="CursorMoveEvent">
+    <xOffset>0.4910344827586207</xOffset>
+    <yOffset>0.3236781609195402</yOffset>
+  </event>
+  <event timestamp="1346805970288" module="PRESENTATION" eventname="CursorMoveEvent">
+    <yOffset>0.3457471264367816</yOffset>
+    <xOffset>0.5117241379310344</xOffset>
+  </event>
+  <event timestamp="1346805970297" module="PRESENTATION" eventname="CursorMoveEvent">
+    <yOffset>0.3641379310344828</yOffset>
+    <xOffset>0.5310344827586206</xOffset>
+  </event>
+  <event timestamp="1346805970300" module="PRESENTATION" eventname="CursorMoveEvent">
+    <yOffset>0.37701149425287356</yOffset>
+    <xOffset>0.543448275862069</xOffset>
+  </event>
+  <event timestamp="1346805970310" module="PRESENTATION" eventname="CursorMoveEvent">
+    <xOffset>0.5517241379310345</xOffset>
+    <yOffset>0.38620689655172413</yOffset>
+  </event>
+  <event timestamp="1346805970316" module="PRESENTATION" eventname="CursorMoveEvent">
+    <yOffset>0.3917241379310345</yOffset>
+    <xOffset>0.5586206896551724</xOffset>
+  </event>
+  <event timestamp="1346805970331" module="PRESENTATION" eventname="CursorMoveEvent">
+    <xOffset>0.56</xOffset>
+    <yOffset>0.3954022988505747</yOffset>
+  </event>
+  <event timestamp="1346805970332" module="PRESENTATION" eventname="CursorMoveEvent">
+    <xOffset>0.5613793103448276</xOffset>
+    <yOffset>0.3954022988505747</yOffset>
+  </event>
+  <event timestamp="1346805970511" module="PRESENTATION" eventname="CursorMoveEvent">
+    <yOffset>0.3954022988505747</yOffset>
+    <xOffset>0.5586206896551724</xOffset>
+  </event>
+  <event timestamp="1346805970517" module="PRESENTATION" eventname="CursorMoveEvent">
+    <xOffset>0.5475862068965517</xOffset>
+    <yOffset>0.3990804597701149</yOffset>
+  </event>
+  <event timestamp="1346805970526" module="PRESENTATION" eventname="CursorMoveEvent">
+    <xOffset>0.5337931034482759</xOffset>
+    <yOffset>0.4027586206896552</yOffset>
+  </event>
+  <event timestamp="1346805970534" module="PRESENTATION" eventname="CursorMoveEvent">
+    <yOffset>0.4064367816091954</yOffset>
+    <xOffset>0.5186206896551724</xOffset>
+  </event>
+  <event timestamp="1346805970545" module="PRESENTATION" eventname="CursorMoveEvent">
+    <yOffset>0.41011494252873565</yOffset>
+    <xOffset>0.4993103448275862</xOffset>
+  </event>
+  <event timestamp="1346805970556" module="PRESENTATION" eventname="CursorMoveEvent">
+    <yOffset>0.41563218390804596</yOffset>
+    <xOffset>0.48413793103448277</xOffset>
+  </event>
+  <event timestamp="1346805970557" module="PRESENTATION" eventname="CursorMoveEvent">
+    <xOffset>0.4689655172413793</xOffset>
+    <yOffset>0.4193103448275862</yOffset>
+  </event>
+  <event timestamp="1346805970564" module="PRESENTATION" eventname="CursorMoveEvent">
+    <yOffset>0.4211494252873563</yOffset>
+    <xOffset>0.4579310344827586</xOffset>
+  </event>
+  <event timestamp="1346805970573" module="PRESENTATION" eventname="CursorMoveEvent">
+    <yOffset>0.4211494252873563</yOffset>
+    <xOffset>0.44413793103448274</xOffset>
+  </event>
+  <event timestamp="1346805970584" module="PRESENTATION" eventname="CursorMoveEvent">
+    <xOffset>0.42758620689655175</xOffset>
+    <yOffset>0.4211494252873563</yOffset>
+  </event>
+  <event timestamp="1346805970589" module="PRESENTATION" eventname="CursorMoveEvent">
+    <xOffset>0.4013793103448276</xOffset>
+    <yOffset>0.4211494252873563</yOffset>
+  </event>
+  <event timestamp="1346805970597" module="PRESENTATION" eventname="CursorMoveEvent">
+    <yOffset>0.4193103448275862</yOffset>
+    <xOffset>0.3627586206896552</xOffset>
+  </event>
+  <event timestamp="1346805970605" module="PRESENTATION" eventname="CursorMoveEvent">
+    <yOffset>0.41379310344827586</yOffset>
+    <xOffset>0.31862068965517243</xOffset>
+  </event>
+  <event timestamp="1346805970614" module="PRESENTATION" eventname="CursorMoveEvent">
+    <yOffset>0.3990804597701149</yOffset>
+    <xOffset>0.2593103448275862</xOffset>
+  </event>
+  <event timestamp="1346805970622" module="PRESENTATION" eventname="CursorMoveEvent">
+    <xOffset>0.2</xOffset>
+    <yOffset>0.38804597701149424</yOffset>
+  </event>
+  <event timestamp="1346805970630" module="PRESENTATION" eventname="CursorMoveEvent">
+    <xOffset>0.1393103448275862</xOffset>
+    <yOffset>0.37517241379310345</yOffset>
+  </event>
+  <event timestamp="1346805970637" module="PRESENTATION" eventname="CursorMoveEvent">
+    <yOffset>0.3604597701149425</yOffset>
+    <xOffset>0.08</xOffset>
+  </event>
+  <event timestamp="1346805971601" module="PARTICIPANT" eventname="ParticipantStatusChangeEvent">
+    <status>hasStream</status>
+    <userId>6</userId>
+    <value>true,stream=320x2406-1346865519954</value>
+  </event>
+  <event timestamp="1346805971691" module="WEBCAM" eventname="StartWebcamShareEvent">
+    <stream>320x2406-1346865519954</stream>
+  </event>
+  <event timestamp="1346805974898" module="PRESENTATION" eventname="CursorMoveEvent">
+    <yOffset>0.4910344827586207</yOffset>
+    <xOffset>0.04689655172413793</xOffset>
+  </event>
+  <event timestamp="1346805974903" module="PRESENTATION" eventname="CursorMoveEvent">
+    <xOffset>0.16827586206896553</xOffset>
+    <yOffset>0.5462068965517242</yOffset>
+  </event>
+  <event timestamp="1346805974909" module="PRESENTATION" eventname="CursorMoveEvent">
+    <xOffset>0.30344827586206896</xOffset>
+    <yOffset>0.608735632183908</yOffset>
+  </event>
+  <event timestamp="1346805974917" module="PRESENTATION" eventname="CursorMoveEvent">
+    <yOffset>0.6767816091954023</yOffset>
+    <xOffset>0.4220689655172414</xOffset>
+  </event>
+  <event timestamp="1346805974925" module="PRESENTATION" eventname="CursorMoveEvent">
+    <yOffset>0.7466666666666667</yOffset>
+    <xOffset>0.5282758620689655</xOffset>
+  </event>
+  <event timestamp="1346805974932" module="PRESENTATION" eventname="CursorMoveEvent">
+    <yOffset>0.8073563218390805</yOffset>
+    <xOffset>0.6289655172413793</xOffset>
+  </event>
+  <event timestamp="1346805974941" module="PRESENTATION" eventname="CursorMoveEvent">
+    <xOffset>0.7296551724137931</xOffset>
+    <yOffset>0.8735632183908046</yOffset>
+  </event>
+  <event timestamp="1346805974949" module="PRESENTATION" eventname="CursorMoveEvent">
+    <xOffset>0.8386206896551724</xOffset>
+    <yOffset>0.9471264367816092</yOffset>
+  </event>
+  <event timestamp="1346805976467" module="CHAT" eventname="PublicChatEvent">
+    <message>
+      <![CDATA[asdfkjhasdf]]>
+    </message>
+    <sender>chad</sender>
+    <color>0</color>
+    <locale>en</locale>
+  </event>
+  <event timestamp="1346805976978" module="CHAT" eventname="PublicChatEvent">
+    <message>
+      <![CDATA[asdfkhasdf]]>
+    </message>
+    <color>0</color>
+    <locale>en</locale>
+    <sender>chad</sender>
+  </event>
+  <event timestamp="1346805977641" module="CHAT" eventname="PublicChatEvent">
+    <color>0</color>
+    <sender>chad</sender>
+    <locale>en</locale>
+    <message>
+      <![CDATA[asdfklajsdf'asd]]>
+    </message>
+  </event>
+  <event timestamp="1346805978180" module="CHAT" eventname="PublicChatEvent">
+    <color>0</color>
+    <message>
+      <![CDATA[fajsdfasdf]]>
+    </message>
+    <sender>chad</sender>
+    <locale>en</locale>
+  </event>
+  <event timestamp="1346805978589" module="CHAT" eventname="PublicChatEvent">
+    <locale>en</locale>
+    <message>
+      <![CDATA[asdfklasd]]>
+    </message>
+    <color>0</color>
+    <sender>chad</sender>
+  </event>
+  <event timestamp="1346805978995" module="CHAT" eventname="PublicChatEvent">
+    <sender>chad</sender>
+    <color>0</color>
+    <message>
+      <![CDATA[fasdfkla]]>
+    </message>
+    <locale>en</locale>
+  </event>
+  <event timestamp="1346805979653" module="CHAT" eventname="PublicChatEvent">
+    <color>0</color>
+    <locale>en</locale>
+    <message>
+      <![CDATA[sdfjasfdasjf]]>
+    </message>
+    <sender>chad</sender>
+  </event>
+  <event timestamp="1346805980089" module="CHAT" eventname="PublicChatEvent">
+    <message>
+      <![CDATA[asfajsldf]]>
+    </message>
+    <locale>en</locale>
+    <sender>chad</sender>
+    <color>0</color>
+  </event>
+  <event timestamp="1346805980344" module="CHAT" eventname="PublicChatEvent">
+    <locale>en</locale>
+    <color>0</color>
+    <message>
+      <![CDATA[asdfj]]>
+    </message>
+    <sender>chad</sender>
+  </event>
+  <event timestamp="1346805980763" module="CHAT" eventname="PublicChatEvent">
+    <message>
+      <![CDATA[dasfkjasd]]>
+    </message>
+    <color>0</color>
+    <locale>en</locale>
+    <sender>chad</sender>
+  </event>
+  <event timestamp="1346805981395" module="CHAT" eventname="PublicChatEvent">
+    <color>0</color>
+    <locale>en</locale>
+    <sender>chad</sender>
+    <message>
+      <![CDATA[fasfjas';df]]>
+    </message>
+  </event>
+  <event timestamp="1346805981805" module="CHAT" eventname="PublicChatEvent">
+    <color>0</color>
+    <locale>en</locale>
+    <sender>chad</sender>
+    <message>
+      <![CDATA[asdfjklasd]]>
+    </message>
+  </event>
+  <event timestamp="1346805982276" module="CHAT" eventname="PublicChatEvent">
+    <sender>chad</sender>
+    <message>
+      <![CDATA[fajsdfklas]]>
+    </message>
+    <locale>en</locale>
+    <color>0</color>
+  </event>
+  <event timestamp="1346805982769" module="CHAT" eventname="PublicChatEvent">
+    <color>0</color>
+    <sender>chad</sender>
+    <locale>en</locale>
+    <message>
+      <![CDATA[dfa'dflja]]>
+    </message>
+  </event>
+  <event timestamp="1346805983721" module="CHAT" eventname="PublicChatEvent">
+    <sender>chad</sender>
+    <color>0</color>
+    <locale>en</locale>
+    <message>
+      <![CDATA[sdfkljdasfjasdfljas]]>
+    </message>
+  </event>
+  <event timestamp="1346805984449" module="CHAT" eventname="PublicChatEvent">
+    <color>0</color>
+    <message>
+      <![CDATA[dfdfjd;asf]]>
+    </message>
+    <sender>chad</sender>
+    <locale>en</locale>
+  </event>
+  <event timestamp="1346805985454" module="CHAT" eventname="PublicChatEvent">
+    <color>0</color>
+    <locale>en</locale>
+    <sender>chad</sender>
+    <message>
+      <![CDATA[asdfkljasdfkl'jasd;fljasdf]]>
+    </message>
+  </event>
+  <event timestamp="1346805986293" module="CHAT" eventname="PublicChatEvent">
+    <color>0</color>
+    <sender>chad</sender>
+    <message>
+      <![CDATA[asdfklja;lsdfjlasdf]]>
+    </message>
+    <locale>en</locale>
+  </event>
+  <event timestamp="1346805987033" module="CHAT" eventname="PublicChatEvent">
+    <locale>en</locale>
+    <message>
+      <![CDATA[adsfklja;lsdfja]]>
+    </message>
+    <color>0</color>
+    <sender>chad</sender>
+  </event>
+  <event timestamp="1346805987913" module="CHAT" eventname="PublicChatEvent">
+    <message>
+      <![CDATA[sdflajsdfl';ajsdf]]>
+    </message>
+    <color>0</color>
+    <sender>chad</sender>
+    <locale>en</locale>
+  </event>
+  <event timestamp="1346805988657" module="CHAT" eventname="PublicChatEvent">
+    <message>
+      <![CDATA[asdfkljasd;fl]]>
+    </message>
+    <color>0</color>
+    <locale>en</locale>
+    <sender>chad</sender>
+  </event>
+  <event timestamp="1346805990009" module="CHAT" eventname="PublicChatEvent">
+    <message>
+      <![CDATA[end]]>
+    </message>
+    <sender>chad</sender>
+    <locale>en</locale>
+    <color>0</color>
+  </event>
+  <event timestamp="1346806033524" module="PARTICIPANT" eventname="ParticipantLeftEvent">
+    <userId>6</userId>
+  </event>
+  <event timestamp="1346806033525" module="PARTICIPANT" eventname="EndAndKickAllEvent">
+  </event>
+  <event timestamp="1346806033570" module="WEBCAM" eventname="StopWebcamShareEvent">
+    <duration>61</duration>
+    <stream>320x2406-1346865519954</stream>
+  </event>
+</recording>

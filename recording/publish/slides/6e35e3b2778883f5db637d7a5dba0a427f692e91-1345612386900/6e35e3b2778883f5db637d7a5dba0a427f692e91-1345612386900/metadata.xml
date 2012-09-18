@@ -1,0 +1,18 @@
+<recording>
+  <id>6e35e3b2778883f5db637d7a5dba0a427f692e91-1345612386900</id>
+  <state>available</state>
+  <published>true</published>
+  <start_time>1345612388716</start_time>
+  <end_time>1345612603700</end_time>
+  <playback>
+    <format>slides</format>
+    <link>http://192.168.209.145/playback/slides/playback.html?meetingId=6e35e3b2778883f5db637d7a5dba0a427f692e91-1345612386900</link>
+  </playback>
+  <meta>
+    <meetingId>English 101</meetingId>
+    <description>Presenation Example</description>
+    <meetingName>English 101</meetingName>
+    <title>English 101</title>
+    <email>Chad</email>
+  </meta>
+</recording>

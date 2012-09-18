@@ -1,0 +1,78 @@
+<?xml version="1.0"?>
+<recording id="cursor_events">
+  <event timestamp="5.8" orig="1343857872979.0">
+    <cursor>280.6 523.6</cursor>
+  </event>
+  <event timestamp="5.9" orig="1343857873003.0">
+    <cursor>41.1 569.8</cursor>
+  </event>
+  <event timestamp="6.9" orig="1343857874082.0">
+    <cursor>142.0 209.6</cursor>
+  </event>
+  <event timestamp="7.0" orig="1343857874162.0">
+    <cursor>227.6 135.2</cursor>
+  </event>
+  <event timestamp="21.5" orig="1343857888681.0">
+    <cursor>290.9 152.3</cursor>
+  </event>
+  <event timestamp="21.6" orig="1343857888780.0">
+    <cursor>787.2 197.6</cursor>
+  </event>
+  <event timestamp="23.4" orig="1343857890577.0">
+    <cursor>732.4 197.6</cursor>
+  </event>
+  <event timestamp="23.5" orig="1343857890681.0">
+    <cursor>387.6 440.6</cursor>
+  </event>
+  <event timestamp="23.6" orig="1343857890777.0">
+    <cursor>258.4 455.2</cursor>
+  </event>
+  <event timestamp="23.7" orig="1343857890881.0">
+    <cursor>238.7 520.2</cursor>
+  </event>
+  <event timestamp="23.8" orig="1343857890977.0">
+    <cursor>262.7 550.2</cursor>
+  </event>
+  <event timestamp="23.9" orig="1343857891082.0">
+    <cursor>268.7 580.1</cursor>
+  </event>
+  <event timestamp="24.0" orig="1343857891105.0">
+    <cursor>8.8 263.1</cursor>
+  </event>
+  <event timestamp="24.9" orig="1343857892081.0">
+    <cursor>17.5 227.3</cursor>
+  </event>
+  <event timestamp="25.0" orig="1343857892140.0">
+    <cursor>178.1 168.1</cursor>
+  </event>
+  <event timestamp="26.1" orig="1343857893282.0">
+    <cursor>181.7 168.1</cursor>
+  </event>
+  <event timestamp="26.2" orig="1343857893293.0">
+    <cursor>170.8 150.5</cursor>
+  </event>
+  <event timestamp="27.0" orig="1343857894177.0">
+    <cursor>205.1 271.1</cursor>
+  </event>
+  <event timestamp="27.1" orig="1343857894241.0">
+    <cursor>87.6 596.3</cursor>
+  </event>
+  <event timestamp="61.9" orig="1343857929082.0">
+    <cursor>80.3 573.7</cursor>
+  </event>
+  <event timestamp="62.0" orig="1343857929177.0">
+    <cursor>70.1 369.8</cursor>
+  </event>
+  <event timestamp="62.1" orig="1343857929273.0">
+    <cursor>100.7 325.2</cursor>
+  </event>
+  <event timestamp="62.5" orig="1343857929680.0">
+    <cursor>151.1 317.9</cursor>
+  </event>
+  <event timestamp="62.6" orig="1343857929752.0">
+    <cursor>453.2 299.6</cursor>
+  </event>
+  <event timestamp="109.2" orig="1343857976377.0">
+    <cursor>443.0 283.6</cursor>
+  </event>
+</recording>

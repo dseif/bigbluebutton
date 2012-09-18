@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<recording meeting_id="4c8a2069497e081492ce6322db00f7a06b59c2d3-1343771464236">
+  <metadata meetingName="English 104" description="test 2 with chat-timeline" title="English 104" email="chad" meetingId="English 104"/>
+  <event timestamp="1343771465322" module="PARTICIPANT" eventname="ParticipantJoinEvent">
+    <role>MODERATOR</role>
+    <status>{raiseHand=false, hasStream=false, presenter=false}</status>
+    <userId>1</userId>
+  </event>
+  <event timestamp="1343771465512" module="PARTICIPANT" eventname="ParticipantStatusChangeEvent">
+    <value>true</value>
+    <status>presenter</status>
+    <userId>1</userId>
+  </event>
+  <event timestamp="1343771465513" module="PARTICIPANT" eventname="AssignPresenterEvent">
+    <userid>1</userid>
+    <assignedBy>1</assignedBy>
+    <name>chad</name>
+  </event>
+  <event timestamp="1343771465789" module="PRESENTATION" eventname="GenerateSlideEvent">
+    <presentationName>default</presentationName>
+    <pagesCompleted>1</pagesCompleted>
+    <numberOfPages>1</numberOfPages>
+  </event>
+  <event timestamp="1343771466046" module="PRESENTATION" eventname="ConversionCompletedEvent">
+    <slidesInfo>
+<uploadedpresentation>
+  <conference id='4c8a2069497e081492ce6322db00f7a06b59c2d3-1343771464236' room='4c8a2069497e081492ce6322db00f7a06b59c2d3-1343771464236'>
+    <presentation name='default'>
+      <slides count='1'>
+        <slide number='1' name='slide/1' thumb='thumbnail/1' />
+      </slides>
+    </presentation>
+  </conference>
+</uploadedpresentation>    </slidesInfo>
+    <presentationName>default</presentationName>
+  </event>
+  <event timestamp="1343771466074" module="PRESENTATION" eventname="ResizeAndMoveSlideEvent">
+    <widthRatio>100.0</widthRatio>
+    <xOffset>0.0</xOffset>
+    <yOffset>0.0</yOffset>
+    <heightRatio>100.0</heightRatio>
+  </event>
+  <event timestamp="1343771466249" module="PRESENTATION" eventname="ResizeAndMoveSlideEvent">
+    <yOffset>0.0</yOffset>
+    <heightRatio>100.0</heightRatio>
+    <xOffset>0.0</xOffset>
+    <widthRatio>100.0</widthRatio>
+  </event>
+  <event timestamp="1343771466287" module="PRESENTATION" eventname="SharePresentationEvent">
+    <share>true</share>
+    <presentationName>default</presentationName>
+  </event>
+  <event timestamp="1343771469283" module="PRESENTATION" eventname="GotoSlideEvent">
+    <slide>0</slide>
+  </event>
+  <event timestamp="1343771469441" module="PRESENTATION" eventname="ResizeAndMoveSlideEvent">
+    <xOffset>0.0</xOffset>
+    <heightRatio>100.0</heightRatio>
+    <widthRatio>100.0</widthRatio>
+    <yOffset>0.0</yOffset>
+  </event>
+  <event timestamp="1343771473414" module="PRESENTATION" eventname="CursorMoveEvent">
+    <xOffset>0.7708779443254818</xOffset>
+    <yOffset>0.6937901498929336</yOffset>
+  </event>
+  <event timestamp="1343771473434" module="VOICE" eventname="ParticipantJoinedEvent">
+    <bridge>79110</bridge>
+    <talking>false</talking>
+    <callername>1-chad</callername>
+    <muted>false</muted>
+    <locked>false</locked>
+    <callernumber>1-chad</callernumber>
+    <participant>1</participant>
+  </event>
+  <event timestamp="1343771473437" module="VOICE" eventname="StartRecordingEvent">
+    <bridge>79110</bridge>
+    <recordingTimestamp>1343771473432815</recordingTimestamp>
+    <filename>/var/freeswitch/meetings/4c8a2069497e081492ce6322db00f7a06b59c2d3-1343771464236-1343771473407.wav</filename>
+  </event>
+  <event timestamp="1343771473496" module="PRESENTATION" eventname="CursorMoveEvent">
+    <xOffset>0.771948608137045</xOffset>
+    <yOffset>0.6937901498929336</yOffset>
+  </event>
+  <event timestamp="1343771473624" module="PRESENTATION" eventname="CursorMoveEvent">
+    <yOffset>0.6952177016416845</yOffset>
+    <xOffset>0.7740899357601713</xOffset>
+  </event>
+  <event timestamp="1343771473642" module="PRESENTATION" eventname="CursorMoveEvent">
+    <yOffset>0.6995003568879372</yOffset>
+    <xOffset>0.7773019271948608</xOffset>
+  </event>
+  <event timestamp="1343771473645" module="PRESENTATION" eventname="CursorMoveEvent">
+    <xOffset>0.7826552462526767</xOffset>
+    <yOffset>0.7052105638829408</yOffset>
+  </event>
+  <event timestamp="1343771473648" module="PRESENTATION" eventname="CursorMoveEvent">
+    <yOffset>0.715203426124197</yOffset>
+    <xOffset>0.7922912205567452</xOffset>
+  </event>
+  <event timestamp="1343771473651" module="PRESENTATION" eventname="CursorMoveEvent">
+    <yOffset>0.7309064953604568</yOffset>
+    <xOffset>0.8072805139186295</xOffset>
+  </event>
+  <event timestamp="1343771473659" module="PRESENTATION" eventname="CursorMoveEvent">
+    <xOffset>0.8319057815845824</xOffset>
+    <yOffset>0.7566024268379729</yOffset>
+  </event>
+  <event timestamp="1343771473667" module="PRESENTATION" eventname="CursorMoveEvent">
+    <xOffset>0.8650963597430407</xOffset>
+    <yOffset>0.7965738758029979</yOffset>
+  </event>
+  <event timestamp="1343771473674" module="PRESENTATION" eventname="CursorMoveEvent">
+    <xOffset>0.911134903640257</xOffset>
+    <yOffset>0.8551034975017845</yOffset>
+  </event>
+  <event timestamp="1343771473681" module="PRESENTATION" eventname="CursorMoveEvent">
+    <yOffset>0.9250535331905781</yOffset>
+    <xOffset>0.9668094218415417</xOffset>
+  </event>
+  <event timestamp="1343771477944" module="VOICE" eventname="ParticipantTalkingEvent">
+    <talking>true</talking>
+    <participant>1</participant>
+    <bridge>79110</bridge>
+  </event>
+  <event timestamp="1343771480203" module="VOICE" eventname="ParticipantTalkingEvent">
+    <bridge>79110</bridge>
+    <participant>1</participant>
+    <talking>false</talking>
+  </event>
+  <event timestamp="1343771481195" module="CHAT" eventname="PublicChatEvent">
+    <message>
+      <![CDATA[I really hope it works this time]]>
+    </message>
+    <locale>en</locale>
+    <color>0</color>
+    <sender>chad</sender>
+  </event>
+  <event timestamp="1343771483182" module="CHAT" eventname="PublicChatEvent">
+    <locale>en</locale>
+    <message>
+      <![CDATA[ahhhhh]]>
+    </message>
+    <color>0</color>
+    <sender>chad</sender>
+  </event>
+  <event timestamp="1343771485037" module="CHAT" eventname="PublicChatEvent">
+    <locale>en</locale>
+    <message>
+      <![CDATA[ahhhhhh]]>
+    </message>
+    <sender>chad</sender>
+    <color>0</color>
+  </event>
+  <event timestamp="1343771485242" module="VOICE" eventname="ParticipantTalkingEvent">
+    <participant>1</participant>
+    <bridge>79110</bridge>
+    <talking>true</talking>
+  </event>
+  <event timestamp="1343771486202" module="VOICE" eventname="ParticipantTalkingEvent">
+    <participant>1</participant>
+    <talking>false</talking>
+    <bridge>79110</bridge>
+  </event>
+  <event timestamp="1343771486871" module="CHAT" eventname="PublicChatEvent">
+    <locale>en</locale>
+    <sender>chad</sender>
+    <color>0</color>
+    <message>
+      <![CDATA[ahhhhh]]>
+    </message>
+  </event>
+  <event timestamp="1343771486940" module="VOICE" eventname="ParticipantTalkingEvent">
+    <participant>1</participant>
+    <bridge>79110</bridge>
+    <talking>true</talking>
+  </event>
+  <event timestamp="1343771487962" module="VOICE" eventname="ParticipantTalkingEvent">
+    <participant>1</participant>
+    <talking>false</talking>
+    <bridge>79110</bridge>
+  </event>
+  <event timestamp="1343771489373" module="CHAT" eventname="PublicChatEvent">
+    <locale>en</locale>
+    <message>
+      <![CDATA[maybe]]>
+    </message>
+    <sender>chad</sender>
+    <color>0</color>
+  </event>
+  <event timestamp="1343771489441" module="VOICE" eventname="ParticipantTalkingEvent">
+    <participant>1</participant>
+    <bridge>79110</bridge>
+    <talking>true</talking>
+  </event>
+  <event timestamp="1343771490480" module="VOICE" eventname="ParticipantTalkingEvent">
+    <participant>1</participant>
+    <talking>false</talking>
+    <bridge>79110</bridge>
+  </event>
+  <event timestamp="1343771491060" module="CHAT" eventname="PublicChatEvent">
+    <message>
+      <![CDATA[no?]]>
+    </message>
+    <locale>en</locale>
+    <sender>chad</sender>
+    <color>0</color>
+  </event>
+  <event timestamp="1343771491120" module="VOICE" eventname="ParticipantTalkingEvent">
+    <participant>1</participant>
+    <bridge>79110</bridge>
+    <talking>true</talking>
+  </event>
+  <event timestamp="1343771492317" module="CHAT" eventname="PublicChatEvent">
+    <sender>chad</sender>
+    <locale>en</locale>
+    <message>
+      <![CDATA[yes?]]>
+    </message>
+    <color>0</color>
+  </event>
+  <event timestamp="1343771493380" module="VOICE" eventname="ParticipantTalkingEvent">
+    <participant>1</participant>
+    <bridge>79110</bridge>
+    <talking>false</talking>
+  </event>
+  <event timestamp="1343771494999" module="CHAT" eventname="PublicChatEvent">
+    <sender>chad</sender>
+    <message>
+      <![CDATA[AHHHHH]]>
+    </message>
+    <locale>en</locale>
+    <color>0</color>
+  </event>
+  <event timestamp="1343771495061" module="VOICE" eventname="ParticipantTalkingEvent">
+    <bridge>79110</bridge>
+    <participant>1</participant>
+    <talking>true</talking>
+  </event>
+  <event timestamp="1343771496060" module="VOICE" eventname="ParticipantTalkingEvent">
+    <talking>false</talking>
+    <bridge>79110</bridge>
+    <participant>1</participant>
+  </event>
+  <event timestamp="1343771500208" module="PARTICIPANT" eventname="ParticipantLeftEvent">
+    <userId>1</userId>
+  </event>
+  <event timestamp="1343771500210" module="PARTICIPANT" eventname="EndAndKickAllEvent">
+  </event>
+</recording>

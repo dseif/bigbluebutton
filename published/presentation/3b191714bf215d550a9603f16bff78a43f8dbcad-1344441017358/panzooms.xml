@@ -1,0 +1,111 @@
+<?xml version="1.0"?>
+<recording id="panzoom_events">
+  <event timestamp="0.9" orig="1344441019471.0">
+    <viewBox>0.0 0.0 1600.0 1200.0</viewBox>
+  </event>
+  <event timestamp="1.0" orig="1344441019545.0">
+    <viewBox>0.0 0.0 1600.0 1200.0</viewBox>
+  </event>
+  <event timestamp="4.3" orig="1344441022873.0">
+    <viewBox>0.0 0.0 1600.0 1200.0</viewBox>
+  </event>
+  <event timestamp="80.8" orig="1344441099365.0">
+    <viewBox>176.9389864362688 132.73 1259.8 944.9</viewBox>
+  </event>
+  <event timestamp="80.9" orig="1344441099430.0">
+    <viewBox>315.3697606657197 236.55 1023.6 767.7</viewBox>
+  </event>
+  <event timestamp="81.0" orig="1344441099531.0">
+    <viewBox>419.7126513716637 314.81 862.0 646.5</viewBox>
+  </event>
+  <event timestamp="81.1" orig="1344441099661.0">
+    <viewBox>476.8040078985314 357.63 779.9 584.9</viewBox>
+  </event>
+  <event timestamp="81.2" orig="1344441099718.0">
+    <viewBox>489.8644264113391 367.42 761.8 571.3</viewBox>
+  </event>
+  <event timestamp="81.3" orig="1344441099831.0">
+    <viewBox>526.4712932133466 394.87 712.1 534.1</viewBox>
+  </event>
+  <event timestamp="81.4" orig="1344441099886.0">
+    <viewBox>537.8918113706516 403.44 696.9 522.7</viewBox>
+  </event>
+  <event timestamp="87.3" orig="1344441105859.0">
+    <viewBox>532.2180525054034 403.44 696.9 522.7</viewBox>
+  </event>
+  <event timestamp="87.4" orig="1344441105974.0">
+    <viewBox>386.59157496403213 499.89 696.9 522.7</viewBox>
+  </event>
+  <event timestamp="87.5" orig="1344441106054.0">
+    <viewBox>261.7688799285713 664.43 696.9 522.7</viewBox>
+  </event>
+  <event timestamp="87.6" orig="1344441106137.0">
+    <viewBox>142.61994375835843 677.3 696.9 522.7</viewBox>
+  </event>
+  <event timestamp="88.0" orig="1344441106575.0">
+    <viewBox>104.79488465670352 677.3 696.9 522.7</viewBox>
+  </event>
+  <event timestamp="88.1" orig="1344441106666.0">
+    <viewBox>0.0 677.3 696.9 522.7</viewBox>
+  </event>
+  <event timestamp="88.5" orig="1344441107074.0">
+    <viewBox>0.0 650.83 696.9 522.7</viewBox>
+  </event>
+  <event timestamp="88.6" orig="1344441107175.0">
+    <viewBox>0.0 522.22 696.9 522.7</viewBox>
+  </event>
+  <event timestamp="88.7" orig="1344441107241.0">
+    <viewBox>0.0 480.61 696.9 522.7</viewBox>
+  </event>
+  <event timestamp="89.0" orig="1344441107558.0">
+    <viewBox>0.0 293.38 696.9 522.7</viewBox>
+  </event>
+  <event timestamp="89.1" orig="1344441107657.0">
+    <viewBox>0.0 34.28 696.9 522.7</viewBox>
+  </event>
+  <event timestamp="89.4" orig="1344441107975.0">
+    <viewBox>34.04255319148933 0.0 696.9 522.7</viewBox>
+  </event>
+  <event timestamp="89.5" orig="1344441108025.0">
+    <viewBox>153.191489361702 0.0 696.9 522.7</viewBox>
+  </event>
+  <event timestamp="89.9" orig="1344441108451.0">
+    <viewBox>202.36406619385343 0.0 696.9 522.7</viewBox>
+  </event>
+  <event timestamp="90.4" orig="1344441108944.0">
+    <viewBox>206.14657210401901 3.78 696.9 522.7</viewBox>
+  </event>
+  <event timestamp="90.5" orig="1344441108983.0">
+    <viewBox>225.05910165484647 20.8 696.9 522.7</viewBox>
+  </event>
+  <event timestamp="90.9" orig="1344441109463.0">
+    <viewBox>257.210401891253 39.72 696.9 522.7</viewBox>
+  </event>
+  <event timestamp="92.4" orig="1344441110975.0">
+    <viewBox>266.66666666666674 58.63 696.9 522.7</viewBox>
+  </event>
+  <event timestamp="92.5" orig="1344441111011.0">
+    <viewBox>276.12293144208047 75.65 696.9 522.7</viewBox>
+  </event>
+  <event timestamp="94.1" orig="1344441112670.0">
+    <viewBox>830.260047281324 58.63 696.9 522.7</viewBox>
+  </event>
+  <event timestamp="94.2" orig="1344441112774.0">
+    <viewBox>903.0732860520095 15.13 696.9 522.7</viewBox>
+  </event>
+  <event timestamp="94.3" orig="1344441112786.0">
+    <viewBox>903.0732860520095 15.13 696.9 522.7</viewBox>
+  </event>
+  <event timestamp="94.9" orig="1344441113470.0">
+    <viewBox>901.1820330969266 18.91 696.9 522.7</viewBox>
+  </event>
+  <event timestamp="95.0" orig="1344441113558.0">
+    <viewBox>903.0732860520095 208.04 696.9 522.7</viewBox>
+  </event>
+  <event timestamp="95.1" orig="1344441113670.0">
+    <viewBox>903.0732860520095 425.53 696.9 522.7</viewBox>
+  </event>
+  <event timestamp="95.2" orig="1344441113704.0">
+    <viewBox>903.0732860520095 434.99 696.9 522.7</viewBox>
+  </event>
+</recording>

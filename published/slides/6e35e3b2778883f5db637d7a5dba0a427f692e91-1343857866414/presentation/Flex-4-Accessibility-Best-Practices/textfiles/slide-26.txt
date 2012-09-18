@@ -1,0 +1,57 @@
+26Adobe Flex White Paper
+minWidth="955" minHeight="600">
+<fx:Declarations>
+<!-- Place non-visual elements (e.g., services, value objects) here -->
+</fx:Declarations>
+<mx:VBox>
+<mx:HBox>
+<mx:VBox>
+<s:RichText paddingLeft="10" paddingTop="10" tabIndex="1"
+text="Please complete the sign in form." width="287" />
+<mx:Form>
+<mx:FormHeading label="Sign in Form" tabIndex="2"></mx:FormHeading>
+<mx:FormItem id="f1" tabIndex="3" color="#ff0000" required="true"
+label="Enter Name :">
+<mx:TextInput id="txt1" tabIndex="4" />
+</mx:FormItem>
+<mx:FormItem label="Enter Password :" tabIndex="5">
+<mx:TextInput displayAsPassword="true" tabIndex="6"/>
+</mx:FormItem>
+<mx:FormItem label="Select Gender:" tabIndex="7">
+<s:ComboBox id="c1" width="150" tabIndex="8">
+<s:dataProvider>
+<mx:ArrayList>
+<fx:String>Male</fx:String>
+<fx:String>Female</fx:String>
+</mx:ArrayList>
+</s:dataProvider>
+</s:ComboBox>
+</mx:FormItem>
+<mx:FormItem label="Phone Number:" tabIndex="9">
+<s:TextInput id="txtPhoneNumber" tabIndex="10" />
+</mx:FormItem>
+<mx:FormItem required="true" label="Zip Code:" tabIndex="11">
+<s:TextInput id="txtZipCode" tabIndex="12" />
+</mx:FormItem>
+<s:Button id="submit" label="Proceed to Checkout" tabIndex="13" />
+</mx:Form>
+</mx:VBox>
+<mx:VBox paddingTop="10">
+<s:Panel title="Your Choices" width="200" tabIndex="20" >
+<s:layout>
+<s:VerticalLayout paddingTop="20" paddingLeft="10" gap="10"/>
+</s:layout>
+<mx:VBox>
+<mx:Image width="60" height="56" source="assets/icecreampint.jpg"
+toolTip="Pint of Ice Cream" tabIndex="21"/>
+<s:Label text="$9.00" tabIndex="22"/>
+</mx:VBox>
+<mx:VBox>
+<mx:Image width="60" height="56" source="assets/iceCreamCone.jpg"
+toolTip="Ice Cream Cone" tabIndex="23"/>
+<mx:Label text="$3.00" tabIndex="24"/>
+</mx:VBox>
+<mx:VBox>
+<mx:Image width="60" height="56" source="assets/sundae.jpg"
+toolTip="Ice Cream Sundae" tabIndex="25"/>
+<mx:Label text="$4.00" tabIndex="26"/>

@@ -1,0 +1,951 @@
+<?xml version="1.0"?>
+<recording id="cursor_events">
+  <event timestamp="5.0" orig="1344441023511.0">
+    <cursor>668.7 439.6</cursor>
+  </event>
+  <event timestamp="5.2" orig="1344441023768.0">
+    <cursor>715.3 387.5</cursor>
+  </event>
+  <event timestamp="5.3" orig="1344441023840.0">
+    <cursor>796.7 70.6</cursor>
+  </event>
+  <event timestamp="5.6" orig="1344441024169.0">
+    <cursor>792.4 66.2</cursor>
+  </event>
+  <event timestamp="5.7" orig="1344441024273.0">
+    <cursor>801.1 39.1</cursor>
+  </event>
+  <event timestamp="5.8" orig="1344441024282.0">
+    <cursor>758.8 6.5</cursor>
+  </event>
+  <event timestamp="6.5" orig="1344441025074.0">
+    <cursor>725.1 30.4</cursor>
+  </event>
+  <event timestamp="6.6" orig="1344441025167.0">
+    <cursor>307.2 210.6</cursor>
+  </event>
+  <event timestamp="6.7" orig="1344441025176.0">
+    <cursor>306.1 211.7</cursor>
+  </event>
+  <event timestamp="6.8" orig="1344441025361.0">
+    <cursor>306.1 212.8</cursor>
+  </event>
+  <event timestamp="6.9" orig="1344441025472.0">
+    <cursor>264.9 274.6</cursor>
+  </event>
+  <event timestamp="7.0" orig="1344441025575.0">
+    <cursor>229.0 343.0</cursor>
+  </event>
+  <event timestamp="7.1" orig="1344441025671.0">
+    <cursor>254.0 433.1</cursor>
+  </event>
+  <event timestamp="7.2" orig="1344441025775.0">
+    <cursor>407.1 505.8</cursor>
+  </event>
+  <event timestamp="7.3" orig="1344441025871.0">
+    <cursor>475.4 453.7</cursor>
+  </event>
+  <event timestamp="7.4" orig="1344441025975.0">
+    <cursor>465.7 312.6</cursor>
+  </event>
+  <event timestamp="7.5" orig="1344441026071.0">
+    <cursor>311.5 307.2</cursor>
+  </event>
+  <event timestamp="7.6" orig="1344441026175.0">
+    <cursor>103.1 288.7</cursor>
+  </event>
+  <event timestamp="7.7" orig="1344441026271.0">
+    <cursor>94.4 124.8</cursor>
+  </event>
+  <event timestamp="7.8" orig="1344441026367.0">
+    <cursor>348.4 159.6</cursor>
+  </event>
+  <event timestamp="7.9" orig="1344441026471.0">
+    <cursor>439.6 282.2</cursor>
+  </event>
+  <event timestamp="8.0" orig="1344441026567.0">
+    <cursor>279.0 482.0</cursor>
+  </event>
+  <event timestamp="8.1" orig="1344441026672.0">
+    <cursor>396.2 546.0</cursor>
+  </event>
+  <event timestamp="8.2" orig="1344441026767.0">
+    <cursor>727.3 485.2</cursor>
+  </event>
+  <event timestamp="8.3" orig="1344441026871.0">
+    <cursor>638.3 269.2</cursor>
+  </event>
+  <event timestamp="8.4" orig="1344441026968.0">
+    <cursor>569.9 232.3</cursor>
+  </event>
+  <event timestamp="8.5" orig="1344441027071.0">
+    <cursor>192.1 453.7</cursor>
+  </event>
+  <event timestamp="8.6" orig="1344441027111.0">
+    <cursor>171.5 450.5</cursor>
+  </event>
+  <event timestamp="8.7" orig="1344441027271.0">
+    <cursor>136.8 401.6</cursor>
+  </event>
+  <event timestamp="8.8" orig="1344441027375.0">
+    <cursor>170.4 263.8</cursor>
+  </event>
+  <event timestamp="8.9" orig="1344441027473.0">
+    <cursor>435.3 211.7</cursor>
+  </event>
+  <event timestamp="9.0" orig="1344441027567.0">
+    <cursor>479.8 250.7</cursor>
+  </event>
+  <event timestamp="9.1" orig="1344441027671.0">
+    <cursor>628.5 233.4</cursor>
+  </event>
+  <event timestamp="9.2" orig="1344441027767.0">
+    <cursor>666.5 205.2</cursor>
+  </event>
+  <event timestamp="9.3" orig="1344441027871.0">
+    <cursor>696.9 149.8</cursor>
+  </event>
+  <event timestamp="9.4" orig="1344441027967.0">
+    <cursor>746.8 89.0</cursor>
+  </event>
+  <event timestamp="9.5" orig="1344441028071.0">
+    <cursor>760.9 77.1</cursor>
+  </event>
+  <event timestamp="9.6" orig="1344441028175.0">
+    <cursor>781.5 83.6</cursor>
+  </event>
+  <event timestamp="9.7" orig="1344441028232.0">
+    <cursor>740.3 5.4</cursor>
+  </event>
+  <event timestamp="11.8" orig="1344441030375.0">
+    <cursor>310.4 183.4</cursor>
+  </event>
+  <event timestamp="11.9" orig="1344441030431.0">
+    <cursor>274.6 195.4</cursor>
+  </event>
+  <event timestamp="12.0" orig="1344441030567.0">
+    <cursor>259.4 198.6</cursor>
+  </event>
+  <event timestamp="12.1" orig="1344441030671.0">
+    <cursor>204.1 198.6</cursor>
+  </event>
+  <event timestamp="12.2" orig="1344441030720.0">
+    <cursor>204.1 199.7</cursor>
+  </event>
+  <event timestamp="12.3" orig="1344441030872.0">
+    <cursor>217.1 218.2</cursor>
+  </event>
+  <event timestamp="12.4" orig="1344441030972.0">
+    <cursor>302.8 301.8</cursor>
+  </event>
+  <event timestamp="12.5" orig="1344441031072.0">
+    <cursor>409.2 377.7</cursor>
+  </event>
+  <event timestamp="12.6" orig="1344441031168.0">
+    <cursor>471.1 421.2</cursor>
+  </event>
+  <event timestamp="12.7" orig="1344441031272.0">
+    <cursor>549.3 465.7</cursor>
+  </event>
+  <event timestamp="12.8" orig="1344441031368.0">
+    <cursor>612.2 499.3</cursor>
+  </event>
+  <event timestamp="12.9" orig="1344441031472.0">
+    <cursor>616.6 504.7</cursor>
+  </event>
+  <event timestamp="13.0" orig="1344441031568.0">
+    <cursor>657.8 534.1</cursor>
+  </event>
+  <event timestamp="13.1" orig="1344441031616.0">
+    <cursor>673.0 543.8</cursor>
+  </event>
+  <event timestamp="13.2" orig="1344441031768.0">
+    <cursor>652.4 522.1</cursor>
+  </event>
+  <event timestamp="13.3" orig="1344441031872.0">
+    <cursor>515.6 267.0</cursor>
+  </event>
+  <event timestamp="13.4" orig="1344441031968.0">
+    <cursor>511.3 130.3</cursor>
+  </event>
+  <event timestamp="13.5" orig="1344441032071.0">
+    <cursor>515.6 99.9</cursor>
+  </event>
+  <event timestamp="13.6" orig="1344441032111.0">
+    <cursor>515.6 94.4</cursor>
+  </event>
+  <event timestamp="13.7" orig="1344441032271.0">
+    <cursor>422.3 168.2</cursor>
+  </event>
+  <event timestamp="13.8" orig="1344441032368.0">
+    <cursor>149.8 346.3</cursor>
+  </event>
+  <event timestamp="13.9" orig="1344441032473.0">
+    <cursor>104.2 382.1</cursor>
+  </event>
+  <event timestamp="14.0" orig="1344441032512.0">
+    <cursor>103.1 384.3</cursor>
+  </event>
+  <event timestamp="14.2" orig="1344441032769.0">
+    <cursor>152.0 360.4</cursor>
+  </event>
+  <event timestamp="14.3" orig="1344441032871.0">
+    <cursor>463.5 138.9</cursor>
+  </event>
+  <event timestamp="14.4" orig="1344441032975.0">
+    <cursor>403.8 102.0</cursor>
+  </event>
+  <event timestamp="14.5" orig="1344441033071.0">
+    <cursor>219.3 107.5</cursor>
+  </event>
+  <event timestamp="14.6" orig="1344441033175.0">
+    <cursor>239.9 140.0</cursor>
+  </event>
+  <event timestamp="14.7" orig="1344441033272.0">
+    <cursor>355.0 264.9</cursor>
+  </event>
+  <event timestamp="14.8" orig="1344441033368.0">
+    <cursor>527.5 363.6</cursor>
+  </event>
+  <event timestamp="14.9" orig="1344441033456.0">
+    <cursor>560.1 378.8</cursor>
+  </event>
+  <event timestamp="15.1" orig="1344441033672.0">
+    <cursor>560.1 370.1</cursor>
+  </event>
+  <event timestamp="15.2" orig="1344441033768.0">
+    <cursor>525.4 176.9</cursor>
+  </event>
+  <event timestamp="15.3" orig="1344441033872.0">
+    <cursor>534.1 83.6</cursor>
+  </event>
+  <event timestamp="15.4" orig="1344441033960.0">
+    <cursor>546.0 65.1</cursor>
+  </event>
+  <event timestamp="15.5" orig="1344441034071.0">
+    <cursor>555.8 78.2</cursor>
+  </event>
+  <event timestamp="15.6" orig="1344441034175.0">
+    <cursor>618.7 99.9</cursor>
+  </event>
+  <event timestamp="15.7" orig="1344441034271.0">
+    <cursor>622.0 103.1</cursor>
+  </event>
+  <event timestamp="15.8" orig="1344441034375.0">
+    <cursor>544.9 185.6</cursor>
+  </event>
+  <event timestamp="15.9" orig="1344441034473.0">
+    <cursor>372.3 317.0</cursor>
+  </event>
+  <event timestamp="16.0" orig="1344441034505.0">
+    <cursor>357.1 334.3</cursor>
+  </event>
+  <event timestamp="16.3" orig="1344441034871.0">
+    <cursor>351.7 362.6</cursor>
+  </event>
+  <event timestamp="16.4" orig="1344441034967.0">
+    <cursor>245.3 455.9</cursor>
+  </event>
+  <event timestamp="16.5" orig="1344441035072.0">
+    <cursor>179.1 483.0</cursor>
+  </event>
+  <event timestamp="16.6" orig="1344441035175.0">
+    <cursor>130.3 477.6</cursor>
+  </event>
+  <event timestamp="16.7" orig="1344441035247.0">
+    <cursor>120.5 479.8</cursor>
+  </event>
+  <event timestamp="16.8" orig="1344441035319.0">
+    <cursor>120.5 482.0</cursor>
+  </event>
+  <event timestamp="16.9" orig="1344441035471.0">
+    <cursor>143.3 500.4</cursor>
+  </event>
+  <event timestamp="17.0" orig="1344441035568.0">
+    <cursor>355.0 599.2</cursor>
+  </event>
+  <event timestamp="17.1" orig="1344441035576.0">
+    <cursor>464.6 597.0</cursor>
+  </event>
+  <event timestamp="17.6" orig="1344441036167.0">
+    <cursor>315.9 515.6</cursor>
+  </event>
+  <event timestamp="17.7" orig="1344441036271.0">
+    <cursor>247.5 439.6</cursor>
+  </event>
+  <event timestamp="17.8" orig="1344441036375.0">
+    <cursor>230.1 406.0</cursor>
+  </event>
+  <event timestamp="17.9" orig="1344441036471.0">
+    <cursor>196.5 340.8</cursor>
+  </event>
+  <event timestamp="18.0" orig="1344441036535.0">
+    <cursor>183.4 321.3</cursor>
+  </event>
+  <event timestamp="18.1" orig="1344441036672.0">
+    <cursor>185.6 325.6</cursor>
+  </event>
+  <event timestamp="18.2" orig="1344441036767.0">
+    <cursor>283.3 441.8</cursor>
+  </event>
+  <event timestamp="18.3" orig="1344441036871.0">
+    <cursor>473.3 533.0</cursor>
+  </event>
+  <event timestamp="18.4" orig="1344441036959.0">
+    <cursor>537.3 552.5</cursor>
+  </event>
+  <event timestamp="18.5" orig="1344441037052.0">
+    <cursor>539.5 552.5</cursor>
+  </event>
+  <event timestamp="18.6" orig="1344441037167.0">
+    <cursor>544.9 552.5</cursor>
+  </event>
+  <event timestamp="18.7" orig="1344441037271.0">
+    <cursor>572.0 504.7</cursor>
+  </event>
+  <event timestamp="18.8" orig="1344441037375.0">
+    <cursor>633.9 426.6</cursor>
+  </event>
+  <event timestamp="18.9" orig="1344441037471.0">
+    <cursor>643.7 410.3</cursor>
+  </event>
+  <event timestamp="19.0" orig="1344441037569.0">
+    <cursor>663.2 394.0</cursor>
+  </event>
+  <event timestamp="19.1" orig="1344441037670.0">
+    <cursor>692.5 399.5</cursor>
+  </event>
+  <event timestamp="19.2" orig="1344441037679.0">
+    <cursor>692.5 400.5</cursor>
+  </event>
+  <event timestamp="19.3" orig="1344441037871.0">
+    <cursor>664.3 407.1</cursor>
+  </event>
+  <event timestamp="19.4" orig="1344441037968.0">
+    <cursor>453.7 482.0</cursor>
+  </event>
+  <event timestamp="19.5" orig="1344441038072.0">
+    <cursor>370.1 529.7</cursor>
+  </event>
+  <event timestamp="19.9" orig="1344441038439.0">
+    <cursor>365.8 540.6</cursor>
+  </event>
+  <event timestamp="20.2" orig="1344441038769.0">
+    <cursor>358.2 510.2</cursor>
+  </event>
+  <event timestamp="20.3" orig="1344441038871.0">
+    <cursor>337.6 434.2</cursor>
+  </event>
+  <event timestamp="20.4" orig="1344441038903.0">
+    <cursor>339.8 429.9</cursor>
+  </event>
+  <event timestamp="20.8" orig="1344441039367.0">
+    <cursor>503.7 349.5</cursor>
+  </event>
+  <event timestamp="20.9" orig="1344441039471.0">
+    <cursor>757.7 299.6</cursor>
+  </event>
+  <event timestamp="21.0" orig="1344441039479.0">
+    <cursor>756.6 298.5</cursor>
+  </event>
+  <event timestamp="21.1" orig="1344441039671.0">
+    <cursor>716.4 289.8</cursor>
+  </event>
+  <event timestamp="21.2" orig="1344441039679.0">
+    <cursor>715.3 292.0</cursor>
+  </event>
+  <event timestamp="21.4" orig="1344441039975.0">
+    <cursor>537.3 453.7</cursor>
+  </event>
+  <event timestamp="21.5" orig="1344441040072.0">
+    <cursor>429.9 572.0</cursor>
+  </event>
+  <event timestamp="21.6" orig="1344441040127.0">
+    <cursor>411.4 599.2</cursor>
+  </event>
+  <event timestamp="22.2" orig="1344441040767.0">
+    <cursor>422.3 470.0</cursor>
+  </event>
+  <event timestamp="22.3" orig="1344441040871.0">
+    <cursor>378.8 345.2</cursor>
+  </event>
+  <event timestamp="22.4" orig="1344441040968.0">
+    <cursor>307.2 284.4</cursor>
+  </event>
+  <event timestamp="22.5" orig="1344441041070.0">
+    <cursor>243.1 231.2</cursor>
+  </event>
+  <event timestamp="22.6" orig="1344441041175.0">
+    <cursor>238.8 208.4</cursor>
+  </event>
+  <event timestamp="22.7" orig="1344441041271.0">
+    <cursor>242.1 211.7</cursor>
+  </event>
+  <event timestamp="22.8" orig="1344441041375.0">
+    <cursor>422.3 334.3</cursor>
+  </event>
+  <event timestamp="22.9" orig="1344441041471.0">
+    <cursor>547.1 420.1</cursor>
+  </event>
+  <event timestamp="23.0" orig="1344441041575.0">
+    <cursor>593.8 472.2</cursor>
+  </event>
+  <event timestamp="23.1" orig="1344441041607.0">
+    <cursor>594.8 474.4</cursor>
+  </event>
+  <event timestamp="23.5" orig="1344441042071.0">
+    <cursor>324.6 277.9</cursor>
+  </event>
+  <event timestamp="23.6" orig="1344441042174.0">
+    <cursor>3.3 132.4</cursor>
+  </event>
+  <event timestamp="23.7" orig="1344441042199.0">
+    <cursor>0.0 132.4</cursor>
+  </event>
+  <event timestamp="23.8" orig="1344441042319.0">
+    <cursor>8.7 150.9</cursor>
+  </event>
+  <event timestamp="24.0" orig="1344441042552.0">
+    <cursor>64.0 169.3</cursor>
+  </event>
+  <event timestamp="24.1" orig="1344441042671.0">
+    <cursor>61.9 163.9</cursor>
+  </event>
+  <event timestamp="24.2" orig="1344441042775.0">
+    <cursor>47.8 131.3</cursor>
+  </event>
+  <event timestamp="24.3" orig="1344441042870.0">
+    <cursor>68.4 82.5</cursor>
+  </event>
+  <event timestamp="24.4" orig="1344441042975.0">
+    <cursor>78.2 63.0</cursor>
+  </event>
+  <event timestamp="24.5" orig="1344441043047.0">
+    <cursor>78.2 55.4</cursor>
+  </event>
+  <event timestamp="24.7" orig="1344441043272.0">
+    <cursor>92.3 72.7</cursor>
+  </event>
+  <event timestamp="24.8" orig="1344441043368.0">
+    <cursor>201.9 195.4</cursor>
+  </event>
+  <event timestamp="24.9" orig="1344441043439.0">
+    <cursor>255.1 244.2</cursor>
+  </event>
+  <event timestamp="25.0" orig="1344441043575.0">
+    <cursor>255.1 243.1</cursor>
+  </event>
+  <event timestamp="25.1" orig="1344441043671.0">
+    <cursor>307.2 163.9</cursor>
+  </event>
+  <event timestamp="25.2" orig="1344441043774.0">
+    <cursor>341.9 64.0</cursor>
+  </event>
+  <event timestamp="25.3" orig="1344441043870.0">
+    <cursor>259.4 4.3</cursor>
+  </event>
+  <event timestamp="25.4" orig="1344441043886.0">
+    <cursor>229.0 1.1</cursor>
+  </event>
+  <event timestamp="25.7" orig="1344441044271.0">
+    <cursor>363.6 65.1</cursor>
+  </event>
+  <event timestamp="25.8" orig="1344441044375.0">
+    <cursor>483.0 121.6</cursor>
+  </event>
+  <event timestamp="25.9" orig="1344441044383.0">
+    <cursor>483.0 120.5</cursor>
+  </event>
+  <event timestamp="26.0" orig="1344441044575.0">
+    <cursor>422.3 79.2</cursor>
+  </event>
+  <event timestamp="26.1" orig="1344441044671.0">
+    <cursor>309.4 26.1</cursor>
+  </event>
+  <event timestamp="26.2" orig="1344441044759.0">
+    <cursor>276.8 10.9</cursor>
+  </event>
+  <event timestamp="26.3" orig="1344441044871.0">
+    <cursor>265.9 8.7</cursor>
+  </event>
+  <event timestamp="26.4" orig="1344441044974.0">
+    <cursor>265.9 13.0</cursor>
+  </event>
+  <event timestamp="26.5" orig="1344441045071.0">
+    <cursor>327.8 72.7</cursor>
+  </event>
+  <event timestamp="26.6" orig="1344441045168.0">
+    <cursor>436.4 132.4</cursor>
+  </event>
+  <event timestamp="26.7" orig="1344441045271.0">
+    <cursor>510.2 155.2</cursor>
+  </event>
+  <event timestamp="26.8" orig="1344441045326.0">
+    <cursor>530.8 160.7</cursor>
+  </event>
+  <event timestamp="26.9" orig="1344441045470.0">
+    <cursor>543.8 136.8</cursor>
+  </event>
+  <event timestamp="27.0" orig="1344441045574.0">
+    <cursor>539.5 61.9</cursor>
+  </event>
+  <event timestamp="27.1" orig="1344441045670.0">
+    <cursor>514.5 39.1</cursor>
+  </event>
+  <event timestamp="27.2" orig="1344441045710.0">
+    <cursor>510.2 34.7</cursor>
+  </event>
+  <event timestamp="27.3" orig="1344441045871.0">
+    <cursor>544.9 58.6</cursor>
+  </event>
+  <event timestamp="27.4" orig="1344441045968.0">
+    <cursor>688.2 114.0</cursor>
+  </event>
+  <event timestamp="27.5" orig="1344441046071.0">
+    <cursor>791.3 135.7</cursor>
+  </event>
+  <event timestamp="27.6" orig="1344441046119.0">
+    <cursor>794.6 140.0</cursor>
+  </event>
+  <event timestamp="27.8" orig="1344441046351.0">
+    <cursor>794.6 142.2</cursor>
+  </event>
+  <event timestamp="27.9" orig="1344441046471.0">
+    <cursor>711.0 149.8</cursor>
+  </event>
+  <event timestamp="28.0" orig="1344441046542.0">
+    <cursor>612.2 160.7</cursor>
+  </event>
+  <event timestamp="28.1" orig="1344441046623.0">
+    <cursor>612.2 162.8</cursor>
+  </event>
+  <event timestamp="28.2" orig="1344441046775.0">
+    <cursor>633.9 197.6</cursor>
+  </event>
+  <event timestamp="28.3" orig="1344441046871.0">
+    <cursor>712.1 308.3</cursor>
+  </event>
+  <event timestamp="28.4" orig="1344441046960.0">
+    <cursor>745.7 372.3</cursor>
+  </event>
+  <event timestamp="28.7" orig="1344441047270.0">
+    <cursor>729.4 339.8</cursor>
+  </event>
+  <event timestamp="28.8" orig="1344441047375.0">
+    <cursor>567.7 127.0</cursor>
+  </event>
+  <event timestamp="28.9" orig="1344441047470.0">
+    <cursor>543.8 94.4</cursor>
+  </event>
+  <event timestamp="29.0" orig="1344441047478.0">
+    <cursor>551.4 94.4</cursor>
+  </event>
+  <event timestamp="29.1" orig="1344441047670.0">
+    <cursor>639.3 93.4</cursor>
+  </event>
+  <event timestamp="29.2" orig="1344441047775.0">
+    <cursor>649.1 93.4</cursor>
+  </event>
+  <event timestamp="29.3" orig="1344441047870.0">
+    <cursor>660.0 98.8</cursor>
+  </event>
+  <event timestamp="29.4" orig="1344441047927.0">
+    <cursor>661.1 100.9</cursor>
+  </event>
+  <event timestamp="29.6" orig="1344441048175.0">
+    <cursor>522.1 198.6</cursor>
+  </event>
+  <event timestamp="29.7" orig="1344441048270.0">
+    <cursor>382.1 285.5</cursor>
+  </event>
+  <event timestamp="29.8" orig="1344441048366.0">
+    <cursor>324.6 308.3</cursor>
+  </event>
+  <event timestamp="29.9" orig="1344441048391.0">
+    <cursor>323.5 310.4</cursor>
+  </event>
+  <event timestamp="30.3" orig="1344441048871.0">
+    <cursor>515.6 335.4</cursor>
+  </event>
+  <event timestamp="30.4" orig="1344441048943.0">
+    <cursor>689.3 345.2</cursor>
+  </event>
+  <event timestamp="30.6" orig="1344441049167.0">
+    <cursor>690.4 340.8</cursor>
+  </event>
+  <event timestamp="30.7" orig="1344441049270.0">
+    <cursor>700.1 275.7</cursor>
+  </event>
+  <event timestamp="30.8" orig="1344441049350.0">
+    <cursor>696.9 249.7</cursor>
+  </event>
+  <event timestamp="30.9" orig="1344441049455.0">
+    <cursor>690.4 235.5</cursor>
+  </event>
+  <event timestamp="57.2" orig="1344441075775.0">
+    <cursor>691.5 225.8</cursor>
+  </event>
+  <event timestamp="57.3" orig="1344441075869.0">
+    <cursor>694.7 212.8</cursor>
+  </event>
+  <event timestamp="57.4" orig="1344441075965.0">
+    <cursor>699.1 204.1</cursor>
+  </event>
+  <event timestamp="57.8" orig="1344441076367.0">
+    <cursor>695.8 205.2</cursor>
+  </event>
+  <event timestamp="57.9" orig="1344441076446.0">
+    <cursor>688.2 205.2</cursor>
+  </event>
+  <event timestamp="58.0" orig="1344441076575.0">
+    <cursor>745.7 206.2</cursor>
+  </event>
+  <event timestamp="58.1" orig="1344441076606.0">
+    <cursor>779.4 589.4</cursor>
+  </event>
+  <event timestamp="79.1" orig="1344441097670.0">
+    <cursor>595.9 555.8</cursor>
+  </event>
+  <event timestamp="79.2" orig="1344441097734.0">
+    <cursor>501.5 542.7</cursor>
+  </event>
+  <event timestamp="79.3" orig="1344441097869.0">
+    <cursor>498.2 562.3</cursor>
+  </event>
+  <event timestamp="79.4" orig="1344441097916.0">
+    <cursor>495.0 569.9</cursor>
+  </event>
+  <event timestamp="79.5" orig="1344441098061.0">
+    <cursor>478.7 552.5</cursor>
+  </event>
+  <event timestamp="79.6" orig="1344441098077.0">
+    <cursor>478.7 554.7</cursor>
+  </event>
+  <event timestamp="79.7" orig="1344441098270.0">
+    <cursor>474.4 572.0</cursor>
+  </event>
+  <event timestamp="79.8" orig="1344441098301.0">
+    <cursor>466.8 593.8</cursor>
+  </event>
+  <event timestamp="81.8" orig="1344441100374.0">
+    <cursor>480.9 531.9</cursor>
+  </event>
+  <event timestamp="81.9" orig="1344441100397.0">
+    <cursor>479.8 529.7</cursor>
+  </event>
+  <event timestamp="82.1" orig="1344441100668.0">
+    <cursor>396.2 518.9</cursor>
+  </event>
+  <event timestamp="82.2" orig="1344441100757.0">
+    <cursor>303.9 480.9</cursor>
+  </event>
+  <event timestamp="82.3" orig="1344441100870.0">
+    <cursor>276.8 425.5</cursor>
+  </event>
+  <event timestamp="82.4" orig="1344441100973.0">
+    <cursor>246.4 362.6</cursor>
+  </event>
+  <event timestamp="82.5" orig="1344441101069.0">
+    <cursor>222.5 312.6</cursor>
+  </event>
+  <event timestamp="82.6" orig="1344441101142.0">
+    <cursor>212.8 288.7</cursor>
+  </event>
+  <event timestamp="82.9" orig="1344441101472.0">
+    <cursor>217.1 259.4</cursor>
+  </event>
+  <event timestamp="83.0" orig="1344441101574.0">
+    <cursor>222.5 191.0</cursor>
+  </event>
+  <event timestamp="83.1" orig="1344441101669.0">
+    <cursor>216.0 170.4</cursor>
+  </event>
+  <event timestamp="83.2" orig="1344441101774.0">
+    <cursor>166.1 142.2</cursor>
+  </event>
+  <event timestamp="83.3" orig="1344441101798.0">
+    <cursor>163.9 141.1</cursor>
+  </event>
+  <event timestamp="83.4" orig="1344441101974.0">
+    <cursor>167.2 150.9</cursor>
+  </event>
+  <event timestamp="83.5" orig="1344441102069.0">
+    <cursor>230.1 207.3</cursor>
+  </event>
+  <event timestamp="83.6" orig="1344441102173.0">
+    <cursor>333.2 276.8</cursor>
+  </event>
+  <event timestamp="83.7" orig="1344441102268.0">
+    <cursor>417.9 317.0</cursor>
+  </event>
+  <event timestamp="83.8" orig="1344441102365.0">
+    <cursor>460.2 333.2</cursor>
+  </event>
+  <event timestamp="84.0" orig="1344441102521.0">
+    <cursor>744.6 1.1</cursor>
+  </event>
+  <event timestamp="86.9" orig="1344441105468.0">
+    <cursor>476.5 251.8</cursor>
+  </event>
+  <event timestamp="87.0" orig="1344441105551.0">
+    <cursor>407.1 333.2</cursor>
+  </event>
+  <event timestamp="87.1" orig="1344441105652.0">
+    <cursor>375.6 363.6</cursor>
+  </event>
+  <event timestamp="87.2" orig="1344441105747.0">
+    <cursor>374.5 365.8</cursor>
+  </event>
+  <event timestamp="87.3" orig="1344441105857.0">
+    <cursor>379.9 363.6</cursor>
+  </event>
+  <event timestamp="87.4" orig="1344441105974.0">
+    <cursor>470.0 295.3</cursor>
+  </event>
+  <event timestamp="87.5" orig="1344441106075.0">
+    <cursor>567.7 186.7</cursor>
+  </event>
+  <event timestamp="87.6" orig="1344441106148.0">
+    <cursor>610.0 138.9</cursor>
+  </event>
+  <event timestamp="87.7" orig="1344441106179.0">
+    <cursor>610.0 141.1</cursor>
+  </event>
+  <event timestamp="87.8" orig="1344441106373.0">
+    <cursor>282.2 382.1</cursor>
+  </event>
+  <event timestamp="87.9" orig="1344441106420.0">
+    <cursor>218.2 421.2</cursor>
+  </event>
+  <event timestamp="88.0" orig="1344441106573.0">
+    <cursor>248.6 388.6</cursor>
+  </event>
+  <event timestamp="88.1" orig="1344441106666.0">
+    <cursor>399.5 254.0</cursor>
+  </event>
+  <event timestamp="88.2" orig="1344441106772.0">
+    <cursor>395.1 259.4</cursor>
+  </event>
+  <event timestamp="88.3" orig="1344441106868.0">
+    <cursor>275.7 395.1</cursor>
+  </event>
+  <event timestamp="88.4" orig="1344441106916.0">
+    <cursor>262.7 413.6</cursor>
+  </event>
+  <event timestamp="88.5" orig="1344441107073.0">
+    <cursor>301.8 433.1</cursor>
+  </event>
+  <event timestamp="88.6" orig="1344441107174.0">
+    <cursor>347.4 509.1</cursor>
+  </event>
+  <event timestamp="88.7" orig="1344441107268.0">
+    <cursor>365.8 496.1</cursor>
+  </event>
+  <event timestamp="88.8" orig="1344441107372.0">
+    <cursor>364.7 255.1</cursor>
+  </event>
+  <event timestamp="88.9" orig="1344441107396.0">
+    <cursor>365.8 255.1</cursor>
+  </event>
+  <event timestamp="89.0" orig="1344441107574.0">
+    <cursor>387.5 389.7</cursor>
+  </event>
+  <event timestamp="89.1" orig="1344441107657.0">
+    <cursor>407.1 506.9</cursor>
+  </event>
+  <event timestamp="89.2" orig="1344441107772.0">
+    <cursor>457.0 361.5</cursor>
+  </event>
+  <event timestamp="89.3" orig="1344441107852.0">
+    <cursor>508.0 288.7</cursor>
+  </event>
+  <event timestamp="89.4" orig="1344441107974.0">
+    <cursor>467.8 334.3</cursor>
+  </event>
+  <event timestamp="89.5" orig="1344441108068.0">
+    <cursor>315.9 439.6</cursor>
+  </event>
+  <event timestamp="89.6" orig="1344441108173.0">
+    <cursor>337.6 417.9</cursor>
+  </event>
+  <event timestamp="89.7" orig="1344441108268.0">
+    <cursor>673.0 259.4</cursor>
+  </event>
+  <event timestamp="89.8" orig="1344441108373.0">
+    <cursor>675.2 259.4</cursor>
+  </event>
+  <event timestamp="89.9" orig="1344441108468.0">
+    <cursor>503.7 282.2</cursor>
+  </event>
+  <event timestamp="90.0" orig="1344441108572.0">
+    <cursor>347.4 182.4</cursor>
+  </event>
+  <event timestamp="90.1" orig="1344441108652.0">
+    <cursor>325.6 103.1</cursor>
+  </event>
+  <event timestamp="90.2" orig="1344441108772.0">
+    <cursor>533.0 340.8</cursor>
+  </event>
+  <event timestamp="90.3" orig="1344441108852.0">
+    <cursor>547.1 372.3</cursor>
+  </event>
+  <event timestamp="90.4" orig="1344441108966.0">
+    <cursor>527.5 356.0</cursor>
+  </event>
+  <event timestamp="90.5" orig="1344441109060.0">
+    <cursor>432.0 223.6</cursor>
+  </event>
+  <event timestamp="90.6" orig="1344441109124.0">
+    <cursor>400.5 182.4</cursor>
+  </event>
+  <event timestamp="90.7" orig="1344441109268.0">
+    <cursor>620.9 361.5</cursor>
+  </event>
+  <event timestamp="90.8" orig="1344441109349.0">
+    <cursor>733.8 479.8</cursor>
+  </event>
+  <event timestamp="90.9" orig="1344441109462.0">
+    <cursor>665.4 439.6</cursor>
+  </event>
+  <event timestamp="91.0" orig="1344441109548.0">
+    <cursor>542.7 318.0</cursor>
+  </event>
+  <event timestamp="91.1" orig="1344441109652.0">
+    <cursor>453.7 226.9</cursor>
+  </event>
+  <event timestamp="91.2" orig="1344441109774.0">
+    <cursor>458.1 232.3</cursor>
+  </event>
+  <event timestamp="91.3" orig="1344441109862.0">
+    <cursor>653.5 379.9</cursor>
+  </event>
+  <event timestamp="91.4" orig="1344441109948.0">
+    <cursor>752.2 468.9</cursor>
+  </event>
+  <event timestamp="91.5" orig="1344441110061.0">
+    <cursor>744.6 467.8</cursor>
+  </event>
+  <event timestamp="91.6" orig="1344441110148.0">
+    <cursor>704.5 464.6</cursor>
+  </event>
+  <event timestamp="91.7" orig="1344441110252.0">
+    <cursor>692.5 474.4</cursor>
+  </event>
+  <event timestamp="91.8" orig="1344441110364.0">
+    <cursor>688.2 487.4</cursor>
+  </event>
+  <event timestamp="91.9" orig="1344441110468.0">
+    <cursor>681.7 499.3</cursor>
+  </event>
+  <event timestamp="92.0" orig="1344441110565.0">
+    <cursor>670.8 509.1</cursor>
+  </event>
+  <event timestamp="92.1" orig="1344441110660.0">
+    <cursor>665.4 516.7</cursor>
+  </event>
+  <event timestamp="92.2" orig="1344441110692.0">
+    <cursor>665.4 516.7</cursor>
+  </event>
+  <event timestamp="92.4" orig="1344441110974.0">
+    <cursor>655.6 500.4</cursor>
+  </event>
+  <event timestamp="92.5" orig="1344441111068.0">
+    <cursor>618.7 438.5</cursor>
+  </event>
+  <event timestamp="92.6" orig="1344441111172.0">
+    <cursor>517.8 346.3</cursor>
+  </event>
+  <event timestamp="92.7" orig="1344441111268.0">
+    <cursor>397.3 265.9</cursor>
+  </event>
+  <event timestamp="92.8" orig="1344441111372.0">
+    <cursor>289.8 203.0</cursor>
+  </event>
+  <event timestamp="92.9" orig="1344441111412.0">
+    <cursor>276.8 196.5</cursor>
+  </event>
+  <event timestamp="93.0" orig="1344441111517.0">
+    <cursor>273.5 199.7</cursor>
+  </event>
+  <event timestamp="93.1" orig="1344441111669.0">
+    <cursor>264.9 206.2</cursor>
+  </event>
+  <event timestamp="93.2" orig="1344441111773.0">
+    <cursor>130.3 279.0</cursor>
+  </event>
+  <event timestamp="93.3" orig="1344441111868.0">
+    <cursor>123.7 343.0</cursor>
+  </event>
+  <event timestamp="93.4" orig="1344441111973.0">
+    <cursor>191.0 452.6</cursor>
+  </event>
+  <event timestamp="93.5" orig="1344441111988.0">
+    <cursor>193.2 453.7</cursor>
+  </event>
+  <event timestamp="93.6" orig="1344441112166.0">
+    <cursor>196.5 452.6</cursor>
+  </event>
+  <event timestamp="93.7" orig="1344441112269.0">
+    <cursor>416.8 287.7</cursor>
+  </event>
+  <event timestamp="93.8" orig="1344441112372.0">
+    <cursor>637.2 204.1</cursor>
+  </event>
+  <event timestamp="93.9" orig="1344441112468.0">
+    <cursor>639.3 193.2</cursor>
+  </event>
+  <event timestamp="94.0" orig="1344441112492.0">
+    <cursor>638.3 191.0</cursor>
+  </event>
+  <event timestamp="94.1" orig="1344441112669.0">
+    <cursor>271.4 205.2</cursor>
+  </event>
+  <event timestamp="94.2" orig="1344441112774.0">
+    <cursor>16.3 225.8</cursor>
+  </event>
+  <event timestamp="94.3" orig="1344441112785.0">
+    <cursor>17.4 225.8</cursor>
+  </event>
+  <event timestamp="94.4" orig="1344441112972.0">
+    <cursor>200.8 196.5</cursor>
+  </event>
+  <event timestamp="94.5" orig="1344441113068.0">
+    <cursor>225.8 191.0</cursor>
+  </event>
+  <event timestamp="94.6" orig="1344441113172.0">
+    <cursor>341.9 234.5</cursor>
+  </event>
+  <event timestamp="94.7" orig="1344441113268.0">
+    <cursor>416.8 328.9</cursor>
+  </event>
+  <event timestamp="94.8" orig="1344441113372.0">
+    <cursor>461.3 385.3</cursor>
+  </event>
+  <event timestamp="94.9" orig="1344441113470.0">
+    <cursor>462.4 376.7</cursor>
+  </event>
+  <event timestamp="95.0" orig="1344441113557.0">
+    <cursor>432.0 246.4</cursor>
+  </event>
+  <event timestamp="95.1" orig="1344441113669.0">
+    <cursor>415.7 147.6</cursor>
+  </event>
+  <event timestamp="95.2" orig="1344441113708.0">
+    <cursor>417.9 144.4</cursor>
+  </event>
+  <event timestamp="95.3" orig="1344441113869.0">
+    <cursor>435.3 162.8</cursor>
+  </event>
+  <event timestamp="95.4" orig="1344441113973.0">
+    <cursor>495.0 271.4</cursor>
+  </event>
+  <event timestamp="95.5" orig="1344441114062.0">
+    <cursor>517.8 345.2</cursor>
+  </event>
+  <event timestamp="95.6" orig="1344441114172.0">
+    <cursor>560.1 440.7</cursor>
+  </event>
+  <event timestamp="95.7" orig="1344441114268.0">
+    <cursor>605.7 460.2</cursor>
+  </event>
+</recording>

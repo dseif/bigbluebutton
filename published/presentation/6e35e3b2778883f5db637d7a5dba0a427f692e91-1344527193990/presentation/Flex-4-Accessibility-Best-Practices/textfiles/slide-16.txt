@@ -1,0 +1,46 @@
+16Adobe Flex White Paper
+Note: While tab order and reading order are not interchangeable terms, in Flex they are both controlled
+through the tabIndex attribute of an element. Reading order is independent of a component's tabEnabled
+state. See "Reading order" on page 23 for more details.
+Ifataborderisnotspecified,adefaulttaborderbasedonthehorizontalandverticalcoordinatesofeach
+component will be used. Depending on the application and the layout of components on the screen, this
+defaulttabordermaynotbelogical.ExplicitlysettingthetabIndex attribute of each component will ensure a
+logical tab order.
+Tab, Space, Enter, and arrow keys
+InFlexapplications,theTab,Shift+Tab,Space,Enter,andarrowkeysaretheprimarykeysusedtonavigateto
+components and activate them. Developers must ensure their default behavior is correctly supported. The
+following list describes these primary keystrokes:
+· Tabnavigatestothenextactionablecomponent.
+· Shift+Tabnavigatestothepreviousactionablecomponent.
+· Spaceactivatesabutton,checksacheckbox,manipulatesacontrol,ortypesaspaceinatextfieldortext
+area.
+· Enteractivatesabutton(whenthedefaultButton property has been set) or starts a new line in a text area.
+· Arrowkeys(upanddown)moveamongthechoicesinamenu,listcomponent,combobox,drop-downlist,
+orgroupofradiobuttons(selectingthemwithoutactivatingthem),andmoveamongthelinesinatextarea.
+There is no need to create event listeners to implement these key presses in Flex. The standard Flex event
+handlerformouseclicksisalsotriggeredbypressingSpace(andEnterifthedefaultButton property is set).
+Standard Flex components also handle Tab, Shift+Tab, and arrow keys appropriately. Developers should ensure
+that the tabEnabled property is set on all actionable items that are to be included in the tab order. For
+standard components, this is handled automatically. For custom components, an event handler is required to
+process mouse clicks and relevant key presses; for example:
+// the Mouse Click event will also monitor for the space bar to be pressed
+and will be triggered by enter as well if a defaultButton has been set in the container
+btnSearch.addEventListener(MouseEvent.CLICK, performSearch);
+function performSearch(e:MouseEvent): void
+{
+// search not shown
+}
+ToallowEnter(inadditiontoSpaceandtheleftmouseclick)toactivateabutton,assignthedefaultButton
+propertyofacontainertoonebuttoninthecontainer.PressingEnterwhilefocusisonanycomponentinthe
+container will activate the default button. This feature works for containers such as the MX and Spark Panel as
+wellastheMXHBox,VBox,andFormcontainers.Itisoftenusedforloginformstoenableausertosimply
+pressEnteraftertypingtheusernameandpassword.
+<s:Panel title="Default Button Example">
+<mx:Form defaultButton="{mySubmitBtn}">
+<mx:FormItem label="Username:">
+<s:TextInput id="username" width="100"/>
+</mx:FormItem>
+<mx:FormItem label="Password:">
+<s:TextInput id="password" width="100"
+displayAsPassword="true"/>
+</mx:FormItem>

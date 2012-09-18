@@ -1,0 +1,10 @@
+Keep in mind that your users may have:
+ Motor function impairment
+ Visual impairment
+ Hearing impairment
+ Multiple impairments
+Design accordingly!
+http://blogs.adobe.com/accessibility/files/2011/03/Flex-
+4-Accessibility-Best-Practices.pdf
+How To Make Your Contributions
+Accessible

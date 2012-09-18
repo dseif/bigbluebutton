@@ -1,0 +1,53 @@
+2Adobe Flex White Paper
+· Forms
+· Focus
+· Color
+· Flickering
+TheexamplescitedinthisdocumentarebuiltusingtheFlexSDK,andeitherAdobeFlashBuilder4or
+command line tools. When using the command line tools, accessibility options are set by editing a Flex MXML
+document.InFlashBuilder4,mostaccessibilitypropertiescanbesetthroughthePropertiesview.Other
+properties closely related to accessibility, such as tabIndex, focusEnabled, and tabEnabled, can also be set
+through the same Properties view.
+An overview of assistive technologies
+To create an accessible Flex application, developers must understand the needs of users with disabilities, how
+users with different disabilities interact with an application, and the assistive technologies they commonly use.
+Users who are blind typically rely on a keyboard, rather than a mouse, to interact with the computer. These
+individuals often use screen-reading software, such as JAWS for Windows (JAWS is an acronym for Job Access
+WithSpeech)orNVDAWindow-Eyes,toaccessinformationonthecomputer.Thesescreenreadersandothers
+like them convert electronic text to audio speech. For software applications that are accessible, screen readers
+can provide summary information about what is on the screen, as well as assist users with navigation within
+the application. Applications that use graphical elements in addition to text can be made accessible to screen
+reader users by providing textual equivalents for any graphical element that is used to convey information.
+People who have a visual impairment other than total blindness may use screen magnification software, such
+as ZoomText or MAGic, to enlarge the content on the screen or adjust the contrast between foreground and
+background colors. These users often adjust the appearance of the mouse pointer, caret, and focus rectangle to
+make them easier to see.
+Users who are deaf or hard of hearing rely on visual cues, including captioning or transcripts, to access auditory
+feedback and the audio portions of multimedia content. Users with a hearing disability other than complete
+deafness may use assistive hearing devices to amplify sound, or they may rely on the ability to increase the
+volume of audio produced by an application.
+Users who have speech impairments may not be able to produce speech or may have difficulty producing
+speech that can be interpreted by voice controlled/activated software applications. Although speech is not
+required for the vast majority of applications, voice-controlled or voice-activated applications are becoming
+more common. While voice control features can improve accessibility for users with mobility impairments and
+other disabilities, it is important to keep in mind that users with speech impairments will need an alternative
+way to control these applications and enter information into them.
+Individualswhohavemobilityimpairmentsmayhavedifficultymanipulatingamouseorusingastandard
+keyboard.Often,theseindividualswillusealternativeinputdevicestointeractwithanapplication.Theymay
+usespeechrecognitionsoftware,suchasDragonNaturallySpeakingProfessional,tosubstitutevoice
+commands for keyboard and mouse input. These individuals may also use on-screen keyboards that are
+activated by pointing devices, hardware switches, or eye gaze technology. Additional assistive technologies
+such as word prediction software and foot-controlled mice are also common.
+Accessibility testing overview
+Assistive technologies obtain information about a Flex application from the Adobe Flash Player instance in
+which the application is executing. This information is provided via the Microsoft Active Accessibility (MSAA)
+ApplicationProgrammingInterface(API).Whilesomeaccessibilityinformationisrecognizedandprovided
+automatically via MSAA, Flex developers must take explicit steps to make most accessibility information
+available to assistive technology. Many of the techniques described in this document are directed at exposing
+this information to assistive technology.
+Ultimately, accessibility is a measure of how well an application can be used by people with disabilities. The
+most effective tests for accessibility are conducted through testing by individuals with disabilities. Developers
+Effective application
+development depends on
+an understanding of the
+needs of the user.

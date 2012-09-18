@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<popcorn>
+  <timeline>
+    <altimage in="0" out="4" src="logo.png" target="slide" width="200"/>
+    <altimage in="7" out="50" src="/slides/6e35e3b2778883f5db637d7a5dba0a427f692e91-1344527193990/presentation/default/slide-1.png" alt="/slides/6e35e3b2778883f5db637d7a5dba0a427f692e91-1344527193990/presentation/default/textfiles/slide-1.txt" target="slide" width="200"/>
+    <altimage in="53" out="72" src="/slides/6e35e3b2778883f5db637d7a5dba0a427f692e91-1344527193990/presentation/Flex-4-Accessibility-Best-Practices/slide-1.png" alt="/slides/6e35e3b2778883f5db637d7a5dba0a427f692e91-1344527193990/presentation/Flex-4-Accessibility-Best-Practices/textfiles/slide-1.txt" target="slide" width="200"/>
+    <altimage in="72" out="76" src="/slides/6e35e3b2778883f5db637d7a5dba0a427f692e91-1344527193990/presentation/Flex-4-Accessibility-Best-Practices/slide-2.png" alt="/slides/6e35e3b2778883f5db637d7a5dba0a427f692e91-1344527193990/presentation/Flex-4-Accessibility-Best-Practices/textfiles/slide-2.txt" target="slide" width="200"/>
+    <altimage in="76" out="90" src="/slides/6e35e3b2778883f5db637d7a5dba0a427f692e91-1344527193990/presentation/Flex-4-Accessibility-Best-Practices/slide-3.png" alt="/slides/6e35e3b2778883f5db637d7a5dba0a427f692e91-1344527193990/presentation/Flex-4-Accessibility-Best-Practices/textfiles/slide-3.txt" target="slide" width="200"/>
+    <altimage in="90" out="97" src="/slides/6e35e3b2778883f5db637d7a5dba0a427f692e91-1344527193990/presentation/Flex-4-Accessibility-Best-Practices/slide-4.png" alt="/slides/6e35e3b2778883f5db637d7a5dba0a427f692e91-1344527193990/presentation/Flex-4-Accessibility-Best-Practices/textfiles/slide-4.txt" target="slide" width="200"/>
+    <altimage in="97" out="100" src="/slides/6e35e3b2778883f5db637d7a5dba0a427f692e91-1344527193990/presentation/Flex-4-Accessibility-Best-Practices/slide-5.png" alt="/slides/6e35e3b2778883f5db637d7a5dba0a427f692e91-1344527193990/presentation/Flex-4-Accessibility-Best-Practices/textfiles/slide-5.txt" target="slide" width="200"/>
+    <altimage in="100" out="113" src="/slides/6e35e3b2778883f5db637d7a5dba0a427f692e91-1344527193990/presentation/Flex-4-Accessibility-Best-Practices/slide-4.png" alt="/slides/6e35e3b2778883f5db637d7a5dba0a427f692e91-1344527193990/presentation/Flex-4-Accessibility-Best-Practices/textfiles/slide-4.txt" target="slide" width="200"/>
+  </timeline>
+  <chattimeline in="26" direction="down" name="Chad" message="&#10;      This is the chat&#10;    " target="chat"/>
+  <chattimeline in="55" direction="down" name="Chad" message="&#10;      hopefully the new one works&#10;    " target="chat"/>
+  <chattimeline in="59" direction="down" name="Chad" message="&#10;      It does!&#10;    " target="chat"/>
+  <chattimeline in="62" direction="down" name="Chad" message="&#10;      YAY&#10;    " target="chat"/>
+  <chattimeline in="86" direction="down" name="Chad" message="&#10;      is this reading?&#10;    " target="chat"/>
+  <chattimeline in="95" direction="down" name="Chad" message="&#10;      yay&#10;    " target="chat"/>
+  <chattimeline in="107" direction="down" name="Chad" message="&#10;      slide 4&#10;    " target="chat"/>
+  <chattimeline in="111" direction="down" name="Chad" message="&#10;      log out&#10;    " target="chat"/>
+</popcorn>

@@ -1,0 +1,50 @@
+21Adobe Flex White Paper
+includes an event listener that moves the crop area when specific keys are pressed. The Control+Shift+arrow
+keys control the crop rectangle's location.
+imageCropArea.addEventListener(KeyboardEvent.KEY _ DOWN, adjustCrop);
+function adjustCrop(e:KeyboardEvent): void
+{
+// check to ensure shift and control are pressed
+if (!e.ctrlKey || !e.shiftKey)
+return;
+switch (e.keyCode)
+{
+case 37: // left arrow
+{
+// move crop area left
+}
+case 38: // up arrow
+{
+// move crop area up
+}
+case 39: // right arrow
+{
+// move crop area right
+}
+case 40: // down arrow
+{
+// move crop area down
+}
+}
+Keyboard access to scrolling content and fields
+InaFlexapplication,ifacomponentinascrollableareareceivesfocuswhenitisnotwithinthescrollableview,
+itisnotautomaticallyscrolledintoviewwhentheusertabstoit.Itisbest,therefore,nottousescrollingareas
+thatcontainactionableelements.Ifactiveelementsmustbeusedwithinscrollingareas,see"CreatingTab
+OrderandReadingOrder"(http://goo.gl/nwLJv) in the Flex 4 documentation for an example that shows how to
+scroll to a component when tabbing. Screen readers may not detect components that were previously out of
+view fast enough when they are brought into view. See "Sending events" on page 43 for details on how to
+use the sendEvent() method of the Accessibility class to notify the screen reader software that a new
+component has received focus.
+When lengthy non-actionable text (such as license text) is placed in a field, the field must be scrollable via the
+keyboard so keyboard-only users can review it. By default, some components provide keyboard access via the
+up arrow, down arrow, page up, and page down keys. Developers should verify this functionality for the
+component, and, if it is not provided by default, implement another keyboard-accessible scrolling mechanism.
+Elements that should not be keyboard accessible
+Someelementsshouldnotbekeyboardaccessible.Includingthefollowingelementsinthetaborderonly
+slows down access to content by users who rely solely on the keyboard for navigation:
+· Formlabels.Usersneedtobeabletotabtoformelements,nottotheirlabels.
+· Elementsnotvisibleonthescreen,includingelementsthatareoffstageorhiddenbehindotherelements.
+Notethatthisdoesnotincludeactionablecontrolsthatareoutofsightinascrollablearea.
+· Elementsthatareinactiveordisabled,unlessitisimportanttoconveythatthebuttonexists.Inthatcase,the
+stateofthebuttonshouldbeconveyedifthefocusissetonthatdisabledobject.
+· Decorativeobjectsthatconveynomeaningfulinformation.

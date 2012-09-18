@@ -1,0 +1,48 @@
+18Adobe Flex White Paper
+actions.Forexample,ifausercandragaproductintoashoppingcart,pressingtheEnterkeyonan"addto
+cart"imageorlinkmaybeonewaytoperformthesametask.Implementingkeyboardshortcutsforcut-and-
+paste functionality is another technique used to make a common drag-and-drop operation accessible. When
+possible, use the simplest method that requires the fewest keystrokes. This implies that links are preferable to
+Imagecomponents.Sincealinkiskeyboardaccessibleandiscapableofdisplayinganimageasanicon,it
+accomplishesthesamegoalsastheImagecomponent,whichmaynothavekeyboardaccessdefined.In
+addition, a redundant event can easily be assigned to the link that moves the product to the shopping cart; for
+example:
+lnkAddToCart.addEventListener(MouseEvent.CLICK, addToCart);
+function addToCart(e:MouseEvent): void
+{
+// add to cart functionality goes here
+}
+Text
+Insomecases,uneditabletextshouldbeincludedinthetaborder,toprovideeasyaccesstoitforscreenreader
+users. Alerts and error messages, license text, or any text that is dynamically updated may fall into this
+category. Placing this text in the tab order allows users of screen readers to tab to the component and have the
+current value of the text read to them. Unfortunately, the Text and Label components cannot simply be placed
+in the tab order by setting a tab index and tab enabling them. Flex Text and Label controls are not included in
+the tab order by the FocusManager class. There are two commonly used techniques for handling this situation.
+First,developerscansimplyuseaTextInputcomponentandsettheeditable property to false; for example:
+// ActionScript
+txtTimeLeft.editable = false; // ensure that the user cannot change
+the value of the TextInput
+txtTimeLeft.tabIndex = 13; // set the tab order for this element
+txtTimeLeft.tabEnabled = true; // should be enabled by default but
+this will explicitly set it
+// MXML
+<s:TextInput id="txtTimeLeft" editable="false" tabIndex="13" tabEnabled ="true" />
+The second technique is to extend the standard Label or Text component class and ensure the extended class
+implementstheFocusManagerComponentinterface(IFocusManagerComponent);forexample:
+// create a custom class, FocusableLabel.as
+package
+{
+import spark.components.Label;
+import mx.managers.IFocusManagerComponent;
+// implement the focus manager
+public class FocusableLabel extends spark.components.Label implements
+IFocusManagerComponent
+{
+// the constructor
+public function FocusableLabel()
+{
+super();
+}
+}
+}

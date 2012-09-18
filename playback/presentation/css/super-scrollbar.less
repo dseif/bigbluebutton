@@ -1,0 +1,95 @@
+#butter-super-scrollbar-container {
+  background: none repeat scroll 0 0 rgba(0, 0, 0, 0.1);
+  display: block;
+  height: 32.5px;
+  position: relative;
+  left: 0;
+  right: 0;
+  border-top: 1px solid @baseLightOutline;
+
+  .butter-super-scrollbar-zoom-buttons {
+    position: absolute;
+    width: 14px;
+    height: 26px;
+    right: -20px;
+    top: 3px;
+
+    & > div {
+      text-align: center;
+      height: 48%;
+      width: 100%;
+      line-height: 100%;
+      cursor: pointer;
+      background: #d9dddd;
+      color: @baseLight;
+      border-radius: 3px;
+      background-image: url("../resources/glyphicons-halflings.png");
+      &:active {
+        background-color: darken( #d9dddd, 10% );
+      }
+    }
+
+    .butter-super-scrollbar-zoom-in {
+      background-position: -336px 0;
+    }
+    .butter-super-scrollbar-zoom-out {
+      margin-top: 2px;
+      background-position: -360px 0;
+    }
+  }
+}
+
+#butter-super-scrollbar-visuals {
+  margin-top: 7px;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
+
+#butter-super-scrollbar-viewport {
+  .gradient( "vertical", fade( #FFF, 20% ), fade( #FFF, 7% ), true );
+  border: 3px solid #FFFFFF;
+  box-shadow: 0 1px 2px 1px rgba(0, 0, 0, 0.5) inset;
+  cursor: move;
+  height: 28px;
+  position: absolute;
+  top: 0;
+  min-width: 5px;
+  &.viewport-transition {
+    .transition(left 0.1s linear, right 0.1s linear);
+  }
+}
+
+.butter-super-scrollbar-trackevent {
+  background: none repeat scroll 0 0 #999999;
+  height: 3px;
+  position: absolute;
+}
+
+.butter-super-scrollbar-handle {
+  background: none repeat scroll 0 0 #41BB92;
+  cursor: e-resize;
+  display: block;
+  height: 14px;
+  margin-top: -7px;
+  position: absolute;
+  top: 50%;
+  width: 4px;
+}
+
+#butter-super-scrollbar-handle-left {
+  left: -2px;
+}
+
+#butter-super-scrollbar-handle-right {
+  right: -2px;
+}
+
+#buter-super-scrollbar-scrubber {
+  background: none repeat scroll 0 0 #CB2408;
+  bottom: 0;
+  cursor: move;
+  position: absolute;
+  top: 0;
+  width: 1px;
+}

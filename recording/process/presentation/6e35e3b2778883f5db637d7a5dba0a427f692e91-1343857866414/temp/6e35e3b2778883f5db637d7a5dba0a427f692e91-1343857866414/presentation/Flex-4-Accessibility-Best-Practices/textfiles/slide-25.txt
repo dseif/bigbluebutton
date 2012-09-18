@@ -1,0 +1,20 @@
+25Adobe Flex White Paper
+Figure 2
+A Flex application with three components: a tree view, a data grid, and a text area.
+Thenextexamplepresentsaslightlymorecomplexapplication(seeFigure3).Inthiscase,itispossiblethat
+labels associated with specific controls will not be announced by screen reader software with their
+correspondingtextinputcontrol.Thus,usersmaybelievethattheyshouldtypetheZIPcodeinafieldwhen,in
+actuality,theyshouldtypetheirtelephonenumber.Inapplicationslikethis,thedevelopermustcontrolthe
+reading order using the tabIndex attribute.
+Figure 3
+The sign in form for a shopping cart application that displays selected products.
+More complex layouts, like the one used in the application in Figure 3, are more likely to cause issues for
+screen reader users. The application uses a repeater to populate a grid. There are three rows of products, and
+each product has an image and a label indicating the cost of the product. Since the labels and images are in
+separate components, they may not necessarily be read one after the other in a predictable order when the
+defaultFlashPlayerreadingorderisused.Instead,thisapplicationcontrolsthereadingorderitself.Hereisthe
+code:
+<?xml version="1.0" encoding="utf-8"?>
+<s:Application xmlns:fx="http://ns.adobe.com/mxml/2009"
+xmlns:s="library://ns.adobe.com/flex/spark"
+xmlns:mx="library://ns.adobe.com/flex/mx"

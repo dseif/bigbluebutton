@@ -1,0 +1,7 @@
+Keep in mind that your users may have:
+ Motor function impairment
+ Visual impairment
+ Hearing impairment
+ Multiple impairments
+Design accordingly!
+Why make things accessible?

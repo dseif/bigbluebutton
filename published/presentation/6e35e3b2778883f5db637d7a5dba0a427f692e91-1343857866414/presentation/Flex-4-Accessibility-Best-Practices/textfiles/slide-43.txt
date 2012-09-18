@@ -1,0 +1,52 @@
+43Adobe Flex White Paper
+review, or enter information, developers should correct this focus issue. The following code illustrates one way
+of resolving this issue:
+var focusObject: IFocusManagerComponent;
+// attach events for watching for when focus is lost and gained
+addEventListener(Event.DEACTIVATE, losingFocus);
+addEventListener(Event.ACTIVATE, gainingFocus);
+...
+// called when focus is leaving Flash Player
+function losingFocus(e:Event):void
+{
+focusObject = focusManager.getFocus();
+}
+// called when focus is returning to Flash Player
+function gainingFocus(e:Event):void
+{
+if (focusObject)
+focusManager.setFocus(focusObject);
+//else
+// set focus to most appropriate element
+}
+Focus for custom components
+Proper focus management, including visual, keyboard, and programmatic focus, may not be provided by
+defaultforcustomcomponents.Ifcustomcomponentsareused,developersmusttakestepstoimplementand
+test for proper keyboard, visual, and programmatic focus. The procedures for providing focus to custom
+componentsarenotwithinthescopeofthisdocumentanddevelopersshouldconsulttheFlexAPIformore
+information.
+Sending events
+When creating an accessible application it may be necessary to explicitly fire an accessibility event. While these
+events are automatically fired in the accessibility implementation classes for each component, sending events
+manually is sometimes required. For example, in some cases a component can gain focus before a needed
+screenredraweventissent.Inthissituation,thescreenreadermaynotcorrectlyannouncethefocuseditem.
+To solve this, an event can be sent using the sendEvent() method of the
+flash.accessibility.Accessibilityclass.See"CreatingaCustomAccessibilityImplementation"(http://
+goo.gl/crgjZ) in the Flex documentation for more information on sendEvent().
+The sendEvent() method takes three required parameters: a component name, the child id (typically 0 if the
+change is on the component itself), and the hexadecimal number representing the MSAA event to send. (A list
+ofotheravailableeventsthatcanbesentaredefinedinthewinuser.hfilesuppliedwiththeWindowsSDK.)
+EventsaresentthroughFlashPlayerandthusnotalleventswillactuallybesenttoassistivetechnologies.The
+sendEvent() method can be used to send events signaling focus changes, value changes, name changes, state
+changes,selectionchanges,windowreordering,andalerts,amongothers.Intheexampleprovidedbelowthe
+sendEvent() method is used to indicate that the dfStartDate field has received focus and to ensure that this
+focus is properly noticed by assistive technology.
+import flash.accessibility.Accessibility;
+...
+static const EVENT _ OBJECT _ FOCUS:uint = 0x8005;
+Accessibility.sendEvent(dfStartDate,0,EVENT _ OBJECT _ FOCUS);
+...
+Using the sendEvent() method does change the programmatic accessibility information exported by visual
+interfaceelements­suchasthecurrentfocusedobject,names,values,roles,andstates­butratherfiresan
+event alerting assistive technology that the change occurred. This in turn causes the assistive technology to
+update its representation of the application to match the current reality of the component's accessibility

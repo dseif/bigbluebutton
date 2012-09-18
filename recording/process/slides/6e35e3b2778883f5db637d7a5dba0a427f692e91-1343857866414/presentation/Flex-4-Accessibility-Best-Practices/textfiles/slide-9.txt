@@ -1,0 +1,51 @@
+9Adobe Flex White Paper
+· CheckBoxcomponent
+· ComboBoxcomponent
+· DropDownListcomponent
+· Listcomponent
+· NumericSteppercomponent
+· Panelcontainer
+· RadioButtoncomponent
+· RadioButtonGroupcomponent
+· RichEdiableTextcomponent
+· Slidercomponents
+· Spinnercomponent
+· TabBarcomponent
+· TextAreacomponent
+· TextInputcomponent
+· TitleWindowcontainer
+· ToggleButtoncomponent
+· VideoPlayercomponent
+Accessible MX Components
+The following MX components and containers (http://goo.gl/Anqtg) are accessible:
+· Accordioncontainer
+· AdvancedDataGridcomponent
+· Alertcomponent
+· Buttoncomponent
+· CheckBoxcomponent
+· ColorPickercomponent
+· ComboBoxcomponent
+· DataGridcomponent
+· DateChoosercomponent
+· DateFieldcomponent
+· Formcontainer
+· Imagecomponent
+· Labelcomponent
+· LinkButtoncomponent
+· Listcomponent
+· Menucomponent
+· MenuBarcomponent
+· Panelcontainer
+· RadioButtoncomponent
+· RadioButtonGroupcomponent
+· Slidercomponent
+· TabNavigatorcontainer
+· Textcomponent
+· TextAreacomponent
+· TextInputcomponent
+· TitleWindowcontainer
+· ToolTipManager
+· Treecomponent
+Checking for the presence of assistive technology
+Insomesituations,itcanbehelpfultofirstcheckforthepresenceofassistivetechnologyusingthe
+flash.accessibility.Accessibility.active property. For example, when audio or multimedia plays
