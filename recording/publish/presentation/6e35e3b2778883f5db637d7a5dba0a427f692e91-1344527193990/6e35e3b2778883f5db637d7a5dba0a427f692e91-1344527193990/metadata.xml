@@ -6,7 +6,7 @@
   <end_time>1344527311159</end_time>
   <playback>
     <format>presentation</format>
-    <link>http://192.168.209.145/playback/presentation/playback.html?meetingId=6e35e3b2778883f5db637d7a5dba0a427f692e91-1344527193990</link>
+    <link>${URL}/playback/presentation/playback.html?meetingId=6e35e3b2778883f5db637d7a5dba0a427f692e91-1344527193990</link>
   </playback>
   <meta>
     <title>English 101</title>
